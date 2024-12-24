@@ -3,6 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Head from 'next/head';
+// import ApplyForLoan from "../components/businessLoan/ApplyForLoan";
 
 const Shurokkha = () => {
   return (
@@ -62,6 +63,7 @@ const Shurokkha = () => {
           </div>
         </div>
       </section>
+      {/* <ApplyForLoan /> */}
     </>
   );
 };

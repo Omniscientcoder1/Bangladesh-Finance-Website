@@ -15,7 +15,7 @@ export default function About() {
       <GlobalBanking />
       <OurJourney />
       <Team />
-      <Career />
+      {/* <Career /> */}
     </>
   );
 }

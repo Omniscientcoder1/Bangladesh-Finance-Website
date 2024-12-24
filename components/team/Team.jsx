@@ -1,6 +1,7 @@
 import teamData from "../../data/teamData";
 import TeamCard from "../cards/TeamCard";
 
+
 const Team = () => {
   return (
     <section className="our-team">
@@ -10,15 +11,13 @@ const Team = () => {
             <div className="col-xl-9 col-lg-10">
               <div className="section-header text-center">
                 <h5 className="sub-title">
-                  The Amazing Team Behind Our Company
+                 
                 </h5>
                 <h2 className="title">
-                  The right skills wielded by the right people to make anything
-                  possible.
+                Meet our Board of Directors and Leadership
                 </h2>
                 <p>
-                  Our diversity and youthfulness are the sources of our strength
-                  as a team and shape our views.
+                  The innovators and Leaders who help shape your better financial future
                 </p>
               </div>
             </div>
@@ -51,7 +50,7 @@ const Team = () => {
                     aria-controls="leaders"
                     aria-selected="false"
                   >
-                    Leaders
+                    Leadership
                   </button>
                 </li>
                 <li className="nav-item" role="presentation">
@@ -65,7 +64,7 @@ const Team = () => {
                     aria-controls="designers"
                     aria-selected="false"
                   >
-                    Designers
+                   Management
                   </button>
                 </li>
                 <li className="nav-item" role="presentation">

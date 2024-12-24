@@ -9,9 +9,9 @@ const CoreValues = () => {
           <div className="row justify-content-center">
             <div className="col-lg-9">
               <div className="section-header text-center">
-                <h5 className="sub-title">Our core values</h5>
+                <h5 className="sub-title"></h5>
                 <h2 className="title">
-                  Our values help us set the bar for good banking high.
+                  Our core values
                 </h2>
                 <p>
                   Our values define us. They guide us in building and improving
@@ -29,6 +29,7 @@ const CoreValues = () => {
                   desc={singleData.desc}
                 />
               </div>
+              
             ))}
           </div>
         </div>
