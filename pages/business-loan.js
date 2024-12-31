@@ -12,12 +12,12 @@ export default function BusinessLoan() {
     <>
       <Banner />
       <AboutBusiness />
-      <Loan />
+      {/* <Loan /> */}
       <SecurityArea />
       <ApplyForLoan />
       <Counter />
-      <HowItWorks />
-      <Faq />
+      {/* <HowItWorks /> */}
+      {/* <Faq /> */}
     </>
   );
 }

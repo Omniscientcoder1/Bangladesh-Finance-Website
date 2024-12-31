@@ -9,13 +9,14 @@ import HomeBanner from "../components/home/HomeBanner";
 import LatestArticles from "../components/home/LatestArticles";
 import Personalized from "../components/home/Personalized";
 import Testimonials from "../components/home/Testimonials";
-
+import Deposits from "../components/common/PlanningDeposits";
 export default function Home() {
   return (
     <>
       <HomeBanner />
-      <Features />
+      {/* <Features /> */}
       <BusinessSolutions />
+      <Deposits/>
       <Planning />
       <AppInfo />
       

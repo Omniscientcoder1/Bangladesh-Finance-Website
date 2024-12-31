@@ -145,12 +145,12 @@
 .banner-section {
   .overlay {
     background-color: #f5faff;
-    background-image: url("/images/apply-for-loan-bg.png");
+    background-image: url("/images/bg_blue_business_inverted.jpg");
     background-repeat: no-repeat;
     background-size: auto;
-    background-position: right bottom 90px;
+    background-position: center;
     .banner-content {
-      padding: 355px 0 320px;
+      padding: 100px 0 100px;
       .top-area {
         p {
           width: 80%;
@@ -162,13 +162,14 @@
     }
   }
   .partner {
-    margin-top: -80px;
+    margin-top: 0px;
     transform: translateZ(10px);
+
     .partner-box {
       padding: 60px 40px 60px 0px;
-      position: relative;
+      position: fit;
       &::before {
-        position: absolute;
+        position: fit;
         top: 0px;
         right: 0px;
         height: 100%;

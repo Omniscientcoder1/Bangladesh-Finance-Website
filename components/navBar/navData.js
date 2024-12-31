@@ -51,16 +51,16 @@ export const navData = [
         dp_itm: "savings Scheme",
         url: "/savings-scheme",
       },
-      {
-        id: "sub@001",
-        dp_itm: "Business Loans",
-        url: "/business-loan",
-      },
-      {
-        id: "sub@002",
-        dp_itm: "Educations Loans",
-        url: "/educations-loan",
-      },
+      // {
+      //   id: "sub@001",
+      //   dp_itm: "Business Loans",
+      //   url: "/business-loan",
+      // },
+      // {
+      //   id: "sub@002",
+      //   dp_itm: "Educations Loans",
+      //   url: "/educations-loan",
+      // },
       {
         id: "sub@003",
         dp_itm: "Home Loans",
@@ -68,19 +68,19 @@ export const navData = [
       },
       {
         id: "sub@004",
-        dp_itm: "Auto Loans",
+        dp_itm: "Auto Loan",
         url: "/car-loan",
       },
       {
         id: "sub@005",
-        dp_itm: "Personal Loans",
+        dp_itm: "Personal Loan",
         url: "/personal-loan",
       },
-      {
-        id: "du@04",
-        dp_itm: "Card",
-        url: "/card",
-      },
+      // {
+      //   id: "du@04",
+      //   dp_itm: "Card",
+      //   url: "/card",
+      // },
     ],
   },
   {
@@ -89,28 +89,28 @@ export const navData = [
     url: "#",
     dropdown: true,
     dropdown_itms: [
-      {
-        id: "du@01",
-        dp_itm: "Account",
-        url: "#",
-        sbu_dropdown: true,
-        sub_items: [
-          {
-            id: "sub@01",
-            sub_itm: "Account",
-            url: "/account",
-          },
-          {
-            id: "sub@02",
-            sub_itm: "Account Details",
-            url: "/account-details",
-          },
-        ],
-      },
-      {
-        id: "du@02",
-        dp_itm: "Product",
-        url: "/product",
+      // {
+      //   id: "du@01",
+      //   dp_itm: "Account",
+      //   url: "#",
+      //   sbu_dropdown: true,
+      //   sub_items: [
+      //     {
+      //       id: "sub@01",
+      //       sub_itm: "Account",
+      //       url: "/account",
+      //     },
+      //     {
+      //       id: "sub@02",
+      //       sub_itm: "Account Details",
+      //       url: "/account-details",
+      //     },
+      //   ],
+      // },
+    {
+        id: "sub@001",
+        dp_itm: "Business Loans",
+        url: "/business-loan",
       },
       {
         id: "du@03",
