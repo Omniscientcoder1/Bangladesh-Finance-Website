@@ -18,12 +18,12 @@ export default function Home() {
       <BusinessSolutions />
       <Deposits/>
       <Planning />
-      <AppInfo />
+      {/* <AppInfo /> */}
       
-      <BankioCard />
+      {/* <BankioCard /> */}
       <CallToAction />
      
-      <Personalized />
+      {/* <Personalized /> */}
       {/* <Testimonials /> */}
       <LatestArticles />
       <Faq />

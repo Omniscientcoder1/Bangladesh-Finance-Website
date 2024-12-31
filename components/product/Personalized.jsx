@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import personalized_solution_bg from "/public/images/personalized-solution-bg.png";
+import personalized_solution_bg from "/public/images/personalised.jpg";
 
 const Personalized = () => {
   return (

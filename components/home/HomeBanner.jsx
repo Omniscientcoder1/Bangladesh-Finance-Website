@@ -22,12 +22,12 @@ const HomeBanner = () => {
                     </p>
                   </div>
                   <div className="bottom-area">
-                    <Link href="/register" className="cmn-btn">
-                      Open Account
-                    </Link>
-                    <Link href="/contact" className="cmn-btn second">
+                    <Link href="/contact" className="cmn-btn">
                       Get in touch
                     </Link>
+                    {/* <Link href="/contact" className="cmn-btn second">
+                      Get in touch
+                    </Link> */}
                   </div>
                 </div>
               </div>

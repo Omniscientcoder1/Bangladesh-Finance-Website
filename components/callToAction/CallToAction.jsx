@@ -10,16 +10,16 @@ const callToAction = () => {
               <div className="main-content">
                 <div className="section-header text-center">
                   <h2 className="title">
-                    <span>Ready to make the leap?</span>Let us help you.
+                  Ready to start your financial journey with<span> Bangladesh Finance?</span>
                   </h2>
                 </div>
                 <div className="bottom-area text-center">
-                  <Link href="/register" className="cmn-btn">
-                    Open Account
+                  <Link href="/contact" className="cmn-btn">
+                  Get in touch
                   </Link>
-                  <Link href="/contact" className="cmn-btn second">
+                  {/* <Link href="/contact" className="cmn-btn second">
                     Get in touch
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>

@@ -19,7 +19,7 @@ const AppInfo = () => {
                 </span>
                 <h5 className="sub-title">Financial Products at Your Fingertips</h5>
                 <h2 className="title">
-                  Your Financcial experience anytime, anywhere
+                  Your Financial experience anytime, anywhere
                 </h2>
                 <p>
                   Get your financial services with our simple to use, accessible

@@ -394,7 +394,107 @@
 }
 
 // Financial Planning
+// .financial-planning {
+//   .cus-mar {
+//     margin-bottom: -30px;
+//   }
+//   .plan-box {
+//     padding: 30px 20px;
+//     background: var(--body-color);
+//     box-shadow: 0px 12px 24px rgba(47, 65, 129, 0.1);
+//     border-radius: 20px;
+//     margin-bottom: 30px;
+//     border: 1px solid transparent;
+//     transition: 0.3s;
+//     .thumb {
+//       width: 80px;
+//       height: 80px;
+//       background: #f5faff;
+//       border-radius: 40px;
+//       display: flex;
+//       align-items: center;
+//       justify-content: center;
+//       position: relative;
+//       transition: 0.3s;
+//       img {
+//         position: absolute;
+//         top: 50%;
+//         left: 50%;
+//         transform: translate(-50%, -50%);
+//       }
+//       .active {
+//         opacity: 1;
+//         visibility: visible;
+//       }
+//       .alt {
+//         opacity: 0;
+//         visibility: hidden;
+//       }
+//     }
+//     &:hover {
+//       border: 1px solid #b0baf1;
+//       .thumb {
+//         background-color: var(--hover-color);
+//         .active {
+//           opacity: 0;
+//           visibility: hidden;
+//         }
+//         .alt {
+//           opacity: 1;
+//           visibility: visible;
+//         }
+//       }
+//     }
+//     a {
+//       margin: 36px 0 4px;
+//     }
+//     ul {
+//       li {
+//         margin-top: 15px;
+//         .check {
+//           min-width: 24px;
+//           min-height: 24px;
+//           background: var(--head-alt-color);
+//           border-radius: 50%;
+//           margin-right: 10px;
+//         }
+//       }
+//     }
+//   }
+//   &.how-works-business {
+//     background: #f5faff;
+//     position: relative;
+//     .cus-mar {
+//       margin-bottom: -40px;
+//     }
+//     .plan-box {
+//       box-shadow: unset;
+//       padding: 0;
+//       margin-bottom: 40px;
+//       background: transparent;
+//       .thumb {
+//         background-color: #eef1ff;
+//       }
+//       h5 {
+//         margin: 23px 0 5px;
+//       }
+//       &:hover {
+//         border-color: transparent;
+//         .thumb {
+//           background-color: var(--hover-color);
+//         }
+//       }
+//     }
+//     .right-box {
+//       position: absolute;
+//       bottom: 0;
+//     }
+//   }
+// }
 .financial-planning {
+  background: url('/images/bg_products.jpg') no-repeat center center; /* Add your image path here */
+  background-size: cover; /* Ensure the image covers the entire section */
+
   .cus-mar {
     margin-bottom: -30px;
   }
@@ -491,6 +591,7 @@
     }
   }
 }
+
 
 // Personalized
 .personalized {
@@ -607,6 +708,8 @@
 
 // Our Latest Articles
 .latest-articles {
+  // background: url('/images/bg_products.jpg') no-repeat center center; /* Add your image path here */
+  background-size: cover; /* Ensure the image covers the entire section */
   background-color: #f5faff;
   .cus-mar {
     margin-bottom: -40px;

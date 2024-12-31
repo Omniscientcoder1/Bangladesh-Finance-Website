@@ -12,7 +12,7 @@ export default function About() {
       <Banner />
       <Hero />
       <CoreValues />
-      <GlobalBanking />
+      {/* <GlobalBanking /> */}
       <OurJourney />
       <Team />
       {/* <Career /> */}

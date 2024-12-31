@@ -52,7 +52,7 @@ export const business_solutions_data = [
     title: "SME",
     icon: checking,
     desc: "Empowering Small and Medium Enterprises with tailored financial solutions to help your business grow. From working capital to equipment financing, we are here to support your journey.",
-    link: "/register",
+    link: "/contact",
   },
   {
     id: 2,

@@ -13,7 +13,7 @@ const BusinessSolutionsCard = ({ singleBusiness }) => {
         <h5>{title}</h5>
         <p>{desc}</p>
         <Link href={link} className="btn-arrow">
-          Open Account
+          Contact Us
           <Image src={arrow_right} alt="arrow" />
         </Link>
       </div>
