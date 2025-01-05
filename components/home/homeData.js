@@ -59,14 +59,14 @@ export const business_solutions_data = [
     title: "Retail",
     icon: savings,
     desc: "Experience flexible and personalized retail financial solutions to meet your everyday banking needs. Bangladesh Finance Limited offers savings, deposits, and other innovative services designed for you.",
-    link: "/register",
+    link: "/contact",
   },
   {
     id: 3,
     title: "Corporate",
     icon: business,
     desc: "Partner with Bangladesh Finance Limited to unlock corporate financial opportunities. Our comprehensive solutions include cash management, business loans, and advisory services to drive your success.",
-    link: "/register",
+    link: "/contact",
   },
 ];
 

@@ -45,9 +45,9 @@ const Footer = () => {
                 <li>
                   <Link href="/about">About Us</Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="/about">Awards</Link>
-                </li>
+                </li> */}
                 <li>
                   <Link href="/career-single">Careers</Link>
                 </li>
@@ -64,9 +64,9 @@ const Footer = () => {
                 <li>
                   <Link href="/business-loan">Business Loan</Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="/affiliate">Affiliate Program</Link>
-                </li>
+                </li> */}
                 <li>
                   <Link href="/blog-list">Blog</Link>
                 </li>
@@ -78,7 +78,7 @@ const Footer = () => {
               <h5>Support</h5>
               <ul className="footer-link">
                 <li>
-                  <Link href="mailto:support@bankio">Support@bankio</Link>
+                  <Link href="mailto:support@bankio">info@bd.finance</Link>
                 </li>
                 <li>
                   <Link href="/contact">Contact Us</Link>
@@ -114,10 +114,10 @@ const Footer = () => {
               <div className="left">
                 <p>
                   {" "}
-                  Copyright © <Link href="index">Bankio</Link> | Designed by{" "}
-                  <Link href="https://themeforest.net/user/pixelaxis">
-                    PIXELAXIS
-                  </Link>
+                  Copyright © <Link href="index">Bangladesh Finance Limited</Link> | Web Master-{" Tahmidur Rahman- IT Division, Bangladesh Finance Limited."}
+                  {/* <Link href="">
+                   Bangladesh Finance
+                  </Link> */}
                 </p>
               </div>
               <div className="right">

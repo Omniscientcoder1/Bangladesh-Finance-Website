@@ -8,13 +8,13 @@ const ApplyForLoan = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="section-header text-center">
-                <h2 className="title">
-                  Apply for a loan today. Your new car is waiting for you
-                </h2>
-                <p>
-                  Get business loans approved within days with transparent
+                {/* <h2 className="title">
+                  Apply for a loan today.
+                </h2> */}
+                {/* <p>
+                  Get loans approved within days with transparent
                   lending criteria and transparent processes.
-                </p>
+                </p> */}
               </div>
             </div>
           </div>

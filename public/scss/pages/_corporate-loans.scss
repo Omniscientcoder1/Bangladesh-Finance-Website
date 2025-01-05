@@ -1,0 +1,155 @@
+// styles/_corporateLoans.scss
+
+.modal-overlay {
+    background: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    max-height: 90%;
+    overflow: hidden;
+    position: relative;
+}
+
+.modal-content {
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.modal-footer {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.corporate-loans-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url('/images/Corporate-Loan-01-1-1.png') no-repeat center center;
+    background-size: contain;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+.corporate-loans-content {
+    padding: 10px 0;
+
+    h2 {
+        font-size: 2rem;
+        margin-top: 20px;
+        text-align: left;
+        color: #333;
+    }
+
+    ul, ol {
+        margin-left: 20px;
+        li {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+    }
+
+    .application-form {
+        margin-top: 30px;
+        text-align: center;
+
+        .btn {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+
+            &:hover {
+                background-color: #0056b3;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .corporate-loans-banner {
+        background-size: contain;
+        padding: 0;
+        height: 60vh;
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
+    }
+
+    .corporate-loans-content {
+        h2 {
+            font-size: 1.8rem;
+        }
+
+        ul, ol {
+            margin-left: 10px;
+        }
+    }
+
+
+@media (max-width: 480px) {
+    .corporate-loans-banner {
+        background-size: contain;
+        padding: 0;
+        height: 60vh;
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    .corporate-loans-content {
+        h2 {
+            font-size: 1.5rem;
+        }
+
+        ul, ol {
+            margin-left: 5px;
+        }
+    }
+}

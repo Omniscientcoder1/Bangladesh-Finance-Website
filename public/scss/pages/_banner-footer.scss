@@ -224,10 +224,12 @@
   }
   &.about {
     .overlay {
-      background-image: url(/images/about-left.png),
-        url(/images/about-right.png);
+      background-image:
+      //  url(/images/about-left.png),
+      url(/images/about-right.png);
       background-repeat: no-repeat;
-      background-position: left 120px, right bottom;
+      background-position: right 120px;
+      // right bottom;
     }
   }
   &.career-single {

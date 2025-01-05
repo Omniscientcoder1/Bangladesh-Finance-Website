@@ -24,19 +24,25 @@ const AboutBusiness = () => {
             <span className="check d-flex align-items-center justify-content-center">
               <Image src={check} alt="icon" />
             </span>
-            <span>Same day approval and multiple funding options</span>
+            <span>Flexible loan amounts based on business requirements</span>
           </li>
           <li className="list-item d-flex align-items-center ">
             <span className="check d-flex align-items-center justify-content-center">
               <Image src={check} alt="icon" />
             </span>
-            <span>Access loans without origination fees</span>
+            <span>Competitive interest rates</span>
           </li>
           <li className="list-item d-flex align-items-center ">
             <span className="check d-flex align-items-center justify-content-center">
               <Image src={check} alt="icon" />
             </span>
-            <span>Borrow up to $250,000</span>
+            <span>Customizable repayment schedules</span>
+          </li>
+          <li className="list-item d-flex align-items-center ">
+            <span className="check d-flex align-items-center justify-content-center">
+              <Image src={check} alt="icon" />
+            </span>
+            <span>Dedicated relationship managers for personalized support</span>
           </li>
         </ul>
       </div>

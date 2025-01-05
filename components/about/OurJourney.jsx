@@ -14,8 +14,8 @@ const OurJourney = () => {
                 </h2>
                 <p>
                   For decades, the clearing of financial transactions remained
-                  unchanged and unchallenged.Bankio provide real-time payment
-                  and innovative banking services to their customers . Our
+                  unchanged and unchallenged.Bangladesh Finance provide real-time payment
+                  and innovative financial services to their customers . Our
                   company timeline
                 </p>
               </div>

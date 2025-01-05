@@ -80,13 +80,15 @@ const NavBar = () => {
                         </Link>
                         <ul className="dropdown-menu main-menu shadow">
                           {dropdown_itms?.map(
-                            ({ id, dp_itm, url, sbu_dropdown, sub_items }) =>
+                            ({ id, dp_itm, url, target, sbu_dropdown, sub_items }) =>
                               !sbu_dropdown ? (
                                 <li key={id}>
                                   <Link
                                     className="nav-link"
                                     href={url}
                                     onClick={hidenMenu}
+                                    target={target || "_self"}
+                                    rel={target === "_blank" ? "noopener noreferrer" : undefined}
                                   >
                                     {dp_itm}
                                   </Link>
@@ -122,15 +124,6 @@ const NavBar = () => {
                     );
                   })}
                 </ul>
-                {/* <div className="right-area header-action d-flex align-items-center">
-                  <Link
-                    href="/register"
-                    className="cmn-btn"
-                    onClick={hidenMenu}
-                  >
-                    Open Account
-                  </Link>
-                </div> */}
               </div>
             </nav>
           </div>
@@ -141,3 +134,4 @@ const NavBar = () => {
 };
 
 export default NavBar;
+

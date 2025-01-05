@@ -19,10 +19,8 @@ export default function Home() {
       <Deposits/>
       <Planning />
       {/* <AppInfo /> */}
-      
       {/* <BankioCard /> */}
       <CallToAction />
-     
       {/* <Personalized /> */}
       {/* <Testimonials /> */}
       <LatestArticles />
