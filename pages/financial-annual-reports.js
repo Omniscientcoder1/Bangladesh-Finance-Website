@@ -30,9 +30,13 @@ const FinancialAnnualReports = () => {
           content="Explore the financial annual reports of Bangladesh Finance, including highlights, statements, and reports."
         />
       </Head>
+       {/* Header Banner */}
+       <div className="header-banner">
+          
+        </div>
       <section className="financial-reports">
         <div className="container">
-          <h1>Financial Annual Reports</h1>
+          {/* <h1>Financial Annual Reports</h1> */}
           <div className="tabs">
             <button
               className={`tab ${activeTab === "highlights" ? "active" : ""}`}
@@ -470,29 +474,35 @@ const FinancialAnnualReports = () => {
   </div>
 )}
 
-            {/* Financial Reports Tab */}
-            {activeTab === "reports" && (
+     {/* Annual Reports Tab */}
+     {activeTab === "reports" && (
               <div className="financial-reports-content">
                 <h2>Annual Reports</h2>
                 <table className="reports-table">
                   <tbody>
                     {[
-                      { title: "Annual Report 2023", link: "https://example.com/pdf/report1.pdf" },
-                      { title: "Annual Report 2022", link: "https://example.com/pdf/report2.pdf" },
-                      { title: "Annual Report 2021", link: "https://example.com/pdf/report3.pdf" },
-                      { title: "Annual Report 2020", link: "https://example.com/pdf/report4.pdf" },
-                      { title: "Annual Report 2019", link: "https://example.com/pdf/report5.pdf" },
-                      { title: "Annual Report 2018", link: "https://example.com/pdf/report5.pdf" },
+                      { title: "Annual Report 2023", link: "https://drive.google.com/file/d/1cTb9Fp7nB99rRazofVjpcGueUteHN8ww/view?usp=sharing" },
+                      { title: "Annual Report 2022", link: "/images/Annual-Report_2022.pdf" },
+                      { title: "Annual Report 2021", link: "https://drive.google.com/file/d/1TuXhq_eRUenz4o_lhktpHybcA3WZBkB9/view?usp=drive_link" },
+                      { title: "Annual Report 2020", link: "https://drive.google.com/file/d/1LMBIOZiciBrdG_zmlXuWNlIUhlTwJGV5/view?usp=sharing" },
+                      { title: "Annual Report 2019", link: "https://drive.google.com/file/d/1xkb3cwHlrGuiLnzcnZV2oJAcacJnzHn9/view?usp=sharing" },
+                      { title: "Annual Report 2018", link: "https://drive.google.com/file/d/15kdAXfk33DJCnrLzAxZp958EP_offkJr/view?usp=sharing" },
+                      { title: "Annual Report 2017", link: "https://drive.google.com/file/d/14I8JmFg3ZXgmC9nJwjrnWAGkXnr4cLIi/view?usp=sharing" },
+                      { title: "Annual Report 2016", link: "https://drive.google.com/file/d/1MUIDgwPpXGwZN9pPj0FSwb8RRF5MtKMZ/view?usp=sharing" },
+                      { title: "Annual Report 2015", link: "https://drive.google.com/file/d/1Pl7ur83a-70mOqFIkE0RMdRPy13GvanF/view?usp=sharing" },
+                      { title: "Annual Report 2014", link: "https://drive.google.com/file/d/1nOyiAzWNLSzxR4iI0_M46dVbP2McUotZ/view?usp=sharing" },
+                      { title: "Annual Report 2013", link: "https://drive.google.com/file/d/1f1KV4lxFpT-wBiOo5q9TnwbquixtQ4up/view?usp=sharing" },
+                      { title: "Annual Report 2012", link: "https://drive.google.com/file/d/1YkhoVHS7nEUsgICyvj-7vlbXlpBamA2m/view?usp=sharing" },
+                      { title: "Annual Report 2011", link: "https://drive.google.com/file/d/1j5lbukSdjNHuAIp5MOdTsoc9_6t89ZgV/view?usp=sharing" },
+                      { title: "Annual Report 2010", link: "https://drive.google.com/file/d/1xuWcwedebqf_ieaY53xYrqmjvH9r2CgN/view?usp=sharing" },
                     ].map((item, index) => (
                       <tr key={index}>
                         <td>{item.title}</td>
                         <td>
                           <a
-                            href="#"
-                            onClick={(e) => {
-                              e.preventDefault();
-                              openModal(item.link);
-                            }}
+                            href={item.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
                           >
                             Download
                           </a>
@@ -506,25 +516,22 @@ const FinancialAnnualReports = () => {
           </div>
         </div>
 
-        {/* Modal for PDFs */}
-        {modalContent && (
-          <div className="modal-overlay" onClick={closeModal}>
-            <div className="modal" onClick={(e) => e.stopPropagation()}>
-              <button className="close-btn" onClick={closeModal}>
-                ×
-              </button>
-              <iframe
-                src={modalContent}
-                title="PDF Viewer"
-                width="100%"
-                height="500px"
-              />
-            </div>
-          </div>
-        )}
+       
       </section>
 
       <style jsx>{`
+      .header-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url('/images/financial-reports-bg.png') no-repeat center center;
+    background-size: contain;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+  }
         .statements-table,
         .reports-table {
           width: 100%;

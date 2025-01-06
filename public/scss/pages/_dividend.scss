@@ -1,0 +1,130 @@
+.header-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url('/images/dividendbg.jpg') no-repeat center center;
+    background-size: contain;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+  
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0;
+    }
+  }
+  
+  .dividend-tabs {
+    padding: 20px;
+  
+    .tabs {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+  
+      .tab {
+        padding: 10px 20px;
+        margin: 0 10px;
+        background: #f1f1f1;
+        border: 1px solid #ddd;
+        cursor: pointer;
+        transition: background 0.3s;
+  
+        &.active {
+          background: #007bff;
+          color: #fff;
+        }
+  
+        &:hover {
+          background: #ddd;
+        }
+      }
+    }
+  
+    .tab-content {
+      .tab-section {
+        margin-top: 20px;
+  
+        h2 {
+          text-align: center;
+          margin-bottom: 10px;
+        }
+  
+        p {
+          text-align: center;
+          font-size: 1rem;
+          color: #555;
+        }
+  
+        .pdf-button {
+          display: block;
+          margin: 20px auto;
+          padding: 10px 20px;
+          background-color: #007bff;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          text-align: center;
+          font-size: 1rem;
+          transition: background 0.3s;
+  
+          &:hover {
+            background-color: #0056b3;
+          }
+        }
+      }
+  
+      .dividend-table {
+        width: 100%;
+        border-collapse: collapse;
+  
+        th,
+        td {
+          padding: 10px;
+          border: 1px solid #ddd;
+          text-align: left;
+        }
+  
+        th {
+          background: #007bff;
+          color: #fff;
+        }
+  
+        tr:nth-child(even) {
+          background: #f9f9f9;
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .header-banner {
+      height: 40vh;
+  
+      h1 {
+        font-size: 2.5rem;
+      }
+    }
+  
+    .tabs .tab {
+      padding: 8px 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header-banner {
+      height: 30vh;
+  
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  
+    .tabs .tab {
+      padding: 5px 10px;
+    }
+  }
+  

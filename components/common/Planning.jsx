@@ -62,7 +62,7 @@ const Planning = () => {
                 <p>Find the best loan for your needs</p>
               </div>
               <div>
-                <Link href="/register" className="cmn-btn">
+                <Link href="/contact" className="cmn-btn">
                   Apply for a loan
                 </Link>
               </div>

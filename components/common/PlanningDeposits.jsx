@@ -21,7 +21,7 @@ const Deposits = () => {
                 {/* <Link href="/register" className="cmn-btn">
                   Apply for a loan
                 </Link> */}
-                <Link href="/register" className="cmn-btn">
+                <Link href="/contact" className="cmn-btn">
                   Apply for a deposit
                 </Link>
               </div>

@@ -208,38 +208,38 @@ export const navData = [
       {
         id: "du@4",
         dp_itm: "Reports of Directors",
-        url: "",
+        url: "report-of-directors",
       },
       {
         id: "du@5",
         dp_itm: "MI, PSI & NOTICES",
-        url: "",
+        url: "#",
       },
       {
         id: "du@6",
         dp_itm: "Shareholding Details",
-        url: "",
+        url: "shareholding",
       },
-      {
-        id: "du@7",
-        dp_itm: "Corporate Governance Compliance",
-        url: "",
-      },
+      // {
+      //   id: "du@7",
+      //   dp_itm: "Corporate Governance Compliance",
+      //   url: "",
+      // },
       {
         id: "du@8",
         dp_itm: "Dividend",
-        url: "",
-      },
-      {
-        id: "du@9",
-        dp_itm: "Other Regulatory Disclosures",
-        url: "",
-      },
-      {
-        id: "du@10",
-        dp_itm: "IM/Prospectus",
-        url: "",
-      },
+        url: "dividend",
+      }
+      // {
+      //   id: "du@9",
+      //   dp_itm: "Other Regulatory Disclosures",
+      //   url: "",
+      // },
+      // {
+      //   id: "du@10",
+      //   dp_itm: "IM/Prospectus",
+      //   url: "",
+      // },
       
       // {
       //   id: "du@03",

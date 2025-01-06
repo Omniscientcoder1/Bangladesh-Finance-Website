@@ -1,0 +1,106 @@
+.header-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url('/images/shareholdindetails.jpg') no-repeat center center;
+    background-size: contain;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+  
+    h1 {
+      font-size: 3rem;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+  
+  .financial-reports {
+    padding: 20px;
+  
+    .tabs {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+  
+      .tab {
+        padding: 10px 20px;
+        margin: 0 10px;
+        background: #f1f1f1;
+        border: 1px solid #ddd;
+        cursor: pointer;
+        transition: background 0.3s;
+  
+        &.active {
+          background: #007bff;
+          color: #fff;
+        }
+  
+        &:hover {
+          background: #ddd;
+        }
+      }
+    }
+  
+    .tab-content {
+      margin-top: 20px;
+  
+      .financial-highlights {
+        text-align: center;
+  
+        .banner-image {
+          margin: 20px 0;
+  
+          .banner-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          }
+        }
+      }
+  
+      .financial-statements {
+        h2 {
+          margin-bottom: 20px;
+        }
+  
+        .statements-table {
+          width: 100%;
+          border-collapse: collapse;
+          margin: 20px 0;
+  
+          th,
+          td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+          }
+  
+          th {
+            background: #007bff;
+            color: #fff;
+          }
+  
+          tr:nth-child(even) {
+            background: #f9f9f9;
+          }
+        }
+      }
+  
+      .financial-reports-content {
+        text-align: center;
+  
+        h2 {
+          margin-bottom: 20px;
+        }
+  
+        p {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+  
