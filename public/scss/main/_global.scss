@@ -1,3 +1,4 @@
+
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 @import "/public/scss/pages/_shurokkha.scss";
@@ -10,29 +11,63 @@
 @import "public/scss/pages/_report-of-directors.scss";
 @import "public/scss/pages/_shareholding.scss";
 @import "public/scss/pages/_dividend.scss";
+@import "public/scss/pages/_sustainable-finance.scss";
+@import "public/scss/pages/_sdg.scss";
+@import "/public/scss/pages/_csr.scss";
 
+// :root {
+//   --body-font: "Jost", sans-serif;
 
+//   --body-color: #ffffff;
+//   --para-color: #333333; // Dark Grey
+//   --head-color: #002341; // Blue
+//   --head-alt-color: #001bb1; // Green
+//   --hover-color: #001bb1; // Red #0071CE
+//   --unified-bg: radial-gradient(circle, #f8f8f8, #f8f8f8, #f8f8f8);
+  // url('/images/kjue_15.jpg');
 
 :root {
-  --body-font: "Jost", sans-serif;
+  // --body-font: "Jost", sans-serif;
+   --body-font: "Roboto", sans-serif;
+  
 
-  --body-color: #ffffff;
-  --para-color: #2c3655;
-  --head-color: #0a1023;
-  --head-alt-color: #3e54e3;
-  --hover-color: #1a4dbe;
+  --body-color: #ffffff; /* White */
+  --para-color: #333333; /* Dark Grey */
+  --head-color: #002341; /* Blue */
+  --head-alt-color: #001bb1; /* Green */
+  --hover-color: #001bb1; /* Red #0071CE */
+  --unified-bg: radial-gradient(circle, #f0f4f8, #dfe7ed, #f0f4f8); /* Light Bluish Grey */
 }
+// :root {
+//   --body-font: "Jost", sans-serif;
+
+//   --body-color: #ffffff; /* White */
+//   --para-color: #333333; /* Dark Grey */
+//   --head-color: #000000; /* Dark Green */
+//   --head-alt-color: #0033CC; /* Medium Blue */
+//   --hover-color: #334999; /* Soft Green */
+//   --unified-bg: radial-gradient(circle, #0066FF, #f8f8f8, #0066FF); /* Green to light blue */
+// }
+
+
+
 .collapsing {
   transition: 0.3s;
 }
+
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
 
 body {
+  background: var(--unified-bg);
+  background-size: cover, cover; /* Ensure both the gradient and image are properly sized */
+  background-blend-mode: overlay; /* Overlay the image over the gradient */
   font-family: var(--body-font);
-  background-color: var(--body-color);
+  background: var(--unified-bg);
+  --background-image: url('/images/kjue_15.jpg');
+  background-size: cover;
   font-size: 18px;
   line-height: 30px;
   padding: 0;
@@ -80,7 +115,7 @@ h3 > a:hover,
 h4 > a:hover,
 h5 > a:hover,
 h6 > a:hover {
-  color: var(--body-color);
+  color: var(--hover-color);
 }
 
 a,
@@ -121,7 +156,7 @@ button {
 input,
 textarea {
   padding: 10px 20px;
-  color: #1e266d;
+  color: var(--para-color);
   width: 100%;
   font-family: var(--body-font) !important;
   height: 50px;
@@ -135,7 +170,15 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-
+.main-title {
+  font-size: 50px; /* Adjust font size as needed */
+  font-weight: bold; /* Make it bold for emphasis */
+  line-height: 1.2; /* Adjust line height */
+  text-align: center; /* Align the text to the left */
+  width: 100%; /* Make the text span the full width */
+  margin: 0; /* Remove any default margin */
+  color: #002341; /* Match your heading color */
+}
 input[type="number"] {
   -moz-appearance: textfield;
 }
@@ -153,8 +196,6 @@ input[type="password"] {
     vertical-align: 0;
     background-image: url(/images/icon/menu-down.png);
     background-repeat: no-repeat;
-    // background-size: 85%;
-    border: none;
     width: 40px;
     height: 11px;
   }
@@ -171,14 +212,13 @@ select {
   outline: none;
 }
 
-// select {
-//   // padding: 10px 20px;
-//   background: transparent;
-//   padding: 10px 0px;
-//   border: none;
-//   cursor: pointer;
-//   outline: none;
-// }
+select {
+  background: transparent;
+  padding: 10px 0px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
 
 textarea {
   min-height: 150px;
@@ -262,7 +302,7 @@ table thead tr th {
 
 a {
   display: inline-block;
-  color: var(--body-color);
+  color: var(--head-alt-color);
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
@@ -292,29 +332,33 @@ li {
   margin-bottom: 30px;
 }
 
-// .title {
-//   font-weight: 700;
-//   margin-bottom: 16px;
-// }
 .title {
-  font-size: 76px;
+  font-size: 50px;
   line-height: 98.8px;
   margin-top: -18px;
 }
+// .title {
+//   font-size: 50px;
+//   line-height: 98.8px;
+//   margin-top: -18px;
+//   width: 100%; /* Takes full width of the screen */
+//   text-align: center; /* Center-aligns the text */
+//   display: block; /* Ensures the element behaves like a block-level element */
+// }
 
 .title .word-1 {
-  color: #1a4dbe; /* First word color */
+  color: #001bb1; /* First word color */
 }
 
 .title .word-2 {
-  color: #ff0000; /* Second word color */
+  color: #E30613; /* Second word color */
 }
 
 .head-icon {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background: #1a4dbe;
+  background: var(--hover-color);
   margin-bottom: 30px;
 }
 
@@ -401,7 +445,7 @@ li {
 
 *::-webkit-scrollbar-button,
 *::-webkit-scrollbar-thumb {
-  background-color: #5732c6;
+  background-color: var(--hover-color);
 }
 
 .scrollToTop {
@@ -509,7 +553,6 @@ li {
 
 /* cmn btn */
 .cmn-btn {
-  // padding: 10px 30px 15px;
   padding: 10px 30px;
   font-weight: 500;
   text-align: center;
@@ -520,14 +563,14 @@ li {
   transition: 0.3s;
   border-radius: 50px;
   &:hover {
-    color: #0a1023;
+    color: var(--head-color);
     background: transparent;
-    border: 1px solid #848894;
+    border: 1px solid var(--para-color);
   }
   &.second {
-    color: #0a1023;
+    color: var(--head-color);
     background: transparent;
-    border: 1px solid #848894;
+    border: 1px solid var(--para-color);
     &:hover {
       color: var(--body-color);
       background: var(--hover-color);
@@ -536,7 +579,7 @@ li {
   }
 }
 
-// Animation
+/* Animation */
 @keyframes run_obj {
   100% {
     right: 230%;

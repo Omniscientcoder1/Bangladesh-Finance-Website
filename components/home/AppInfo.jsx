@@ -9,7 +9,7 @@ import sheled from "/public/images/icon/sheled.png";
 const AppInfo = () => {
   return (
     <section className="features-section app-download">
-      <div className="overlay pt-120">
+      <div className="overlay pt-80">
         <div className="container wow fadeInUp">
           <div className="row">
             <div className="col-lg-6">

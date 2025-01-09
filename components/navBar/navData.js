@@ -328,12 +328,12 @@ export const navData = [
           },
           {
             id: "sub@003",
-            sub_itm: "Home Loans",
+            sub_itm: "Home Loan",
             url: "/home-loan",
           },
           {
             id: "sub@004",
-            sub_itm: "Auto Loans",
+            sub_itm: "Auto Loan",
             url: "/car-loan",
           },
           {
@@ -351,9 +351,78 @@ export const navData = [
     ],
   },
   {
-    id: "au@81",
-    itm: "FINANCIAL LITERACY",
-    url: "/",
-    dropdown: false,
+    id: "au@203",
+    itm: "SUSTAINABILITY",
+    url: "#",
+    dropdown: true,
+    dropdown_itms: [
+      {
+        id: "du@054",
+        dp_itm: "sustainable finance",
+        url: "/sustainable-finance",
+        sbu_dropdown: false,
+        sub_items: [
+          {
+            id: "sub@01",
+            sub_itm: "Account",
+            url: "/account",
+          },
+          {
+            id: "sub@02",
+            sub_itm: "Account Details",
+            url: "/account-details",
+          },
+        ],
+      },
+      {
+        id: "du@02",
+        dp_itm: "Alignment with SDG's",
+        url: "/sdg",
+      },
+      {
+        id: "du@03",
+        dp_itm: "CSR",
+        url: "csr",
+        sbu_dropdown: false,
+        sub_items: [
+          {
+            id: "sub@001",
+            sub_itm: "Business Loans",
+            url: "/business-loan",
+          },
+          {
+            id: "sub@002",
+            sub_itm: "Educations Loans",
+            url: "/educations-loan",
+          },
+          {
+            id: "sub@003",
+            sub_itm: "Home Loan",
+            url: "/home-loan",
+          },
+          {
+            id: "sub@004",
+            sub_itm: "Auto Loan",
+            url: "/car-loan",
+          },
+          {
+            id: "sub@005",
+            sub_itm: "Personal Loans",
+            url: "/personal-loan",
+          },
+        ],
+      },
+      // {
+      //   id: "du@04",
+      //   dp_itm: "Card",
+      //   url: "/card",
+      // },
+    ],
   },
+  // {
+  //   id: "au@81",
+  //   itm: "FINANCIAL LITERACY",
+  //   url: "/",
+  //   dropdown: false,
+  // },
 ];

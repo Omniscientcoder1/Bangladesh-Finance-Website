@@ -20,5 +20,4 @@ const BusinessSolutionsCard = ({ singleBusiness }) => {
     </div>
   );
 };
-
 export default BusinessSolutionsCard;

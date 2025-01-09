@@ -9,6 +9,7 @@
   width: 100%;
   z-index: 999;
   background: var(--body-color);
+
   &.header-fixed {
     position: fixed;
     top: 0;
@@ -28,67 +29,91 @@
       color: var(--hover-color);
     }
   }
+  
   .navbar {
-    padding: 30px 15px;
+    padding: 30px 30px; // Reduced overall padding for a more compact layout
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    .navbar-brand {
+      margin-right: 10px; // Reduced spacing between logo and nav items
+      margin-left: -30px; // Moves the logo further to the left
+    }
+  
     .navbar-collapse {
-      .navbar-nav {
-        .nav-item {
-          .nav-link,
-          .dropdown-item {
-            font-weight: 500;
-            padding: 0 10px;
-            color: var(--para-color);
-            text-transform: capitalize;
-            font-weight: 600;
+      flex-grow: unset;
+      justify-content: flex-end; // Ensures navbar items align to the right
+    }
+  
+    .navbar-nav {
+      display: flex;
+      align-items: center;
+  
+      .nav-item {
+        .nav-link,
+        .dropdown-item {
+          font-weight: 500;
+          padding: 0 8px; // Reduced padding between nav items
+          color: var(--para-color);
+          text-transform: capitalize;
+          font-weight: 600;
+          transition: 0.3s;
+  
+          &:hover {
+            color: var(--hover-color);
             transition: 0.3s;
-            &:hover {
-              color: var(--hover-color);
+          }
+  
+          &.active {
+            color: var(--hover-color);
+          }
+        }
+  
+        .nav-link.dropdown-toggle {
+          &::after {
+            vertical-align: 0;
+            background-image: url(/images/icon/menu-down.png);
+            background-repeat: no-repeat;
+            background-size: 85%;
+            border: none;
+            margin-left: 5px;
+            width: 15px;
+            height: 11px;
+          }
+        }
+  
+        .dropdown-menu {
+          background-color: var(--body-color);
+  
+          li {
+            a {
+              display: block;
+              padding: 5px 15px;
               transition: 0.3s;
-            }
-            &.active {
-              color: var(--hover-color);
-            }
-          }
-          .nav-link.dropdown-toggle {
-            &::after {
-              vertical-align: 0;
-              background-image: url(/images/icon/menu-down.png);
-              background-repeat: no-repeat;
-              background-size: 85%;
-              border: none;
-              margin-left: 5px;
-              width: 15px;
-              height: 11px;
-            }
-          }
-          .dropdown-menu {
-            background-color: var(--body-color);
-            li {
-              a {
-                display: block;
-                padding: 5px 15px;
+  
+              &:hover {
+                background: var(--hover-color);
                 transition: 0.3s;
-                &:hover {
-                  background: var(--hover-color);
-                  transition: 0.3s;
-                  color: var(--body-color);
-                }
+                color: var(--body-color);
               }
             }
-            .dropend {
-              .dropdown-menu {
-                // margin-left: 20%;
-                margin-left: -20%;
-              }
+          }
+  
+          .dropend {
+            .dropdown-menu {
+              margin-left: -20%;
             }
           }
         }
       }
-      .right-area {
-        margin-left: 30px;
-      }
+    }
+  
+    .right-area {
+      margin-left: 5px; // Reduced spacing for the right area
     }
   }
+  
   .nav-item {
     &.main-navbar {
       .main-menu {
@@ -103,8 +128,10 @@
         visibility: hidden;
         transition: 0.3s;
         z-index: 999;
+  
         .sub-navbar {
           position: relative;
+  
           .sub-menu {
             visibility: hidden;
             position: absolute;
@@ -113,6 +140,7 @@
             top: 0;
             max-width: 180px !important;
           }
+  
           &:hover {
             .sub-menu {
               opacity: 1;
@@ -121,6 +149,7 @@
           }
         }
       }
+  
       &:hover {
         .main-menu {
           opacity: 1;
@@ -130,25 +159,29 @@
       }
     }
   }
+  
   &.register {
     border-bottom: 1px solid #d8dce7;
+  
     .nav-item {
       font-weight: 500;
     }
+  
     .right-area {
-      margin-left: 30px;
+      margin-left: 10px; // Reduced spacing for consistency
     }
   }
+  
 }
 
 // Banner Start
 .banner-section {
   .overlay {
-    background-color: #f5faff;
-    background-image: url("/images/bg_blue_business_inverted.jpg");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
+    // background-color: #f5faff;
+    // background-image: url("/images/bg_blue_business_inverted.jpg");
+    // background-repeat: no-repeat;
+    // background-size: auto;
+    // background-position: center;
     .banner-content {
       padding: 100px 0 100px;
       .top-area {

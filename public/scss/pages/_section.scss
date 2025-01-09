@@ -42,9 +42,9 @@
 
 // Solutions Business Start
 .solutions-business {
-  background-image: url(/images/bg_blue_business.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
+  // background-image: url(/images/bg_blue_business.jpg);
+  // background-repeat: no-repeat;
+  // background-position: center;
   .single-box {
     padding: 50px 30px;
     background: var(--body-color);
@@ -89,7 +89,7 @@
 
 // Card Section
 .card-section {
-  background-image: url(/images/card-bg.png);
+  background-image: url('/images/rb_8462.png');
   background-position: top left -150px;
   background-repeat: no-repeat;
   background-size: contain;
@@ -244,7 +244,7 @@
 
 // Call to action
 .call-action {
-  background-image: url(/images/call-action-bg.png);
+  background-image: url(/images/rb_8462.png);
   background-position: top;
   background-repeat: no-repeat;
   .main-content {
@@ -262,6 +262,8 @@
     .bottom-area {
       a {
         margin: 0 10px;
+        
+        
       }
     }
   }
@@ -279,6 +281,7 @@
       .xlr {
         color: var(--head-alt-color);
         margin-top: 16px;
+        
       }
       .cmn-btn {
         margin-top: -8px;
@@ -492,9 +495,9 @@
 //   }
 // }
 .financial-planning {
-  background: url('/images/bg_products.jpg') no-repeat center center; /* Add your image path here */
-  background-size: cover; /* Ensure the image covers the entire section */
-
+  // background: url('/images/kjue_15.jpg') no-repeat center center; /* Add your image path here */
+  // background-size: cover; /* Ensure the image covers the entire section */
+  
   .cus-mar {
     margin-bottom: -30px;
   }

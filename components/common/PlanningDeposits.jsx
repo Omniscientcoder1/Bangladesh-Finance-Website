@@ -5,7 +5,7 @@ import PlaningCard from "../cards/PlaningCard";
 const Deposits = () => {
   return (
     <section className="financial-planning">
-      <div className="overlay pt-120 pb-120">
+      <div className="overlay pt-80 pb-120">
         <div className="container wow fadeInUp">
           <div className="row d-flex justify-content-center">
             <div className="col-xl-6 col-lg-5">

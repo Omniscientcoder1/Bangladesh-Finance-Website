@@ -1,5 +1,5 @@
 import BusinessSolutionsCard from "../cards/BusinessSolutionsCard";
-import { business_solutions_data } from "./homeData";
+import { business_solutions_data } from "../home/homeData";
 
 const BusinessSolutions = () => {
   return (
@@ -12,7 +12,7 @@ const BusinessSolutions = () => {
                 {/* <h5 className="sub-title">
                   Open your account from anywhere in the world
                 </h5> */}
-                <h2 className="title">Solutions for Every Financial Need.</h2>
+                <h3 className="subtitle">Solutions for Every Financial Need.</h3>
                 <p>
                   We provide tailored Financial Services for everyone
                 </p>

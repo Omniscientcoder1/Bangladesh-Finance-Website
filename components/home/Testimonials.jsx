@@ -94,9 +94,57 @@ const Testimonials = () => {
                   <div className="content">
                     <div className="top-content">
                       <Image src={quote} alt="quote" />
-                      <h5>“I love Bankio, they&#39;re the best”</h5>
+                      <h5>“I love Bangladesh Finance, they&#39;re the best”</h5>
                       <p className="xxlr">
-                        “ It&#39;s been 2 years since I found Bankio, and
+                        “ It&#39;s been 2 years since I found Bangladesh Finance, and
+                        it&#39;s such a relief as a small business owner to not
+                        worry about unnecessary fees. I lost my credit card
+                        once, and the service was so prompt that I was back to
+                        work the next day!
+                      </p>
+                    </div>
+                    <div className="bottom-content">
+                      <h5 className="name">Ibrahim khalil</h5>
+                      <span className="country"> Bangladesh</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="slide-item">
+                <div className="single-slide">
+                  <div className="thumb">
+                    <Image src={testomonial} alt="image" className="max-un" />
+                  </div>
+                  <div className="content">
+                    <div className="top-content">
+                      <Image src={quote} alt="quote" />
+                      <h5>“I love Bangladesh Finance, they&#39;re the best”</h5>
+                      <p className="xxlr">
+                        “ It&#39;s been 2 years since I found Bangladesh finance, and
+                        it&#39;s such a relief as a small business owner to not
+                        worry about unnecessary fees. I lost my credit card
+                        once, and the service was so prompt that I was back to
+                        work the next day!
+                      </p>
+                    </div>
+                    <div className="bottom-content">
+                      <h5 className="name">Sophie Moore</h5>
+                      <span className="country"> Sylhet</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="slide-item">
+                <div className="single-slide">
+                  <div className="thumb">
+                    <Image src={testomonial} alt="image" className="max-un" />
+                  </div>
+                  <div className="content">
+                    <div className="top-content">
+                      <Image src={quote} alt="quote" />
+                      <h5>“I love Bangladesh Finance, they&#39;re the best”</h5>
+                      <p className="xxlr">
+                        “ It&#39;s been 2 years since I found Bangladesh Finance, and
                         it&#39;s such a relief as a small business owner to not
                         worry about unnecessary fees. I lost my credit card
                         once, and the service was so prompt that I was back to
@@ -118,9 +166,9 @@ const Testimonials = () => {
                   <div className="content">
                     <div className="top-content">
                       <Image src={quote} alt="quote" />
-                      <h5>“I love Bankio, they&#39;re the best”</h5>
+                      <h5>“I love Bangladesh Finance, they&#39;re the best”</h5>
                       <p className="xxlr">
-                        “ It&#39;s been 2 years since I found Bankio, and
+                        “ It&#39;s been 2 years since I found Bangladesh Finance, and
                         it&#39;s such a relief as a small business owner to not
                         worry about unnecessary fees. I lost my credit card
                         once, and the service was so prompt that I was back to
@@ -128,55 +176,7 @@ const Testimonials = () => {
                       </p>
                     </div>
                     <div className="bottom-content">
-                      <h5 className="name">Sophie Moore</h5>
-                      <span className="country"> United Kingdom</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="slide-item">
-                <div className="single-slide">
-                  <div className="thumb">
-                    <Image src={testomonial} alt="image" className="max-un" />
-                  </div>
-                  <div className="content">
-                    <div className="top-content">
-                      <Image src={quote} alt="quote" />
-                      <h5>“I love Bankio, they&#39;re the best”</h5>
-                      <p className="xxlr">
-                        “ It&#39;s been 2 years since I found Bankio, and
-                        it&#39;s such a relief as a small business owner to not
-                        worry about unnecessary fees. I lost my credit card
-                        once, and the service was so prompt that I was back to
-                        work the next day!
-                      </p>
-                    </div>
-                    <div className="bottom-content">
-                      <h5 className="name">Sophie Moore</h5>
-                      <span className="country"> United Kingdom</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="slide-item">
-                <div className="single-slide">
-                  <div className="thumb">
-                    <Image src={testomonial} alt="image" className="max-un" />
-                  </div>
-                  <div className="content">
-                    <div className="top-content">
-                      <Image src={quote} alt="quote" />
-                      <h5>“I love Bankio, they&#39;re the best”</h5>
-                      <p className="xxlr">
-                        “ It&#39;s been 2 years since I found Bankio, and
-                        it&#39;s such a relief as a small business owner to not
-                        worry about unnecessary fees. I lost my credit card
-                        once, and the service was so prompt that I was back to
-                        work the next day!
-                      </p>
-                    </div>
-                    <div className="bottom-content">
-                      <h5 className="name">Sophie Moore</h5>
+                      <h5 className="name">John Doe</h5>
                       <span className="country"> United Kingdom</span>
                     </div>
                   </div>

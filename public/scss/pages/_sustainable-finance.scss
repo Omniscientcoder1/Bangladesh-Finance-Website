@@ -1,0 +1,83 @@
+.sustainable-finance-page {
+    font-family: Arial, sans-serif;
+  
+    .sustainable-banner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background: url('/images/CSR-2.png') no-repeat center center;
+      background-size: contain;
+      height: 100vh;
+      text-align: center;
+      color: #fff;
+      margin-top: 10px;
+  
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 0;
+        margin-top: 20px;
+        text-align: center;
+      }
+  
+      p {
+        font-size: 1.5rem;
+      }
+    }
+  
+    .sustainable-content {
+      padding: 10px 0;
+  
+      h2 {
+        font-size: 2rem;
+        margin-top: 20px;
+        text-align: center;
+      }
+  
+      p {
+        font-size: 1rem;
+        line-height: 1.6;
+        text-align: justify;
+        margin: 10px 20px;
+      }
+    }
+  
+    .cards-section {
+      background: #f9f9f9;
+      padding: 50px 20px;
+  
+      .container {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+      }
+  
+      .card {
+        background: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        padding: 20px;
+        flex: 1;
+        max-width: 30%;
+        text-align: center;
+        transition: transform 0.3s ease;
+  
+        &:hover {
+          transform: translateY(-5px);
+        }
+  
+        h3 {
+          font-size: 1.5rem;
+          color: #333333;
+          margin-bottom: 15px;
+        }
+  
+        p {
+          font-size: 1rem;
+          color: #666666;
+          line-height: 1.4;
+        }
+      }
+    }
+  }
+  

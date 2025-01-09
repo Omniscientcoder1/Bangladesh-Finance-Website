@@ -3,7 +3,7 @@ import Planning from "../components/common/Planning";
 import Faq from "../components/faq/Faq";
 import AppInfo from "../components/home/AppInfo";
 import BankioCard from "../components/home/BankioCard";
-import BusinessSolutions from "../components/home/BusinessSolutions";
+import BusinessSolutions from "../components/home/homeData";
 import Features from "../components/home/Features";
 import HomeBanner from "../components/home/HomeBanner";
 import LatestArticles from "../components/home/LatestArticles";
@@ -15,14 +15,14 @@ export default function Home() {
     <>
       <HomeBanner />
       {/* <Features /> */}
-      <BusinessSolutions />
+      {/* <BusinessSolutions /> */}
       <Deposits/>
       <Planning />
-      {/* <AppInfo /> */}
+      <AppInfo />
       {/* <BankioCard /> */}
       <CallToAction />
       {/* <Personalized /> */}
-      {/* <Testimonials /> */}
+      <Testimonials />
       <LatestArticles />
       <Faq />
     </>

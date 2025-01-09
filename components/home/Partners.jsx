@@ -137,8 +137,8 @@ import hero1 from "/public/images/hero-1.jpg";
 import hero2 from "/public/images/hero-2.jpg";
 import hero3 from "/public/images/hero-3.jpg";
 import hero4 from "/public/images/hero-4.jpg";
-import hero5 from "/public/images/hero5.png";
-import hero6 from "/public/images/hero6.png";
+// import hero5 from "/public/images/hero5.png";
+// import hero6 from "/public/images/hero6.png";
 
 const Partners = () => {
   const settings = {
@@ -152,7 +152,7 @@ const Partners = () => {
     pauseOnHover: true, // Pause on hover
   };
 
-  const images = [hero1, hero2, hero3, hero4, hero5, hero6];
+  const images = [hero2,hero1, hero3, hero4];
 
   return (
     <section className="hero-section">
