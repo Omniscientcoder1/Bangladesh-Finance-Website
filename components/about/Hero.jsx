@@ -11,9 +11,9 @@ const Hero = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="text-area">
-                <h5 className="sub-title">About Us</h5>
+                {/* <h5 className="sub-title">About Us</h5> */}
                 <h2 className="title">
-                  Your ally in achieving ambition beyond borders
+                  About US
                 </h2>
                 <p>
                   Bangladesh Finance Limited (Bangladesh Finance), formerly known as BD Finance, is one of the most well-known financial institutions in Bangladesh, having served the people of Bangladesh since 1999.

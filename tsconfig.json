@@ -1,0 +1,35 @@
+
+
+{
+  "compilerOptions": {
+    "target": "es2016", // Set the JavaScript language version
+    "module": "commonjs", // Use CommonJS module system
+    "strict": true, // Enable all strict type-checking options for TypeScript
+    "allowJs": true, // Allow JavaScript files to be part of the project
+    "checkJs": false, // Disable type-checking for JavaScript files
+    "esModuleInterop": true, // Allow default imports from modules with no default export
+    "forceConsistentCasingInFileNames": true, // Ensure consistent casing in imports
+    "skipLibCheck": true, // Skip type checking for all .d.ts files
+    "resolveJsonModule": true, // Allow importing JSON files
+    "isolatedModules": true, // Ensure each file can be transpiled in isolation
+    "noEmit": true, // Do not emit compiled JavaScript files
+    "lib": ["dom", "dom.iterable", "esnext"], // Include DOM and ESNext features
+    "jsx": "preserve", // Preserve JSX for React
+    "moduleResolution": "node", // Resolve modules using Node.js module resolution
+    "incremental": true, // Enable incremental compilation for faster rebuilds
+    "baseUrl": ".", // Sets the base URL to the root of the project
+    "paths": {
+      "@/*": ["./*"] // Maps `@/` to the root of your project
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx" // Only include TypeScript files for type-checking
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.js", // Exclude JavaScript files from type-checking
+    "**/*.jsx" // Exclude JSX files from type-checking
+  ]
+}

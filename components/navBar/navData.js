@@ -7,9 +7,36 @@ export const navData = [
   },
   {
     id: "au@2_91",
-    itm: "ABOUT",
+    itm: "ABOUT US",
     url: "/about",
-    dropdown: false,
+    dropdown: true, // Enable dropdown
+    dropdown_itms: [
+      {
+        id: "about@01",
+        dp_itm: "At a glance",
+        url: "/at-a-glance",
+      },
+      {
+        id: "about@02",
+        dp_itm: "About",
+        url: "/about",
+      },
+      {
+        id: "about@03",
+        dp_itm: "Mission & Vision",
+        url: "/about/mission-vision",
+      },
+      {
+        id: "about@04",
+        dp_itm: "Careers",
+        url: "/about/careers",
+      },
+      {
+        id: "about@05",
+        dp_itm: "Contact Us",
+        url: "/about/contact",
+      },
+    ],
   },
   {
     id: "au@2_92",
@@ -51,16 +78,7 @@ export const navData = [
         dp_itm: "savings Scheme",
         url: "/savings-scheme",
       },
-      // {
-      //   id: "sub@001",
-      //   dp_itm: "Business Loans",
-      //   url: "/business-loan",
-      // },
-      // {
-      //   id: "sub@002",
-      //   dp_itm: "Educations Loans",
-      //   url: "/educations-loan",
-      // },
+      
       {
         id: "sub@003",
         dp_itm: "Home Loans",
@@ -90,11 +108,7 @@ export const navData = [
         url: "/images/rate-chart-for-loan-products.jpeg",
         
       },
-      // {
-      //   id: "du@04",
-      //   dp_itm: "Card",
-      //   url: "/card",
-      // },
+ 
     ],
   },
   {
@@ -103,24 +117,7 @@ export const navData = [
     url: "#",
     dropdown: true,
     dropdown_itms: [
-      // {
-      //   id: "du@01",
-      //   dp_itm: "Account",
-      //   url: "#",
-      //   sbu_dropdown: true,
-      //   sub_items: [
-      //     {
-      //       id: "sub@01",
-      //       sub_itm: "Account",
-      //       url: "/account",
-      //     },
-      //     {
-      //       id: "sub@02",
-      //       sub_itm: "Account Details",
-      //       url: "/account-details",
-      //     },
-      //   ],
-      // },
+     
     {
         id: "sub@001",
         dp_itm: "Corporate Loans",
@@ -131,44 +128,7 @@ export const navData = [
         dp_itm: "Structured Finance",
         url: "/structured-finance",
       },
-      // {
-      //   id: "du@03",
-      //   dp_itm: "Loan",
-      //   url: "#",
-      //   sbu_dropdown: true,
-      //   sub_items: [
-      //     {
-      //       id: "sub@001",
-      //       sub_itm: "Business Loans",
-      //       url: "/business-loan",
-      //     },
-      //     {
-      //       id: "sub@002",
-      //       sub_itm: "Educations Loans",
-      //       url: "/educations-loan",
-      //     },
-      //     {
-      //       id: "sub@003",
-      //       sub_itm: "Home Loans",
-      //       url: "/home-loan",
-      //     },
-      //     {
-      //       id: "sub@004",
-      //       sub_itm: "Car Loans",
-      //       url: "/car-loan",
-      //     },
-      //     {
-      //       id: "sub@005",
-      //       sub_itm: "Personal Loans",
-      //       url: "/personal-loan",
-      //     },
-      //   ],
-      // },
-      // {
-      //   id: "du@04",
-      //   dp_itm: "Card",
-      //   url: "/card",
-      // },
+     
     ],
   },
   {
@@ -177,29 +137,7 @@ export const navData = [
     url: "#",
     dropdown: true,
     dropdown_itms: [
-      // {
-      //   id: "du@01",
-      //   dp_itm: "Account",
-      //   url: "#",
-      //   sbu_dropdown: true,
-      //   sub_items: [
-      //     {
-      //       id: "sub@01",
-      //       sub_itm: "Account",
-      //       url: "/account",
-      //     },
-      //     {
-      //       id: "sub@02",
-      //       sub_itm: "Account Details",
-      //       url: "/account-details",
-      //     },
-      //   ],
-      // },
-      // {
-      //   id: "du@02",
-      //   dp_itm: "Product",
-      //   url: "/product",
-      // },
+     
       {
         id: "du@03",
         dp_itm: "Financial & Annual Reports",
@@ -220,11 +158,7 @@ export const navData = [
         dp_itm: "Shareholding Details",
         url: "shareholding",
       },
-      // {
-      //   id: "du@7",
-      //   dp_itm: "Corporate Governance Compliance",
-      //   url: "",
-      // },
+     
       {
         id: "du@8",
         dp_itm: "Dividend",
