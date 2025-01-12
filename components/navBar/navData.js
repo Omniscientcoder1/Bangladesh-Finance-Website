@@ -23,8 +23,8 @@ export const navData = [
       },
       {
         id: "about@03",
-        dp_itm: "Mission & Vision",
-        url: "/about/mission-vision",
+        dp_itm: "board-of-directors",
+        url: "/board-of-directors",
       },
       {
         id: "about@04",
