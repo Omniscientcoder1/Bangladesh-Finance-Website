@@ -5,7 +5,7 @@ import about_img_3 from "/public/images/about-img-3.png";
 
 const Hero = () => {
   return (
-    <section className="about-section">
+    <section className="about-section" style={{ paddingTop: "160px" }}>
       <div className="overlay pt-120 pb-120">
         <div className="container wow fadeInUp">
           <div className="row align-items-center">

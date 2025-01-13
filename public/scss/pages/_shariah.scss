@@ -1,0 +1,163 @@
+/* Global Container */
+.board-container {
+    background-color: var(--unified-bg);
+    color: #333;
+    padding: 6rem 2rem; /* Extra padding to avoid conflicts with the navbar */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Banner */
+  .banner {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2rem;
+  
+    .banner-image {
+      width: 100%;
+      height: auto; /* Maintain aspect ratio */
+      object-fit: cover; /* Ensures the image fills the container */
+      display: block;
+    }
+  }
+  
+  /* Title */
+  .title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 2rem;
+  }
+  
+  /* Cards Container */
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  /* Individual Card */
+  .card {
+    flex: 1 1 calc(25% - 2rem); /* Flex adjusts the width dynamically */
+    max-width: 300px; /* Maximum width for each card */
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #1d1d1d;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+  
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  
+      .card-hover {
+        opacity: 1; /* Ensure the hover effect is applied */
+      }
+    }
+  
+    .card-image {
+      width: 100%;
+      height: 350px; /* Consistent height for larger images */
+      object-fit: cover; /* Ensures the image fills the card */
+      border-radius: 10px;
+    }
+  
+    .card-hover {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+      color: #ffffff; /* White text by default */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      transition: opacity 0.3s;
+      padding: 1rem;
+      text-align: center;
+  
+      h3,
+      p {
+        color: #ffffff; /* Explicitly set white color for hover state */
+      }
+    }
+  }
+  
+  /* Modal */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  
+    .modal {
+      background-color: #0367af;
+      width: 90%;
+      max-width: 900px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      display: flex;
+      flex-direction: row; /* Ensures image and text are side-by-side */
+      height: 80%; /* Ensures proper height for scrollable text */
+  
+      .modal-image {
+        width: 50%;
+        object-fit: cover;
+      }
+  
+      .modal-content {
+        width: 50%;
+        padding: 2rem;
+        color: #ffffff;
+        overflow-y: auto; /* Enables scrollability for text content */
+  
+        h3 {
+          font-size: 1.5rem;
+          font-weight: bold;
+          margin-bottom: 1rem;
+        }
+  
+        .modal-title {
+          font-weight: 600;
+          margin-bottom: 1rem;
+        }
+  
+        .modal-description {
+          line-height: 1.5;
+          margin-bottom: 1.5rem;
+        }
+  
+        .close-button {
+          align-self: flex-end;
+          padding: 0.5rem 1rem;
+          font-size: 1rem;
+          font-weight: bold;
+          color: #ffffff;
+          background-color: #e31a52;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: background-color 0.3s;
+  
+          &:hover {
+            background-color: #c31440;
+          }
+        }
+      }
+    }
+  }
+  

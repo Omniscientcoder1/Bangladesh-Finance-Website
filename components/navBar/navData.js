@@ -28,13 +28,13 @@ export const navData = [
       },
       {
         id: "about@04",
-        dp_itm: "Careers",
-        url: "/about/careers",
+        dp_itm: "Leadership",
+        url: "/leadership",
       },
       {
         id: "about@05",
-        dp_itm: "Contact Us",
-        url: "/about/contact",
+        dp_itm: "SHARI’AH SUPERVISORY COMMITTEE",
+        url: "/shariah-supervisory-committee",
       },
     ],
   },

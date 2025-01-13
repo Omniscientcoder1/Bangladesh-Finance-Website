@@ -21,8 +21,8 @@ export default function Home() {
       <AppInfo />
       {/* <BankioCard /> */}
       <CallToAction />
-      {/* <Personalized /> */}
-      <Testimonials />
+      <Personalized />
+      {/* <Testimonials /> */}
       <LatestArticles />
       <Faq />
     </>
