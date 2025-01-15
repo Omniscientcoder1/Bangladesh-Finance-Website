@@ -10,21 +10,25 @@ import LatestArticles from "../components/home/LatestArticles";
 import Personalized from "../components/home/Personalized";
 import Testimonials from "../components/home/Testimonials";
 import Deposits from "../components/common/PlanningDeposits";
+import AllFaqs from "/components/faqs/AllFaqs.jsx"
+
 export default function Home() {
   return (
     <>
       <HomeBanner />
-      {/* <Features /> */}
+      <Features />
       {/* <BusinessSolutions /> */}
       <Deposits/>
       <Planning />
       <AppInfo />
       {/* <BankioCard /> */}
       <CallToAction />
-      <Personalized />
+      {/* <Personalized /> */}
       {/* <Testimonials /> */}
-      <LatestArticles />
-      <Faq />
+      {/* <LatestArticles /> */}
+      {/* <Faq /> */}
+      <AllFaqs />
+    
     </>
   );
 }

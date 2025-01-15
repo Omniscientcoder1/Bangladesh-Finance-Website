@@ -257,13 +257,23 @@
   }
   &.about {
     .overlay {
-      background-image:
-      //  url(/images/about-left.png),
-      url(/images/about-right.png);
+      /* If you only need one background image (uncomment if desired) */
+      /* background-image: url('/images/about-left.png'), */
+      background-image: url('/images/about.png');
+      
       background-repeat: no-repeat;
-      background-position: right 120px;
-      // right bottom;
+      background-position: center center; /* Center the image horizontally and vertically */
+      background-size: contain;          /* Scale image so its entire area is visible */
+      
+      /* Make sure the overlay can expand */
+      width: 100%;
+      min-height: 100vh; /* Ensures the section takes at least the full viewport height */
+      
+      /* Optional: 
+         If you prefer the container to size automatically based on content,
+         you can remove or adjust the min-height as needed. */
     }
+    
   }
   &.career-single {
     .overlay {
@@ -545,9 +555,9 @@
   }
 }
 
-// Footer Section Start
 .footer-section {
   background: #f5faff;
+
   .img-area {
     position: relative;
     img {
@@ -562,10 +572,20 @@
       right: 0;
     }
   }
+
+  /* Update footer-box to align items left */
   .footer-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; // Ensures logo and text are left-aligned
+
+    /* Remove (or override) the negative margin so the text lines up with the logo */
     .logo {
-      margin-bottom: 25px;
+      margin-left: 0; 
+      margin-bottom: 25px; // Keep or adjust as desired
+      margin-right: 25px;
     }
+
     .social-link {
       margin-top: 25px;
       a {
@@ -587,9 +607,11 @@
         }
       }
     }
+
     h5 {
       margin-bottom: 15px;
     }
+
     li {
       a {
         color: #2c3655;
@@ -609,7 +631,7 @@
           transition: 0.3s;
         }
         &:hover {
-          color: #055c2d;
+          color: #05135c;
           padding-left: 35px;
           &::before {
             left: 15px;
@@ -618,6 +640,7 @@
         }
       }
     }
+
     form {
       input {
         margin-bottom: 22px;
@@ -634,17 +657,20 @@
       }
     }
   }
+
   .footer-bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-top: 1px solid #b0baf1;
     padding: 30px 0;
+
     .left {
       a {
         color: #055c2d;
       }
     }
+
     .right {
       .cus-bor {
         border-right: 1px solid #b0baf1;

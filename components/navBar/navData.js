@@ -218,8 +218,8 @@ export const navData = [
   {
     id: "au@203",
     itm: "CAREERS",
-    url: "#",
-    dropdown: true,
+    url: "/career",
+    dropdown: false,
     dropdown_itms: [
       {
         id: "du@01",
@@ -314,6 +314,12 @@ export const navData = [
         url: "/sdg",
       },
       {
+        id: "au@2_92",
+        itm: "Islamic",
+        url: "https://www.bdfinance.org/",
+        dropdown: false,
+      },
+      {
         id: "du@03",
         dp_itm: "CSR",
         url: "csr",
@@ -353,10 +359,11 @@ export const navData = [
       // },
     ],
   },
-  // {
-  //   id: "au@81",
-  //   itm: "FINANCIAL LITERACY",
-  //   url: "/",
-  //   dropdown: false,
-  // },
+  {
+    id: "au@2_92",
+    itm: "ISLAMIC",
+    url: "https://www.bdfinance.org/",
+    dropdown: false,
+    
+  },
 ];

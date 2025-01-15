@@ -1,655 +1,697 @@
-
-@import "~slick-carousel/slick/slick.css";
-@import "~slick-carousel/slick/slick-theme.css";
-@import "/public/scss/pages/_shurokkha.scss";
-@import "/public/scss/pages/_deposit-scheme.scss";
-@import "public/scss/pages/_savings-scheme.scss";
-@import "public/scss/pages/_corporate-loans.scss";
-@import "public/scss/pages/_structured-finance.scss";
-@import "public/scss/pages/_sme.scss";
-@import "public/scss/pages/_financialAnnualReports.scss";
-@import "public/scss/pages/_report-of-directors.scss";
-@import "public/scss/pages/_shareholding.scss";
-@import "public/scss/pages/_dividend.scss";
-@import "public/scss/pages/_sustainable-finance.scss";
-@import "public/scss/pages/_sdg.scss";
-@import "/public/scss/pages/_csr.scss";
-@import "public/scss/pages/_board-of-directors.scss";
-@import "public/scss/pages/_leadership.scss";
-
-// :root {
-//   --body-font: "Jost", sans-serif;
-
-//   --body-color: #ffffff;
-//   --para-color: #333333; // Dark Grey
-//   --head-color: #002341; // Blue
-//   --head-alt-color: #001bb1; // Green
-//   --hover-color: #001bb1; // Red #0071CE
-//   --unified-bg: radial-gradient(circle, #f8f8f8, #f8f8f8, #f8f8f8);
-  // url('/images/kjue_15.jpg');
-
-:root {
-  // --body-font: "Jost", sans-serif;
+/********************************************
+ *  IMPORTS
+ ********************************************/
+ @import "~slick-carousel/slick/slick.css";
+ @import "~slick-carousel/slick/slick-theme.css";
+ @import "/public/scss/pages/_shurokkha.scss";
+ @import "/public/scss/pages/_deposit-scheme.scss";
+ @import "public/scss/pages/_savings-scheme.scss";
+ @import "public/scss/pages/_corporate-loans.scss";
+ @import "public/scss/pages/_structured-finance.scss";
+ @import "public/scss/pages/_sme.scss";
+ @import "public/scss/pages/_financialAnnualReports.scss";
+ @import "public/scss/pages/_report-of-directors.scss";
+ @import "public/scss/pages/_shareholding.scss";
+ @import "public/scss/pages/_dividend.scss";
+ @import "public/scss/pages/_sustainable-finance.scss";
+ @import "public/scss/pages/_sdg.scss";
+ @import "/public/scss/pages/_csr.scss";
+ @import "public/scss/pages/_board-of-directors.scss";
+ @import "public/scss/pages/_leadership.scss";
+ 
+ /********************************************
+  *  VARIABLES ( :root )
+  ********************************************/
+ // Uncomment or customize as needed
+ /*
+ :root {
+   --body-font: "Jost", sans-serif;
+ 
+   --body-color: #ffffff;
+   --para-color: #333333; // Dark Grey
+   --head-color: #002341; // Blue
+   --head-alt-color: #001bb1; // Green
+   --hover-color: #001bb1; // Red #0071CE
+   --unified-bg: radial-gradient(circle, #f8f8f8, #f8f8f8, #f8f8f8);
+ }
+ */
+ 
+ :root {
+   // --body-font: "Jost", sans-serif;
    --body-font: "Roboto", sans-serif;
-  
-
-  --body-color: #ffffff; /* White */
-  --para-color: #333333; /* Dark Grey */
-  --head-color: #002341; /* Blue */
-  --head-alt-color: #001bb1; /* Green */
-  --hover-color: #001bb1; /* Red #0071CE */
-  --unified-bg: radial-gradient(circle, #f0f4f8, #dfe7ed, #f0f4f8); /* Light Bluish Grey */
-  
-}
-// :root {
-//   --body-font: "Jost", sans-serif;
-
-//   --body-color: #ffffff; /* White */
-//   --para-color: #333333; /* Dark Grey */
-//   --head-color: #000000; /* Dark Green */
-//   --head-alt-color: #0033CC; /* Medium Blue */
-//   --hover-color: #334999; /* Soft Green */
-//   --unified-bg: radial-gradient(circle, #0066FF, #f8f8f8, #0066FF); /* Green to light blue */
-// }
-
-
-
-.collapsing {
-  transition: 0.3s;
-}
-
-html {
-  scroll-behavior: smooth;
-  overflow-x: hidden;
-}
-
-body {
-  background: var(--unified-bg);
-  background-size: cover, cover; /* Ensure both the gradient and image are properly sized */
-  background-blend-mode: overlay; /* Overlay the image over the gradient */
-  font-family: var(--body-font);
-  background: var(--unified-bg);
-  --background-image: url('/images/kjue_15.jpg');
-  background-size: cover;
-  font-size: 18px;
-  line-height: 30px;
-  padding: 0;
-  margin: 0;
-  font-weight: 400;
-  overflow-x: hidden;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  padding: 0;
-  margin: 0;
-}
-
-h1,
-h1 > a,
-h2,
-h2 > a,
-h3,
-h3 > a,
-h4,
-h4 > a,
-h5,
-h5 > a,
-h6,
-h6 > a {
-  font-family: var(--body-font);
-  color: var(--head-color);
-  font-weight: 600;
-  text-transform: initial;
-  transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
-}
-
-h1 > a:hover,
-h2 > a:hover,
-h3 > a:hover,
-h4 > a:hover,
-h5 > a:hover,
-h6 > a:hover {
-  color: var(--hover-color);
-}
-
-a,
-a:focus,
-a:hover {
-  text-decoration: none;
-  outline: none;
-  color: var(--para-color);
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.max-un {
-  max-width: unset;
-}
-
-ul,
-ol {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-input:focus,
-textarea:focus {
-  outline: none;
-  box-shadow: none;
-}
-
-button {
-  border: none;
-  cursor: pointer;
-}
-
-input,
-textarea {
-  padding: 10px 20px;
-  color: var(--para-color);
-  width: 100%;
-  font-family: var(--body-font) !important;
-  height: 50px;
-  background: #f5faff;
-  border: 1px solid #eef1ff;
-  border-radius: 5px;
-}
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-.main-title {
-  font-size: 50px; /* Adjust font size as needed */
-  font-weight: bold; /* Make it bold for emphasis */
-  line-height: 1.2; /* Adjust line height */
-  text-align: center; /* Align the text to the left */
-  width: 100%; /* Make the text span the full width */
-  margin: 0; /* Remove any default margin */
-  color: #002341; /* Match your heading color */
-}
-input[type="number"] {
-  -moz-appearance: textfield;
-}
-
-input[type="password"] {
-  font-family: initial;
-}
-
-.select {
-  position: relative;
-  background-color: transparent;
-
-  &::after {
-    content: "";
-    vertical-align: 0;
-    background-image: url(/images/icon/menu-down.png);
-    background-repeat: no-repeat;
-    width: 40px;
-    height: 11px;
-  }
-}
-select {
-  -webkit-appearance: none;
-  padding: 10px 10px !important;
-  cursor: pointer;
-  background-color: transparent;
-  background: transparent;
-  padding: 10px 0px;
-  border: none;
-  cursor: pointer;
-  outline: none;
-}
-
-select {
-  background: transparent;
-  padding: 10px 0px;
-  border: none;
-  cursor: pointer;
-  outline: none;
-}
-
-textarea {
-  min-height: 150px;
-  resize: none;
-}
-
-span {
-  display: inline-block;
-}
-
-.table thead th,
-.table td,
-.table th {
-  border: none;
-}
-
-.d-grid {
-  display: grid !important;
-}
-
-.b-none {
-  border: none !important;
-}
-
-iframe {
-  border: 0;
-  width: 100%;
-}
-
-.shadow-none {
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-
-h1,
-h1 > a {
-  font-size: 76px;
-  line-height: 98.8px;
-  margin-top: -18px;
-}
-
-h2,
-h2 > a {
-  font-size: 57px;
-  line-height: 74.1px;
-  margin-top: -12px;
-}
-
-h3,
-h3 > a {
-  font-size: 43px;
-  line-height: 55.9px;
-  margin-top: -8px;
-}
-
-h4,
-h4 > a {
-  font-size: 32px;
-  line-height: 41.6px;
-  margin-top: -7px;
-}
-
-h5,
-h5 > a {
-  font-size: 24px;
-  line-height: 31.2px;
-  margin-top: -5px;
-}
-
-h6,
-h6 > a {
-  font-size: 18px;
-  line-height: 23.4px;
-  margin-top: -3px;
-}
-
-table thead tr th {
-  font-size: 18px;
-  line-height: 30px;
-}
-
-a {
-  display: inline-block;
-  color: var(--head-alt-color);
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
-}
-
-p,
-span,
-li {
-  margin: 0;
-  font-family: var(--body-font);
-  font-size: 18px;
-  font-weight: 400;
-  color: var(--para-color);
-  line-height: 30px;
-}
-
-.section-text {
-  margin-bottom: 34px;
-}
-
-.section-header {
-  margin-bottom: 55px;
-}
-
-.sub-title {
-  color: var(--head-alt-color);
-  margin-bottom: 30px;
-}
-
-.title {
-  font-size: 50px;
-  line-height: 98.8px;
-  margin-top: -18px;
-}
-// .title {
-//   font-size: 50px;
-//   line-height: 98.8px;
-//   margin-top: -18px;
-//   width: 100%; /* Takes full width of the screen */
-//   text-align: center; /* Center-aligns the text */
-//   display: block; /* Ensures the element behaves like a block-level element */
-// }
-
-.title .word-1 {
-  color: #001bb1; /* First word color */
-}
-
-.title .word-2 {
-  color: #E30613; /* Second word color */
-}
-
-.head-icon {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background: var(--hover-color);
-  margin-bottom: 30px;
-}
-
-.title span {
-  font-size: inherit;
-  font-family: inherit;
-  line-height: inherit;
-  font-weight: inherit;
-  color: var(--head-alt-color);
-}
-
-.xxlr {
-  font-size: 26px;
-  line-height: 36px;
-  margin-top: -7px;
-}
-.xlr {
-  font-size: 24px;
-  line-height: 36px;
-  margin-top: -7px;
-}
-.mdr {
-  font-size: 16px;
-  line-height: 22px;
-}
-
-.z-1 {
-  z-index: 1;
-}
-
-.mb-60 {
-  margin-bottom: 60px;
-}
-
-.mt-60 {
-  margin-top: 60px;
-}
-
-.pt-120 {
-  padding-top: 120px;
-}
-
-@media (max-width: 991px) {
-  .pt-120 {
-    padding-top: 60px;
-  }
-  .mb-60 {
-    margin-bottom: 40px;
-  }
-  .mt-60 {
-    margin-top: 40px;
-  }
-}
-
-@media (max-width: 575px) {
-  .pt-120 {
-    padding-top: 50px;
-  }
-}
-
-.pb-120 {
-  padding-bottom: 120px;
-}
-
-@media (max-width: 991px) {
-  .pb-120 {
-    padding-bottom: 60px;
-  }
-}
-
-@media (max-width: 575px) {
-  .pb-120 {
-    padding-bottom: 50px;
-  }
-}
-
-*::-webkit-scrollbar-track {
-  background: #00003e;
-}
-
-*::-webkit-scrollbar {
-  width: 6px;
-}
-
-*::-webkit-scrollbar-button,
-*::-webkit-scrollbar-thumb {
-  background-color: var(--hover-color);
-}
-
-.scrollToTop {
-  position: fixed;
-  bottom: 0;
-  right: 30px;
-  width: 45px;
-  height: 45px;
-  background-color: var(--hover-color);
-  border-radius: 5px;
-  color: #fff;
-  line-height: 45px;
-  font-size: 20px;
-  text-align: center;
-  z-index: 9;
-  cursor: pointer;
-  transition: all 1s;
-  transform: translateY(100%);
-}
-
-.scrollToTop.active {
-  bottom: 30px;
-  transform: translateY(0%);
-  color: var(--body-color);
-}
-
-.scrollToTop:hover {
-  color: var(--body-color);
-}
-
-.icon-svg {
-  position: relative;
-  img {
-    opacity: 1;
-    position: absolute;
-  }
-  svg {
-    position: absolute;
-    stroke-dashoffset: 1500;
-    stroke-dasharray: 1500;
-    transform: scale(1);
-    transition: transform 0.3s, fill 0.5s;
-    opacity: 0;
-    visibility: hidden;
-  }
-  &:hover {
-    svg {
-      visibility: visible;
-      opacity: 1;
-      stroke-dashoffset: 0;
-      fill: transparent;
-      transition: transform 0.3s, fill 0.5s, stroke-dashoffset 6s;
-    }
-    img {
-      opacity: 0;
-      visibility: hidden;
-    }
-  }
-}
-
-.accordion-button:focus {
-  box-shadow: none;
-}
-
-.animated {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-@-webkit-keyframes fadeInDown {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    -ms-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-  }
-  to {
-    opacity: 1;
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-  }
-}
-
-@keyframes fadeInDown {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    -ms-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-  }
-  to {
-    opacity: 1;
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-  }
-}
-
-.fadeInDown {
-  -webkit-animation-name: fadeInDown;
-  animation-name: fadeInDown;
-}
-
-/* cmn btn */
-.cmn-btn {
-  padding: 10px 30px;
-  font-weight: 500;
-  text-align: center;
-  background: var(--hover-color);
-  color: var(--body-color);
-  border: 1px solid var(--hover-color);
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  border-radius: 50px;
-  &:hover {
-    color: var(--head-color);
-    background: transparent;
-    border: 1px solid var(--para-color);
-  }
-  &.second {
-    color: var(--head-color);
-    background: transparent;
-    border: 1px solid var(--para-color);
-    &:hover {
-      color: var(--body-color);
-      background: var(--hover-color);
-      border: 1px solid var(--hover-color);
-    }
-  }
-}
-
-/* Animation */
-@keyframes run_obj {
-  100% {
-    right: 230%;
-    opacity: 0;
-  }
-  80% {
-    right: 200%;
-    opacity: 1;
-  }
-  50% {
-    right: 100%;
-    opacity: 0.5;
-  }
-  0% {
-    right: 10%;
-    opacity: 0;
-  }
-}
-@keyframes run_obj_alt {
-  100% {
-    left: 230%;
-    opacity: 0;
-  }
-  80% {
-    left: 200%;
-    opacity: 1;
-  }
-  50% {
-    left: 100%;
-    opacity: 0.5;
-  }
-  0% {
-    left: 10%;
-    opacity: 0;
-  }
-}
-
-/* Generated by Glyphter (http://www.glyphter.com) on  Sat Oct 09 2021*/
-@font-face {
-  font-family: "arafat font";
-  src: url("../../../public/fonts/arafat-font.eot");
-  src: url("../../../public/fonts/arafat-font.eot?#iefix")
-      format("embedded-opentype"),
-    url("../../../public/fonts/arafat-font.woff") format("woff"),
-    url("../../../public/fonts/arafat-font.ttf") format("truetype"),
-    url("../../../public/fonts/arafat-font.svg#arafat-font") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-[class*="icon-"]:before {
-  display: inline-block;
-  font-family: "arafat font";
-  font-style: normal;
-  font-weight: 400;
-  line-height: 2;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-.icon-a-left-arrow:before {
-  content: "\0041";
-}
-.icon-b-right-arrow:before {
-  content: "\0042";
-}
-.icon-c-left-double-arrow:before {
-  content: "\0043";
-}
-.icon-d-right-double-arrow:before {
-  content: "\0044";
-}
+ 
+   --body-color: #ffffff;          /* White */
+   --para-color: #333333;          /* Dark Grey */
+   --head-color: #002341;          /* Blue */
+   --head-alt-color: #001bb1;      /* Green */
+   --hover-color: #001bb1;         /* Hover color (was Red #0071CE) */
+   --unified-bg: radial-gradient(circle, #f0f4f8, #dfe7ed, #f0f4f8); /* Light Bluish Grey */
+ }
+ 
+ /*
+ // Another variant of :root (commented out)
+ :root {
+   --body-font: "Jost", sans-serif;
+ 
+   --body-color: #ffffff;      // White
+   --para-color: #333333;      // Dark Grey
+   --head-color: #000000;      // Dark Green
+   --head-alt-color: #0033CC;  // Medium Blue
+   --hover-color: #334999;     // Soft Green
+   --unified-bg: radial-gradient(circle, #0066FF, #f8f8f8, #0066FF);
+ }
+ */
+ 
+ /********************************************
+  *  GLOBAL STYLES
+  ********************************************/
+ 
+ .collapsing {
+   transition: 0.3s;
+ }
+ 
+ html {
+   scroll-behavior: smooth;
+   overflow-x: hidden;
+ }
+ 
+ /* 
+    Here is where we overlay the image on top of the radial gradient.
+    The first background listed appears on top.
+ */
+ body {
+   background:
+     url('/images/android-chrome-512x512.png') no-repeat center center / cover,
+     var(--unified-bg);
+   background-blend-mode: overlay;   /* Blends the overlay image with the gradient */
+   background-attachment: fixed;     /* Keeps the background fixed on scroll */
+   background-size: cover, cover;    /* Ensures both layers fill the screen */
+ 
+   font-family: var(--body-font);
+   font-size: 18px;
+   line-height: 30px;
+   margin: 0;
+   padding: 0;
+   font-weight: 400;
+   overflow-x: hidden;
+ }
+ 
+ /********************************************
+  *  HEADING STYLES
+  ********************************************/
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+   padding: 0;
+   margin: 0;
+ }
+ 
+ h1,
+ h1 > a,
+ h2,
+ h2 > a,
+ h3,
+ h3 > a,
+ h4,
+ h4 > a,
+ h5,
+ h5 > a,
+ h6,
+ h6 > a {
+   font-family: var(--body-font);
+   color: var(--head-color);
+   font-weight: 600;
+   text-transform: initial;
+   transition: all 0.3s;
+   -webkit-transition: all 0.3s;
+   -moz-transition: all 0.3s;
+   -ms-transition: all 0.3s;
+   -o-transition: all 0.3s;
+ }
+ 
+ h1 > a:hover,
+ h2 > a:hover,
+ h3 > a:hover,
+ h4 > a:hover,
+ h5 > a:hover,
+ h6 > a:hover {
+   color: var(--hover-color);
+ }
+ 
+ /********************************************
+  *  LINK STYLES
+  ********************************************/
+ a,
+ a:focus,
+ a:hover {
+   text-decoration: none;
+   outline: none;
+   color: var(--para-color);
+ }
+ a {
+   display: inline-block;
+   color: var(--head-alt-color);
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 30px;
+ }
+ 
+ /********************************************
+  *  IMAGES
+  ********************************************/
+ img {
+   max-width: 100%;
+   height: auto;
+ }
+ 
+ .max-un {
+   max-width: unset;
+ }
+ 
+ /********************************************
+  *  LISTS
+  ********************************************/
+ ul,
+ ol {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+ }
+ 
+ /********************************************
+  *  FORMS
+  ********************************************/
+ input:focus,
+ textarea:focus {
+   outline: none;
+   box-shadow: none;
+ }
+ 
+ button {
+   border: none;
+   cursor: pointer;
+ }
+ 
+ input,
+ textarea {
+   padding: 10px 20px;
+   color: var(--para-color);
+   width: 100%;
+   font-family: var(--body-font) !important;
+   height: 50px;
+   background: #f5faff;
+   border: 1px solid #eef1ff;
+   border-radius: 5px;
+ }
+ 
+ /* Remove spinners on number inputs */
+ input::-webkit-outer-spin-button,
+ input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+ }
+ 
+ input[type="number"] {
+   -moz-appearance: textfield;
+ }
+ 
+ input[type="password"] {
+   font-family: initial;
+ }
+ 
+ /********************************************
+  *  SELECT (Dropdown) STYLES
+  ********************************************/
+ .select {
+   position: relative;
+   background-color: transparent;
+ 
+   &::after {
+     content: "";
+     vertical-align: 0;
+     background-image: url('/images/icon/menu-down.png');
+     background-repeat: no-repeat;
+     width: 40px;
+     height: 11px;
+   }
+ }
+ 
+ select {
+   -webkit-appearance: none;
+   padding: 10px 0px;
+   background: transparent;
+   border: none;
+   cursor: pointer;
+   outline: none;
+ }
+ 
+ textarea {
+   min-height: 150px;
+   resize: none;
+ }
+ 
+ /********************************************
+  *  TABLE
+  ********************************************/
+ .table thead th,
+ .table td,
+ .table th {
+   border: none;
+ }
+ 
+ /********************************************
+  *  UTILITY CLASSES
+  ********************************************/
+ .d-grid {
+   display: grid !important;
+ }
+ 
+ .b-none {
+   border: none !important;
+ }
+ 
+ iframe {
+   border: 0;
+   width: 100%;
+ }
+ 
+ .shadow-none {
+   -webkit-box-shadow: none;
+   box-shadow: none;
+ }
+ 
+ /********************************************
+  *  HEADING FONT SIZES
+  ********************************************/
+ h1,
+ h1 > a {
+   font-size: 76px;
+   line-height: 98.8px;
+   margin-top: -18px;
+ }
+ 
+ h2,
+ h2 > a {
+   font-size: 57px;
+   line-height: 74.1px;
+   margin-top: -12px;
+ }
+ 
+ h3,
+ h3 > a {
+   font-size: 43px;
+   line-height: 55.9px;
+   margin-top: -8px;
+ }
+ 
+ h4,
+ h4 > a {
+   font-size: 32px;
+   line-height: 41.6px;
+   margin-top: -7px;
+ }
+ 
+ h5,
+ h5 > a {
+   font-size: 24px;
+   line-height: 31.2px;
+   margin-top: -5px;
+ }
+ 
+ h6,
+ h6 > a {
+   font-size: 18px;
+   line-height: 23.4px;
+   margin-top: -3px;
+ }
+ 
+ /********************************************
+  *  PARAGRAPH / TEXT
+  ********************************************/
+ p,
+ span,
+ li {
+   margin: 0;
+   font-family: var(--body-font);
+   font-size: 18px;
+   font-weight: 400;
+   color: var(--para-color);
+   line-height: 30px;
+ }
+ 
+ .section-text {
+   margin-bottom: 34px;
+ }
+ 
+ .section-header {
+   margin-bottom: 55px;
+ }
+ 
+ .sub-title {
+   color: var(--head-alt-color);
+   margin-bottom: 30px;
+   text-align: center;
+ }
+ 
+ .title {
+   font-size: 50px;
+   line-height: 98.8px;
+   margin-top: -18px;
+ }
+ 
+ .title .word-1 {
+   color: #001bb1; /* First word color */
+ }
+ .title .word-2 {
+   color: #E30613; /* Second word color */
+ }
+ 
+ .head-icon {
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   background: var(--hover-color);
+   margin-bottom: 30px;
+ }
+ 
+ .title span {
+   font-size: inherit;
+   font-family: inherit;
+   line-height: inherit;
+   font-weight: inherit;
+   color: var(--head-alt-color);
+ }
+ 
+ /********************************************
+  *  FONT SIZE UTILITY CLASSES
+  ********************************************/
+ .xxlr {
+   font-size: 26px;
+   line-height: 36px;
+   margin-top: -7px;
+ }
+ .xlr {
+   font-size: 24px;
+   line-height: 36px;
+   margin-top: -7px;
+ }
+ .mdr {
+   font-size: 16px;
+   line-height: 22px;
+ }
+ 
+ /********************************************
+  *  SPACING UTILITY CLASSES
+  ********************************************/
+ .z-1 {
+   z-index: 1;
+ }
+ 
+ .mb-60 {
+   margin-bottom: 60px;
+ }
+ 
+ .mt-60 {
+   margin-top: 60px;
+ }
+ 
+ .pt-120 {
+   padding-top: 120px;
+ }
+ 
+ @media (max-width: 991px) {
+   .pt-120 {
+     padding-top: 60px;
+   }
+   .mb-60 {
+     margin-bottom: 40px;
+   }
+   .mt-60 {
+     margin-top: 40px;
+   }
+ }
+ 
+ @media (max-width: 575px) {
+   .pt-120 {
+     padding-top: 50px;
+   }
+ }
+ 
+ .pb-120 {
+   padding-bottom: 120px;
+ }
+ 
+ @media (max-width: 991px) {
+   .pb-120 {
+     padding-bottom: 60px;
+   }
+ }
+ 
+ @media (max-width: 575px) {
+   .pb-120 {
+     padding-bottom: 50px;
+   }
+ }
+ 
+ /********************************************
+  *  SCROLLBAR
+  ********************************************/
+ *::-webkit-scrollbar-track {
+   background: #00003e;
+ }
+ *::-webkit-scrollbar {
+   width: 6px;
+ }
+ *::-webkit-scrollbar-button,
+ *::-webkit-scrollbar-thumb {
+   background-color: var(--hover-color);
+ }
+ 
+ /********************************************
+  *  SCROLL TO TOP
+  ********************************************/
+ .scrollToTop {
+   position: fixed;
+   bottom: 0;
+   right: 30px;
+   width: 45px;
+   height: 45px;
+   background-color: var(--hover-color);
+   border-radius: 5px;
+   color: #fff;
+   line-height: 45px;
+   font-size: 20px;
+   text-align: center;
+   z-index: 9;
+   cursor: pointer;
+   transition: all 1s;
+   transform: translateY(100%);
+ }
+ .scrollToTop.active {
+   bottom: 30px;
+   transform: translateY(0%);
+   color: var(--body-color);
+ }
+ .scrollToTop:hover {
+   color: var(--body-color);
+ }
+ 
+ /********************************************
+  *  ICON SVG HOVER EFFECT
+  ********************************************/
+ .icon-svg {
+   position: relative;
+   img {
+     opacity: 1;
+     position: absolute;
+   }
+   svg {
+     position: absolute;
+     stroke-dashoffset: 1500;
+     stroke-dasharray: 1500;
+     transform: scale(1);
+     transition: transform 0.3s, fill 0.5s;
+     opacity: 0;
+     visibility: hidden;
+   }
+   &:hover {
+     svg {
+       visibility: visible;
+       opacity: 1;
+       stroke-dashoffset: 0;
+       fill: transparent;
+       transition: transform 0.3s, fill 0.5s, stroke-dashoffset 6s;
+     }
+     img {
+       opacity: 0;
+       visibility: hidden;
+     }
+   }
+ }
+ 
+ /********************************************
+  *  ACCORDION
+  ********************************************/
+ .accordion-button:focus {
+   box-shadow: none;
+ }
+ 
+ /********************************************
+  *  ANIMATIONS
+  ********************************************/
+ .animated {
+   -webkit-animation-duration: 1s;
+   animation-duration: 1s;
+   -webkit-animation-fill-mode: both;
+   animation-fill-mode: both;
+ }
+ 
+ @-webkit-keyframes fadeInDown {
+   from {
+     opacity: 0;
+     -webkit-transform: translate3d(0, -100%, 0);
+     -ms-transform: translate3d(0, -100%, 0);
+     transform: translate3d(0, -100%, 0);
+   }
+   to {
+     opacity: 1;
+     -webkit-transform: none;
+     -ms-transform: none;
+     transform: none;
+   }
+ }
+ 
+ @keyframes fadeInDown {
+   from {
+     opacity: 0;
+     -webkit-transform: translate3d(0, -100%, 0);
+     -ms-transform: translate3d(0, -100%, 0);
+     transform: translate3d(0, -100%, 0);
+   }
+   to {
+     opacity: 1;
+     -webkit-transform: none;
+     -ms-transform: none;
+     transform: none;
+   }
+ }
+ .fadeInDown {
+   -webkit-animation-name: fadeInDown;
+   animation-name: fadeInDown;
+ }
+ 
+ /********************************************
+  *  BUTTONS
+  ********************************************/
+ .cmn-btn {
+   padding: 10px 30px;
+   font-weight: 500;
+   text-align: center;
+   background: var(--hover-color);
+   color: var(--body-color);
+   border: 1px solid var(--hover-color);
+   -webkit-transition: 0.3s;
+   transition: 0.3s;
+   border-radius: 50px;
+ 
+   &:hover {
+     color: var(--head-color);
+     background: transparent;
+     border: 1px solid var(--para-color);
+   }
+ 
+   &.second {
+     color: var(--head-color);
+     background: transparent;
+     border: 1px solid var(--para-color);
+ 
+     &:hover {
+       color: var(--body-color);
+       background: var(--hover-color);
+       border: 1px solid var(--hover-color);
+     }
+   }
+ }
+ 
+ /********************************************
+  *  RUN OBJECT ANIMATION
+  ********************************************/
+ @keyframes run_obj {
+   100% {
+     right: 230%;
+     opacity: 0;
+   }
+   80% {
+     right: 200%;
+     opacity: 1;
+   }
+   50% {
+     right: 100%;
+     opacity: 0.5;
+   }
+   0% {
+     right: 10%;
+     opacity: 0;
+   }
+ }
+ @keyframes run_obj_alt {
+   100% {
+     left: 230%;
+     opacity: 0;
+   }
+   80% {
+     left: 200%;
+     opacity: 1;
+   }
+   50% {
+     left: 100%;
+     opacity: 0.5;
+   }
+   0% {
+     left: 10%;
+     opacity: 0;
+   }
+ }
+ 
+ /********************************************
+  *  CUSTOM ICON FONT
+  *  Generated by Glyphter (http://www.glyphter.com)
+  ********************************************/
+ @font-face {
+   font-family: "arafat font";
+   src: url("../../../public/fonts/arafat-font.eot");
+   src: url("../../../public/fonts/arafat-font.eot?#iefix")
+       format("embedded-opentype"),
+     url("../../../public/fonts/arafat-font.woff") format("woff"),
+     url("../../../public/fonts/arafat-font.ttf") format("truetype"),
+     url("../../../public/fonts/arafat-font.svg#arafat-font") format("svg");
+   font-weight: normal;
+   font-style: normal;
+ }
+ 
+ [class*="icon-"]:before {
+   display: inline-block;
+   font-family: "arafat font";
+   font-style: normal;
+   font-weight: 400;
+   line-height: 2;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+ }
+ 
+ .icon-a-left-arrow:before {
+   content: "\0041";
+ }
+ .icon-b-right-arrow:before {
+   content: "\0042";
+ }
+ .icon-c-left-double-arrow:before {
+   content: "\0043";
+ }
+ .icon-d-right-double-arrow:before {
+   content: "\0044";
+ }
+ 

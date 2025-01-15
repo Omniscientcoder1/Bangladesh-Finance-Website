@@ -9,7 +9,7 @@ import {
 import Social from "../social/Social";
 import footer_Illu_left from "/public/images/footer-Illu-left.png";
 import footer_Illu_right from "/public/images/footer-Illu-right.png";
-import Logo from "/public/images/logo.png";
+import Logo from "/public/images/logo_main.png";
 
 const Footer = () => {
   return (
@@ -22,17 +22,16 @@ const Footer = () => {
                 <Image src={Logo} alt="logo" />
               </Link>
               <p>
-                A modern, technology-first bank built for you and your growing
+                A modern, technology-first NBFI built for you and your growing
                 business.
               </p>
               <div className="social-link d-flex align-items-center">
                 {/* Socials links here */}
                 <Social
                   items={[
-                    [FaFacebookF, "/"],
-                    [FaTwitter, "/"],
-                    [FaLinkedinIn, "/"],
-                    [FaInstagram, "/"],
+                    [FaFacebookF, "https://www.facebook.com/bdfinance"],
+                    [FaLinkedinIn, "https://www.linkedin.com/company/bangladeshfinanceltd/posts/?feedView=all"],
+                    [FaInstagram, "https://www.instagram.com/bangladesh_finance_ltd/"],
                   ]}
                 />
               </div>
@@ -44,6 +43,9 @@ const Footer = () => {
               <ul className="footer-link">
                 <li>
                   <Link href="/about">About Us</Link>
+                </li>
+                <li>
+                  <Link href="https://www.bdfinance.org/">Banladesh Finance Islamic</Link>
                 </li>
                 {/* <li>
                   <Link href="/about">Awards</Link>
@@ -130,10 +132,10 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="img-area">
+      {/* <div className="img-area">
         <Image src={footer_Illu_left} className="left" alt="Images" />
         <Image src={footer_Illu_right} className="right" alt="Images" />
-      </div>
+      </div> */}
     </div>
   );
 };

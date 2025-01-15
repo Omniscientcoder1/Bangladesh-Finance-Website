@@ -14,8 +14,8 @@ export default function About() {
       <CoreValues />
       {/* <GlobalBanking /> */}
       <OurJourney />
-      <Team />
-      {/* <Career /> */}
+      {/* <Team /> */}
+      <Career />
     </>
   );
 }

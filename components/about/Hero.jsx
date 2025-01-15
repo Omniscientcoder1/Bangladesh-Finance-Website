@@ -1,11 +1,11 @@
 import Image from "next/image";
-import about_img_1 from "/public/images/about-img-1.png";
-import about_img_2 from "/public/images/about-img-2.png";
-import about_img_3 from "/public/images/about-img-3.png";
+import about_img_1 from "/public/images/বিডি-ফাইন্যান্স-১-1.jpg";
+import about_img_2 from "/public/images/aboutimg2.png";
+import about_img_3 from "/public/images/bangladesh_finance_green-1.jpg";
 
 const Hero = () => {
   return (
-    <section className="about-section" style={{ paddingTop: "160px" }}>
+    <section className="about-section" style={{ paddingTop: "10px" }}>
       <div className="overlay pt-120 pb-120">
         <div className="container wow fadeInUp">
           <div className="row align-items-center">

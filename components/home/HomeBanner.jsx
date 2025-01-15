@@ -59,8 +59,7 @@ const HomeBanner = () => {
                 <div className="main-content">
                   <div className="top-area section-text justify-content-center">
                     <h2 className="main-title">
-                      Complete Products and services designed to help you to reach
-                      your financial goals.
+                     The most Trusted Financial Institution of Bangladesh
                     </h2>
                   </div>
                   <div className="bottom-area text-center">

@@ -11,7 +11,7 @@ const Career = () => {
             <div className="col-xl-9 col-lg-10">
               <div className="section-header text-center">
                 <h5 className="sub-title">Current Positions</h5>
-                <h2 className="title">Unlock Your Career at Bankio</h2>
+                <h2 className="title">Unlock Your Career at Bngladesh Finance</h2>
                 <p>
                   Grow with us and take your professional life to the next
                   level.
