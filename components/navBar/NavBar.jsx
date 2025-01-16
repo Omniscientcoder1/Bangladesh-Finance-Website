@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { navData } from "./navData";
-import Logo from "/public/images/logo_resized1.png";
+import Logo from "/public/images/logo_resized.png";
 
 const NavBar = () => {
   const [windowHeight, setWindowHeight] = useState(0);
