@@ -556,7 +556,12 @@
 }
 
 .footer-section {
-  background: #f5faff;
+  background: 
+    url('/images/android-chrome-512x512.png') no-repeat right, /* Background image */
+    #f5faff; 
+    /* White background color */
+  background-size: auto; /* Use the default dimensions of the image */
+
 
   .img-area {
     position: relative;

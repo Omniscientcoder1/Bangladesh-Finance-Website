@@ -12,23 +12,175 @@ import Testimonials from "../components/home/Testimonials";
 import Deposits from "../components/common/PlanningDeposits";
 import AllFaqs from "/components/faqs/AllFaqs.jsx"
 
+// export default function Home() {
+//   return (
+//     <>
+//       <HomeBanner />
+//       {/* <Features /> */}
+//       {/* <BusinessSolutions /> */}
+//       <Deposits/>
+//       <Planning />
+//       <AppInfo />
+//       {/* <BankioCard /> */}
+//       <CallToAction />
+//       {/* <Personalized /> */}
+//       {/* <Testimonials /> */}
+//       {/* <LatestArticles /> */}
+//       {/* <Faq /> */}
+//       <AllFaqs />
+    
+//     </>
+//   );
+// }
+
+import { motion } from "framer-motion";
+// import HomeBanner from "./HomeBanner";
+// import Deposits from "./Deposits";
+// import Planning from "./Planning";
+// import AppInfo from "./AppInfo";
+// import CallToAction from "./CallToAction";
+// import AllFaqs from "./AllFaqs";
+// import Features from "./Features";
+// import BusinessSolutions from "./BusinessSolutions";
+// import BankioCard from "./BankioCard";
+// import Personalized from "./Personalized";
+// import Testimonials from "./Testimonials";
+// import LatestArticles from "./LatestArticles";
+// import Faq from "./Faq";
+
+const fadeInDirection = (direction) => {
+  return {
+    hidden: {
+      opacity: 0,
+      x: direction === "left" ? -100 : 100,
+    },
+    visible: {
+      opacity: 1,
+      x: 0,
+      transition: { duration: 0.8 },
+    },
+  };
+};
+
 export default function Home() {
   return (
     <>
-      <HomeBanner />
-      <Features />
-      {/* <BusinessSolutions /> */}
-      <Deposits/>
-      <Planning />
-      <AppInfo />
-      {/* <BankioCard /> */}
-      <CallToAction />
-      {/* <Personalized /> */}
-      {/* <Testimonials /> */}
-      {/* <LatestArticles /> */}
-      {/* <Faq /> */}
-      <AllFaqs />
-    
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.25 }}
+        variants={fadeInDirection("left")}
+      >
+        <HomeBanner />
+      </motion.div>
+
+      {/* <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.25 }}
+        variants={fadeInDirection("right")}
+      >
+        <Features />
+      </motion.div> */}
+
+      {/* <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.25 }}
+        variants={fadeInDirection("left")}
+      >
+        <BusinessSolutions />
+      </motion.div> */}
+
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.25 }}
+        variants={fadeInDirection("right")}
+      >
+        <Deposits />
+      </motion.div>
+
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.25 }}
+        variants={fadeInDirection("left")}
+      >
+        <Planning />
+      </motion.div>
+
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.25 }}
+        variants={fadeInDirection("right")}
+      >
+        <AppInfo />
+      </motion.div>
+
+      {/* <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.25 }}
+        variants={fadeInDirection("left")}
+      >
+        <BankioCard />
+      </motion.div> */}
+
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.25 }}
+        variants={fadeInDirection("left")}
+      >
+        <CallToAction />
+      </motion.div>
+
+      {/* <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.25 }}
+        variants={fadeInDirection("right")}
+      >
+        <Personalized />
+      </motion.div> */}
+
+      {/* <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.25 }}
+        variants={fadeInDirection("left")}
+      >
+        <Testimonials />
+      </motion.div> */}
+
+      {/* <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.25 }}
+        variants={fadeInDirection("right")}
+      >
+        <LatestArticles />
+      </motion.div> */}
+
+      {/* <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.25 }}
+        variants={fadeInDirection("left")}
+      >
+        <Faq />
+      </motion.div> */}
+
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.25 }}
+        variants={fadeInDirection("right")}
+      >
+        <AllFaqs />
+      </motion.div>
     </>
   );
 }

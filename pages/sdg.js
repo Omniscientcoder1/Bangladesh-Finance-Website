@@ -17,7 +17,7 @@ const AlignmentWithSDGs = () => {
       {/* Title and Content Section */}
       <section className="content-section">
         <div className="container">
-          <h2>Alignment with SDG's</h2>
+          <h2>Alignment with SDG&apos;s</h2>
           <p>
           In promoting sustainable development, we have chosen to focus on 11 SDGs which we believe we can make meaningful contributions to, and after taking into account the markets in which we operate.
           </p>

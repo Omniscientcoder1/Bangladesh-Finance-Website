@@ -107,6 +107,7 @@ import FunFact from "@/components/FunFact";
 import JourneyCarousel from "@/components/about/OurJourney.jsx";
 import Hero from "@/components/about/Hero.jsx";
 import CoreValues from "@/components/about/CoreValues.jsx";
+import Banner from "../components/about/Banner";
 
 export default function AtAGlance() {
   // Data for key highlights
@@ -148,6 +149,7 @@ export default function AtAGlance() {
   ];
 
   return (
+    
     <div className="flex flex-col items-center bg-gray-100 text-center text-white pt-30 mt-50">
       {/* Photo Banner Section
       <div className="w-full pt-48 sm:pt-64 md:pt-96 px-4">
@@ -162,9 +164,11 @@ export default function AtAGlance() {
         />
       </div> */}
       {/* Overview Section */}
+      <><Banner/></>
       <section className="py-12 pt-20">
         <div className="container mx-auto px-4">
           <div className="pt-12">
+            
             <Hero />
           </div>
         </div>

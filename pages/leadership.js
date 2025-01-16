@@ -12,18 +12,18 @@ const Leadership = () => {
             title: "Managing Director & CEO, Bangladesh Finance Limited",
             description: (
                 <>
-           Md. Kyser Hamid is a visionary force in Bangladesh's financial sector, heralding a new era of innovation and progress. With over decades of dynamic leadership, Kyser has redefined the paradigms of success, steering Bangladesh Finance to unprecedented heights of excellence. <br /><br />
+          Md. Kyser Hamid is a visionary force in Bangladesh&apos;s financial sector, heralding a new era of innovation and progress. With over decades of dynamic leadership, Kyser has redefined the paradigms of success, steering Bangladesh Finance to unprecedented heights of excellence. <br /><br />
     
-          Kyser's journey epitomizes unwavering commitment to driving change and fostering advancement, from groundbreaking roles at IDLC Finance and DBH to trailblazing endeavors at BRAC Bank and IPDC, where his strategic vision and bold initiatives propelled unprecedented success in the financial industry. <br /><br />
+          Kyser&apos;s journey epitomizes unwavering commitment to driving change and fostering advancement, from groundbreaking roles at IDLC Finance and DBH to trailblazing endeavors at BRAC Bank and IPDC, where his strategic vision and bold initiatives propelled unprecedented success in the financial industry. <br /><br />
     
-          Kyser Hamid holds an MBA in Marketing from North South University and a BBA with a specialization in Accounting and Information Systems from University of Dhaka. <br /><br />
+          Kyser Hamid holds an MBA in Marketing from North South University and a BBA with a specialization in Accounting and Information Systems from the University of Dhaka. <br /><br />
       
           Kyser has undergone comprehensive training programs in India, Malaysia, and Singapore, expanding his skill set. He actively engages in knowledge-sharing forums and conducts business visits across South Asia, the Middle East, Asia Pacific, UK, and USA to stay updated on global industry trends.
-          Kyser Hamid is an active contributor to various industry associations and social welfare initiatives. He serves as an Executive Committee Member of the Bangladesh Association of Publicly Listed Companies (BAPLC), where he advocates for the interests of publicly listed companies. Additionally, Kyser is a Standing Committee Member of FBCCI on NBFIs and Vice - Chairman of the Bangladesh Leasing & Finance Companies Association (BLFCA), where he actively participates in policy formulation and industry development initiatives. <br /><br />
+          Kyser&apos;s leadership extends to active contributions as an Executive Committee Member of the Bangladesh Association of Publicly Listed Companies (BAPLC), where he advocates for the interests of publicly listed companies. Additionally, Kyser is a Standing Committee Member of FBCCI on NBFIs and Vice-Chairman of the Bangladesh Leasing &amp; Finance Companies Association (BLFCA)., where he advocates for the interests of publicly listed companies. Additionally, Kyser is a Standing Committee Member of FBCCI on NBFIs and Vice - Chairman of the Bangladesh Leasing & Finance Companies Association (BLFCA), where he actively participates in policy formulation and industry development initiatives. <br /><br />
     
           Furthermore, Kyser has made significant contributions to academia, serving as a visiting professor and adjunct faculty member at ASA University and BGMEA University, and conducting classes as a guest faculty at the University of Dhaka. Additionally, he contributes as a syllabus committee member at BRAC University and United International University. <br /><br />
     
-          In Kyser Hamid, Bangladesh's financial sector has found a visionary leader whose passion for innovation, dedication to excellence, and unwavering commitment to progress continue to inspire and transform the industry, shaping a brighter future for all.
+          In Kyser Hamid, Bangladesh&apos;s financial sector has found a visionary leader whose passion for innovation, dedication to excellence, and unwavering commitment to progress continue to inspire and transform the industry, shaping a brighter future for all.
     
                 </>
               ),
@@ -35,10 +35,10 @@ const Leadership = () => {
             title: "Managing Director & CEO, Bangladesh Finance Securities Limited",
             description: (
                 <>
-                  Mr. Khondokar Mahmudul Hasan is an accomplished leader with nearly two decades of exemplary service in the Bangladeshi Capital Market. Currently steering the ship as the Managing Director & CEO of Bangladesh Finance Securities Limited, Mr. Hasan's journey is marked by a series of significant achievements and a relentless dedication to fostering growth and excellence. <br /><br />
-    Throughout his illustrious career, Mr. Hasan has held pivotal leadership roles that have showcased his exceptional leadership skills and strategic vision. His tenure as the Head of Operations at Remons Investment & Securities Limited was characterized by a profound commitment to operational efficiency and excellence, where he implemented streamlined processes that optimized performance and enhanced client satisfaction. <br /><br />
-    Transitioning to the role of Chief Operating Officer at both ANF Management Co. Ltd. and BD Finance Securities Limited, Mr. Hasan further solidified his reputation as a dynamic leader capable of driving organizational success. Under his stewardship, both firms experienced unprecedented growth and expansion, with Mr. Hasan's strategic initiatives laying the foundation for long-term sustainability and profitability. <br /><br />
-    Mr. Hasan's leadership prowess extends beyond the boardroom, as evidenced by his active involvement in industry training sessions and seminars. His dedication to continuous learning and professional development underscores his commitment to staying ahead of the curve and equipping himself with the knowledge and skills necessary to navigate the ever-evolving landscape of the capital market. <br /><br />
+                   Mr. Khondokar Mahmudul Hasan&apos;s journey is marked by a series of significant achievements and a relentless dedication to fostering growth and excellence. <br /><br />
+    Throughout his illustrious career, Mr. Hasan has held pivotal leadership roles that have showcased his exceptional leadership skills and strategic vision.  His tenure as the Head of Operations at Remons Investment &amp; Securities Limited was characterized by a profound commitment to operational efficiency and excellence. <br /><br />
+    Transitioning to the role of Chief Operating Officer at both ANF Management Co. Ltd. and BD Finance Securities Limited, Mr. Hasan further solidified his reputation as a dynamic leader. <br /><br />
+   
     A true advocate for investor empowerment, Mr. Hasan possesses a unique ability to connect with stakeholders and inspire confidence through his unwavering commitment to transparency, integrity, and ethical conduct. His innate talent for building strong relationships and fostering a culture of trust and collaboration has earned him the respect and admiration of colleagues and clients alike. <br /><br />
     As the helm of Bangladesh Finance Securities Limited, Mr. Hasan is poised to lead the organization to new heights of success, leveraging his extensive experience, leadership acumen, and strategic foresight to drive innovation, growth, and shareholder value. His exemplary track record of leadership and achievement serves as a testament to his unwavering dedication to excellence and his profound impact on the Capital Market of Bangladesh. <br /><br />
     
@@ -60,14 +60,17 @@ const Leadership = () => {
               Specializing in areas such as portfolio management, mergers and acquisitions, initial public offerings (IPOs), debt and equity financing, and restructuring transactions. Mr. Podder’s proficiency in these domains has been pivotal in guiding clients from diverse sectors to make informed financial decisions and achieve their goals. 
               </p>
               <p>
-              Mr. Podder’s extensive portfolio spans a wide range of sectors, including technology, telecommunications, banking and non-banking financial institutions (NBFIs), power, industrials, real estate, manufacturing, and consumer goods. This vast experience highlights Mr. Podder’s adaptability and versatility in dealing with the intricacies of various industries
-              </p>
+  His extensive portfolio spans a wide range of sectors, including technology, telecommunications, banking, and non-banking financial institutions (NBFIs). <br /><br />
+</p>
+              <p>
+  Mr. Sumit Podder&apos;s proficiency in these domains has been pivotal in guiding clients from diverse sectors to make informed financial decisions and achieve their goals. <br /><br />
+</p>
               <p>
               Prior to assuming his current role, Mr. Podder held key leadership positions at several notable organizations, leaving a lasting impact on each. He notably served as the Head of Structured Finance at Bangladesh Finance Limited and played a crucial role as the Head of Corporate Advisory at City Bank Capital Limited. Furthermore, he has lent his expertise to River Stone Capital Limited, Alliance Financial Services Limited, and Alliance Securities and Management Limited, thereby enriching his professional portfolio. 
               </p>
               <p>
-              Mr. Podder’s reputation as a pioneer in finance is a testament to his exceptional financial acumen, strategic prowess, and adept problem-solving abilities. His guidance has not only driven the success of his clients but has also garnered him widespread respect and admiration within the industry. 
-              </p>
+  Mr. Podder&apos;s reputation as a pioneer in finance is a testament to his exceptional financial acumen, strategic prowess, and adept problem-solving abilities. <br /><br />
+</p>
               <p>
               Beyond his professional accomplishments, Mr. Podder serves as a beacon of inspiration for aspiring finance professionals, embodying the qualities of leadership, dedication, and excellence. His journey stands as a testament to the rewards of perseverance and the pursuit of excellence in the dynamic field of finance.
               </p>
@@ -85,7 +88,9 @@ const Leadership = () => {
                 <>
                 <p>Mr. Sajjadur Rahman Bhuiyan brings nearly 15 years of extensive experience in finance and accounts, internal control and compliance, planning and budgeting, and risk management within the financial sector. He commenced his journey with Bangladesh Finance in 2007 and has held various roles before assuming the position of Chief Financial Officer in 2015. Additionally, he serves as the Chief Anti Money Laundering Compliance Officer (CAMLCO) of Bangladesh Finance. </p>
                 <p>Prior to his tenure at Bangladesh Finance, Mr. Bhuiyan worked with Hoda Vasi Chowdhury & Company (Chartered Accountants) as an Audit Supervisor. </p>
-                <p>His core expertise includes financial reporting and financial management, strategic planning and forecasting, financial and business analysis, control and compliance, and policy development. </p>
+                <p>
+  Mr. Sajjadur Rahman Bhuiyan&apos;s core expertise includes financial reporting and financial management, strategic planning and forecasting, financial and business analysis, control and compliance, and policy development. <br /><br />
+</p>
                 <p>Mr. Bhuiyan obtained his post-graduation degree in Accounting from Dhaka College. He is a registered Income Tax Practitioner and a member of the Dhaka Taxes Bar Association. With vast experience in financial analysis, internal control and compliance, tax and VAT, credit risk management, asset liability management, and AML/CFT, Mr. Bhuiyan brings a wealth of knowledge and expertise to his role.</p>
                 </>
               ),
@@ -104,8 +109,8 @@ const Leadership = () => {
                 With a diverse background encompassing renowned banks, Mobile Financial Services (MFS), and a Big 4 audit firm, Mr. Faisal has held significant roles in various domains including Information and Communication Technology, Information & Cyber Security, ICT Governance, Risk, and Compliance (GRC) Management, ICT standardization, IT Audit, Fraud Investigations, and Core platform migrations.
                 </p>
                 <p>
-                Mr. Faisal's contributions are widely recognized, particularly his involvement in shaping the Central Bank's "Guideline on ICT Security for Banks, v4.0, 2023." His leadership and collaborative efforts have led to notable achievements, including receiving prestigious awards in national cyber/hackathon programs.
-                </p>
+  Md. Faisal Hossain&apos;s contributions are widely recognized, particularly his involvement in shaping the Central Bank&apos;s &quot;Guideline on ICT Security for Banks, v4.0, 2023.&quot; <br /><br />
+</p>
                 <p>
                 He holds a B.Sc. in Computer Science and Engineering (CSE) and an MBA in Management Information Systems (MIS) from the esteemed University of Dhaka. Mr. Faisal is known for his ability to foster a culture of cybersecurity awareness, having initiated Cyber Security Awareness Month celebration programs in multiple organizations.
                 </p>
@@ -132,7 +137,7 @@ const Leadership = () => {
                 In 2019, as a testament to his expertise and dedication, Mr. Amin transitioned to lead the Operations team. His proficiency spans across various domains including Process Development, Project Implementation (such as CBS), Strategic Planning, Credit Administration, Loan Processing, Liability Operation, Channel Financing, and Regulatory Compliance. 
                 </p>
                 <p>
-                Having completed his BBA and MBA in Accounting & Information Systems from the University of Dhaka, Mr. Amin is a homegrown talent of Bangladesh Finance, embodying the organization's commitment to nurturing and empowering its personnel.
+                Having completed his BBA and MBA in Accounting & Information Systems from the University of Dhaka, Mr. Amin is a homegrown talent of Bangladesh Finance, embodying the organization&apos;s commitment to nurturing and empowering its personnel.
                 </p>
                 </>
               ),
@@ -183,10 +188,10 @@ const Leadership = () => {
                 Md. Jubraj Hossain assumed the role of Head of Treasury at Bangladesh Finance Ltd in November 2021, following his tenure at Delta Brac Housing Finance Corporation Ltd and VIPB Asset Management Company Ltd. With over 13 years of experience in treasury and investment, Jubraj has cultivated expertise through collaborations with Bangladesh Bank and various esteemed local and international entities, ensuring best practices in treasury, fund management, and investment. 
                 </p>
                 <p>
-                In his current capacity, Jubraj spearheads Bangladesh Finance Ltd's strategic growth initiatives in the treasury and fund management sectors. Under his leadership, the company has fortified its standing as a compliant and transparent financial institution while achieving significant growth milestones. 
+                In his current capacity, Jubraj spearheads Bangladesh Finance Ltd&apos;s strategic growth initiatives in the treasury and fund management sectors. Under his leadership, the company has fortified its standing as a compliant and transparent financial institution while achieving significant growth milestones. 
                 </p>
                 <p>
-                Jubraj holds a BBA and MBA with a specialization in Finance from the University of Dhaka. His proficiency spans across vital functional domains including Treasury operations, Portfolio Management, Investment strategies, and Risk Management. Jubraj has actively participated in diverse training programs and workshops encompassing Treasury management, Bond Market Development, Risk Mitigation, BASEL II compliance, and Stress Testing methodologies. Beyond his professional pursuits, Jubraj's interests extend to sports and travel.
+                Jubraj holds a BBA and MBA with a specialization in Finance from the University of Dhaka. His proficiency spans across vital functional domains including Treasury operations, Portfolio Management, Investment strategies, and Risk Management. Jubraj has actively participated in diverse training programs and workshops encompassing Treasury management, Bond Market Development, Risk Mitigation, BASEL II compliance, and Stress Testing methodologies. Beyond his professional pursuits, Jubraj&apos;s interests extend to sports and travel.
                 </p>
                 </>
               ),
@@ -234,10 +239,10 @@ const Leadership = () => {
             description: (
                 <>
                 <p>
-                Mr. Amitav Debnath possesses over 12 years of extensive experience in finance and accounting, taxation, internal control and compliance, planning and budgeting, and risk management within the financial sector. He has previously held key positions such as Deputy Chief Financial Officer at NCC Bank Limited, Head of Head Office Audit at BRAC Bank Limited, and Manager of Audit and Consultancy at ACNABIN, Chartered Accountants. Mr. Debnath's areas of expertise include corporate reporting and financial management, strategic planning and forecasting, financial and business analysis, internal control and compliance, and policy development. 
+                Mr. Amitav Debnath possesses over 12 years of extensive experience in finance and accounting, taxation, internal control and compliance, planning and budgeting, and risk management within the financial sector. He has previously held key positions such as Deputy Chief Financial Officer at NCC Bank Limited, Head of Head Office Audit at BRAC Bank Limited, and Manager of Audit and Consultancy at ACNABIN, Chartered Accountants. Mr. Debnath&apos;s areas of expertise include corporate reporting and financial management, strategic planning and forecasting, financial and business analysis, internal control and compliance, and policy development. 
                 </p>
                 <p>
-                As a Fellow Chartered Accountant (FCA), Mr. Debnath graduated from BRAC University with a bachelor's degree in business administration. His professional repertoire encompasses a wide range of competencies essential for driving financial excellence and organizational growth.
+                As a Fellow Chartered Accountant (FCA), Mr. Debnath graduated from BRAC University with a bachelor&apos;s degree in business administration. His professional repertoire encompasses a wide range of competencies essential for driving financial excellence and organizational growth.
                 </p>
                 </>
               ),
@@ -287,10 +292,10 @@ const Leadership = () => {
                 Mohammad Masud Rana brings with him a wealth of experience spanning 18 years, with expertise in sales, business development, and customer relationship management. In 2022, he assumed the role of Head of Sales at the SME & Retail Department of Bangladesh Finance, following his tenure as the Regional Sales Head at IPDC Finance. 
                 </p>
                 <p>
-                Rana's academic background includes Honors and Masters degrees in Accounting from the National University, complemented by an MBA in Bank Management from Stamford University, Bangladesh. 
+                Rana&apos;s academic background includes Honors and Masters degrees in Accounting from the National University, complemented by an MBA in Bank Management from Stamford University, Bangladesh. 
                 </p>
                 <p>
-                Beyond his impressive credentials, Rana's leadership extends to driving strategic initiatives such as asset sales and alternative channel development. His proficiency in these areas underscores his commitment to optimizing the institution's performance and enhancing customer experience. Rana's strategic vision and hands-on approach position Bangladesh Finance for sustained growth and success in the dynamic financial landscape.
+                Beyond his impressive credentials, Rana&apos;s leadership extends to driving strategic initiatives such as asset sales and alternative channel development. His proficiency in these areas underscores his commitment to optimizing the institution&apos;s performance and enhancing customer experience. Rana&apos;s strategic vision and hands-on approach position Bangladesh Finance for sustained growth and success in the dynamic financial landscape.
                 </p>
                 </>
               ),
@@ -338,7 +343,7 @@ const Leadership = () => {
             description: (
                 <>
                 <p>
-                Md. Ashekul Arifin Patwary is a distinguished AON-Certified Talent Management Professional with extensive collaboration experience within the financial sector's Human Resources domain. With over a decade of hands-on experience as an HR Generalist, his expertise encompasses Talent Management, Organizational Development, Training & Evaluation, Performance Management, Employee Engagement, and Employee Lifecycle Management. 
+                Md. Ashekul Arifin Patwary is a distinguished AON-Certified Talent Management Professional with extensive collaboration experience within the financial sector&apos;s Human Resources domain. With over a decade of hands-on experience as an HR Generalist, his expertise encompasses Talent Management, Organizational Development, Training & Evaluation, Performance Management, Employee Engagement, and Employee Lifecycle Management. 
                 </p>
                 <p>
                 Since joining Bangladesh Finance Limited on February 1, 2021, Mr. Patwary has been overseeing critical HR functions within the BFL Group. His responsibilities include Talent Management, Training & Development, Performance Management, Organizational Development, and HR Project & Compliance. 
@@ -366,7 +371,7 @@ const Leadership = () => {
                 Rahman holds a BBA and MBA in Marketing from the esteemed North South University, complemented by a multitude of certifications from industry giants such as Facebook Blueprint and Google. These include Ad Auction and Delivery Overview, Campaign Manager Certification, Fundamentals of Digital Marketing, and Digital Sales & Google Analytics. 
                 </p>
                 <p>
-                At Bangladesh Finance, Rahman steers the brand journey from the rebranding stage to a position of prominence in the market. Through strategic planning, innovative campaigns, and meticulous execution, he ensures that the organization's brand messaging resonates with its target audience, driving positive brand perception and loyalty. Rahman's leadership in brand communication reinforces Bangladesh Finance's market positioning and strengthens its presence in the competitive landscape. 
+                At Bangladesh Finance, Rahman steers the brand journey from the rebranding stage to a position of prominence in the market. Through strategic planning, innovative campaigns, and meticulous execution, he ensures that the organization&apos;s brand messaging resonates with its target audience, driving positive brand perception and loyalty. Rahman&apos;s leadership in brand communication reinforces Bangladesh Finance&apos;s market positioning and strengthens its presence in the competitive landscape. 
                 </p>
                 <p>
                 In his capacity at Bangladesh Finance, Rahman is responsible not only for steering the brand journey but also for managing PR & Media engagements, driving CSR initiatives, optimizing customer experience, and ensuring the smooth functioning of call center operations.

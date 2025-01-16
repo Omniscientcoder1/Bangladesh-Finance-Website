@@ -150,3 +150,68 @@
         }
     }
 }
+
+.shurokkha-content {
+    padding: 20px 0;
+  
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+  
+    .card {
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: calc(50% - 20px);
+      max-width: 500px;
+  
+      h2 {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+        text-align: center;
+      }
+  
+      ul, ol {
+        margin-left: 20px;
+  
+        li {
+          margin-bottom: 10px;
+          line-height: 1.6;
+        }
+      }
+    }
+  
+    .application-form {
+      margin-top: 30px;
+      text-align: center;
+  
+      .btn {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+  
+        &:hover {
+          background-color: #0056b3;
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .shurokkha-content {
+      .card-container {
+        flex-direction: column;
+      }
+  
+      .card {
+        width: 100%;
+      }
+    }
+  }
+  

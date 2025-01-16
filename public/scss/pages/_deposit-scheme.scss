@@ -1,5 +1,3 @@
-// styles/_deposit-scheme.scss
-
 .deposit-scheme-banner {
     display: flex;
     align-items: center;
@@ -10,73 +8,81 @@
     text-align: center;
     color: #fff;
     margin-top: 10px;
-
+  
     h1 {
-        font-size: 3rem;
-        margin-bottom: 10px;
-        text-align: center;
+      font-size: 3rem;
+      margin-bottom: 10px;
+      text-align: center;
     }
-
+  
     p {
-        font-size: 1.5rem;
-        text-align: center;
+      font-size: 1.5rem;
+      text-align: center;
     }
-}
-
-.deposit-scheme-content {
+  }
+  
+  .deposit-scheme-content {
     padding: 50px 0;
-    text-align: center;
-
-    h2 {
-        font-size: 2.5rem;
-        margin-bottom: 20px;
-        text-align: center;
+  
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
     }
-
-    h3 {
-        font-size: 2rem;
-        margin-top: 30px;
+  
+    .card {
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: calc(50% - 20px);
+      max-width: 500px;
+      text-align: left;
+  
+      h2, h3 {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
         text-align: center;
-    }
-
-    ul, ol {
+      }
+  
+      ul, ol {
         margin-left: 20px;
-        text-align: center;
+  
         li {
-            margin-bottom: 10px;
-            text-align: center;
-
-            a {
-                color: blue;
-                text-decoration: underline;
-                text-align: center;
-
-                &:hover {
-                    color: darkblue;
-                }
-            }
-        }
-    }
-
-    .apply-now {
-        margin-top: 30px;
-        text-align: center;
-
-        .btn {
-            background-color: #007bff;
-            color: #fff;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-
+          margin-bottom: 10px;
+  
+          a {
+            color: blue;
+            text-decoration: underline;
+  
             &:hover {
-                background-color: #0056b3;
+              color: darkblue;
             }
+          }
         }
+      }
     }
-}
-
-.islamic-deposit-banner {
+  
+    .apply-now {
+      margin-top: 30px;
+      text-align: center;
+  
+      .btn {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+  
+        &:hover {
+          background-color: #0056b3;
+        }
+      }
+    }
+  }
+  
+  .islamic-deposit-banner {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,45 +92,46 @@
     text-align: center;
     color: #fff;
     margin-top: 10px;
-
+  
     h1 {
-        font-size: 3rem;
-        margin-bottom: 10px;
-        margin-top: 10px;
+      font-size: 3rem;
+      margin-bottom: 10px;
+      margin-top: 10px;
     }
-
+  
     p {
-        font-size: 1.5rem;
+      font-size: 1.5rem;
     }
-}
-
-@media (max-width: 768px) {
+  }
+  
+  @media (max-width: 768px) {
     .deposit-scheme-banner,
     .islamic-deposit-banner {
-        padding: 0; // Remove extra padding for smaller devices
-        background-size: contain;
+      padding: 0; // Remove extra padding for smaller devices
+      background-size: contain;
     }
-
+  
     h1 {
-        font-size: 2rem;
+      font-size: 2rem;
     }
-
+  
     p {
-        font-size: 1rem;
+      font-size: 1rem;
     }
-}
-
-@media (max-width: 480px) {
+  }
+  
+  @media (max-width: 480px) {
     .deposit-scheme-banner,
     .islamic-deposit-banner {
-        padding: 0;
+      padding: 0;
     }
-
+  
     h1 {
-        font-size: 1.5rem;
+      font-size: 1.5rem;
     }
-
+  
     p {
-        font-size: 0.875rem;
+      font-size: 0.875rem;
     }
-}
+  }
+  

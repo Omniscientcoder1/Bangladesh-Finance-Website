@@ -15,9 +15,7 @@ $banner-height: 60vh;
 // Banner Section
 .banner {
   background: url('/images/saving-1.png') no-repeat center center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flex-center;
   flex-direction: column;
   background-size: contain;
   height: 100vh;
@@ -34,7 +32,7 @@ $banner-height: 60vh;
     h1 {
       font-size: 2.5rem;
       margin-bottom: 10px;
-      margin-top:700px;
+      margin-top: 700px;
     }
 
     p {
@@ -52,21 +50,44 @@ $banner-height: 60vh;
   .container {
     max-width: 800px;
     margin: 0 auto;
-    text-align: left;
 
-    h2 {
-      font-size: 2rem;
-      color: $text-color;
-      margin-bottom: 20px;
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
     }
 
-    ul,
-    ol {
-      margin-left: 20px;
-      color: $text-color;
+    .card {
+      background-color: $background-color;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: calc(50% - 20px);
+      max-width: 500px;
 
-      li {
-        margin-bottom: 10px;
+      h2, h3 {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+        text-align: center;
+      }
+
+      ul, ol {
+        margin-left: 20px;
+        color: $text-color;
+
+        li {
+          margin-bottom: 10px;
+
+          a {
+            color: $primary-color;
+            text-decoration: underline;
+
+            &:hover {
+              color: $secondary-color;
+            }
+          }
+        }
       }
     }
 
@@ -78,25 +99,17 @@ $banner-height: 60vh;
       .downloadButton {
         background-color: $primary-color;
         color: #fff;
-        padding: 10px 20px 30px 20px; // Top: 10px, Bottom: 30px
+        padding: 10px 20px;
         text-decoration: none;
         border-radius: 5px;
-        display: flex;
-        justify-content: center; // Center horizontally using flex
-        align-items: center; // Center vertically using flex
-        text-align: center; // Ensure text is centered
-    
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+
         &:hover {
-            background-color: $secondary-color;
+          background-color: $secondary-color;
         }
-    }
-    
-    .downloadSection {
-        display: flex;
-        justify-content: center; // Center the button container horizontally
-        align-items: center; // Center the button container vertically
-        height: 100%;
-    }
+      }
     }
   }
 }
@@ -121,6 +134,14 @@ $banner-height: 60vh;
     padding: 30px 10px;
 
     .container {
+      .card-container {
+        flex-direction: column;
+      }
+
+      .card {
+        width: 100%;
+      }
+
       h2 {
         font-size: 1.8rem;
       }

@@ -161,7 +161,7 @@ const FinancialAnnualReports = () => {
               className={`tab ${activeTab === "reports" ? "active" : ""}`}
               onClick={() => setActiveTab("reports")}
             >
-              Status of buy/sale of sponsors'/ Directors' share
+              Status of buy/sale of sponsors&apos;/ Directors&apos; share
             </button>
           </div>
 
@@ -210,7 +210,7 @@ const FinancialAnnualReports = () => {
             {/* Annual Reports Tab */}
             {activeTab === "reports" && (
               <div className="financial-reports-content">
-                <h2>Status of Buy/Sale of Sponsors' Shares</h2>
+                <h2>Status of Buy/Sale of Sponsors&apos; Shares</h2>
                 <p>Content for this section goes here.</p>
               </div>
             )}

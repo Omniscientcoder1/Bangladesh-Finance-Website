@@ -6,78 +6,83 @@ const Conditions = () => {
           <div className="row justify-content-center">
             <div className="col-lg-10">
               <div className="top-wrapper">
-                <h4>
-                  We&#39;re always looking for new ways to provide privacy for
-                  our customers.
-                </h4>
+                <h4>Terms & Conditions</h4>
                 <p>
-                  Id ipsum mi tempor eget. Pretium consectetur scelerisque
-                  blandit habitasse non ullamcorper enim, diam quam id et,
-                  tempus massa. Sed nam vulputate pellentesque quis. Varius a,
-                  nunc faucibus proin elementum id odio auctor. Nunc,
-                  suspendisse consequat libero, pharetra tellus vulputate auctor
-                  venenatis tortor non rhoncus at duis. Pharetra ipsum mauris
-                  integer sit feugiat.
+                  Welcome to <strong>Bangladesh Finance Limited</strong>! By using our website and services, you agree to the following terms and conditions. Please read them carefully.
                 </p>
+
+                <h5>1. Definitions</h5>
                 <ul>
                   <li>
-                    — Blandit dignissim nulla varius tristique a sed integer ut
-                    tempor.
+                    <strong>&quot;Bangladesh Finance&quot;</strong> refers to the company offering financial services.
                   </li>
-                  <li>— Augue interdum semper bibendum amet sed.</li>
-                  <li>— Dis in at ultricies tortor sit tellus.</li>
-                  <li>— Habitant ornare aenean maecenas pretium</li>
+                  <li>
+                    <strong>&quot;User&quot;</strong> refers to individuals or entities accessing our services.
+                  </li>
                 </ul>
+
+                <h5>2. Acceptance of Terms</h5>
                 <p>
-                  Eget purus aenean sit risus. Arcu, aliquam eget et viverra
-                  risus purus. Commodo fames tristique dui pharetra elit aliquet
-                  morbi. Eget consectetur risus nunc lorem sit consequat
-                  aliquet. Dolor velit consectetur etiam scelerisque. Integer
-                  interdum sodales scelerisque diam massa quam sit quis. Sed et
-                  dui a nam pulvinar. Tristique justo, donec lectus vitae,
-                  cursus ligula ridiculus lacus, tincidunt. Diam dictumst
-                  faucibus dui aliquet aenean nascetur feugiat leo. Etiam
-                  dignissim orci dignissim vitae.
+                  By accessing our website or services, you acknowledge that you have read, understood, and agreed to these terms. If you do not agree, please discontinue use immediately.
                 </p>
-                <div className="safe-data">
-                  <h4>
-                    Your data is safe with us, we will not share any information
-                    with external sources.
-                  </h4>
-                  <p>
-                    Blandit dignissim nulla varius tristique a sed integer ut
-                    tempor. Augue interdum semper bibendum amet sed. Dis in at
-                    ultricies tortor sit tellus. Habitant ornare aenean maecenas
-                    pretium, dui ullamcorper quis. Egestas viverra et id aliquet
-                    faucibus rhoncus a. Sollicitudin nisl nulla tempor pretium
-                    lorem at mauris faucibus pulvinar.
-                  </p>
-                  <ul>
-                    <li>
-                      Eget purus aenean sit risus. Arcu, aliquam eget et viverra
-                      risus purus. Commodo fames tristique dui pharetra elit
-                      aliquet morbi.
-                    </li>
-                    <li>
-                      Eget consectetur risus nunc lorem sit consequat aliquet.
-                      Dolor velit consectetur etiam scelerisque.
-                    </li>
-                    <li>
-                      Integer interdum sodales scelerisque diam massa quam sit
-                      quis. Sed et dui a nam pulvinar. Tristique justo, donec
-                      lectus vitae, cursus ligula ridiculus lacus, tincidunt.
-                    </li>
-                    <li>
-                      Diam dictumst faucibus dui aliquet aenean nascetur feugiat
-                      leo. Etiam dignissim.
-                    </li>
-                    <li>
-                      {" "}
-                      Aliquam eget et viverra risus purus. Commodo fames
-                      tristique dui pharetra elit aliquet morbi.
-                    </li>
-                  </ul>
-                </div>
+
+                <h5>3. Services</h5>
+                <p>
+                  We offer a range of financial services subject to regulatory compliance. Details of services are available on our website or upon request.
+                </p>
+
+                <h5>4. User Obligations</h5>
+                <ul>
+                  <li>Provide accurate and up-to-date information.</li>
+                  <li>Use our services only for lawful purposes.</li>
+                  <li>Maintain the confidentiality of account credentials.</li>
+                </ul>
+
+                <h5>5. Prohibited Activities</h5>
+                <p>Users must not:</p>
+                <ul>
+                  <li>Engage in fraudulent or deceptive practices.</li>
+                  <li>Attempt to disrupt or hack our systems.</li>
+                  <li>Use our services for unlawful financial activities.</li>
+                </ul>
+
+                <h5>6. Limitation of Liability</h5>
+                <p>
+                  Bangladesh Finance is not liable for:
+                </p>
+                <ul>
+                  <li>Indirect or consequential damages resulting from service use.</li>
+                  <li>Losses caused by user errors, unauthorized access, or third-party actions.</li>
+                </ul>
+
+                <h5>7. Fees and Charges</h5>
+                <p>
+                  Users agree to pay applicable service fees as detailed in our pricing structure. Fees are subject to periodic review and updates.
+                </p>
+
+                <h5>8. Intellectual Property</h5>
+                <p>
+                  All content on this website, including logos, text, and graphics, is the property of Bangladesh Finance and protected under copyright laws. Unauthorized use is prohibited.
+                </p>
+
+                <h5>9. Termination of Services</h5>
+                <p>
+                  We reserve the right to terminate or restrict access to our services if users violate these terms or engage in unlawful activities.
+                </p>
+
+                <h5>10. Governing Law</h5>
+                <p>
+                  These terms are governed by and construed in accordance with the laws of Bangladesh. Any disputes will be subject to the exclusive jurisdiction of Bangladeshi courts.
+                </p>
+
+                <h5>11. Contact Information</h5>
+                <p>
+                  For any questions about these terms, contact us at:
+                </p>
+                <p>
+                  <strong>Email:</strong> info@bd.finance <br />
+                  <strong>Phone:</strong> 16727
+                </p>
               </div>
             </div>
           </div>

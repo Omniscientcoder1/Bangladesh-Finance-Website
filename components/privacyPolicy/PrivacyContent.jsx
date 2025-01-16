@@ -7,88 +7,67 @@ const PrivacyContent = () => {
             <div className="col-lg-10">
               <div className="top-wrapper">
                 <h4>
-                  We&#39;re always looking for new ways to provide privacy for
-                  our customers.
+                  Privacy Policy
                 </h4>
                 <p>
-                  Id ipsum mi tempor eget. Pretium consectetur scelerisque
-                  blandit habitasse non ullamcorper enim, diam quam id et,
-                  tempus massa. Sed nam vulputate pellentesque quis. Varius a,
-                  nunc faucibus proin elementum id odio auctor. Nunc,
-                  suspendisse consequat libero, pharetra tellus vulputate auctor
-                  venenatis tortor non rhoncus at duis. Pharetra ipsum mauris
-                  integer sit feugiat.
+                  At <strong>Bangladesh Finance</strong>, we value your trust and are committed to protecting your personal information. This Privacy Policy outlines how we collect, use, disclose, and safeguard your data when you interact with our services.
+                </p>
+                <h5>1. Information We Collect</h5>
+                <ul>
+                  <li>Personal Information: Name, address, email address, phone number, identification documents (e.g., NID or passport).</li>
+                  <li>Financial Information: Bank account details, transaction history, and credit information for service-related purposes.</li>
+                  <li>Technical Information: IP address, device information, cookies, and browsing behavior on our website.</li>
+                </ul>
+
+                <h5>2. How We Use Your Information</h5>
+                <ul>
+                  <li>To process financial transactions and provide services.</li>
+                  <li>To improve user experience, personalize services, and enhance website functionality.</li>
+                  <li>To comply with legal obligations under the laws of Bangladesh.</li>
+                  <li>To communicate updates, promotional offers, and service-related announcements.</li>
+                </ul>
+
+                <h5>3. Data Sharing and Disclosure</h5>
+                <p>
+                  We do not sell your personal information. However, we may share your information with:
                 </p>
                 <ul>
-                  <li>
-                    — Blandit dignissim nulla varius tristique a sed integer ut
-                    tempor.
-                  </li>
-                  <li>— Augue interdum semper bibendum amet sed.</li>
-                  <li>— Dis in at ultricies tortor sit tellus.</li>
-                  <li>— Habitant ornare aenean maecenas pretium</li>
+                  <li>Government authorities as required by law.</li>
+                  <li>Trusted third-party service providers for transaction processing or data analysis.</li>
+                  <li>Financial institutions or regulatory bodies in compliance with local regulations.</li>
                 </ul>
+
+                <h5>4. Data Security</h5>
                 <p>
-                  Eget purus aenean sit risus. Arcu, aliquam eget et viverra
-                  risus purus. Commodo fames tristique dui pharetra elit aliquet
-                  morbi. Eget consectetur risus nunc lorem sit consequat
-                  aliquet. Dolor velit consectetur etiam scelerisque. Integer
-                  interdum sodales scelerisque diam massa quam sit quis. Sed et
-                  dui a nam pulvinar. Tristique justo, donec lectus vitae,
-                  cursus ligula ridiculus lacus, tincidunt. Diam dictumst
-                  faucibus dui aliquet aenean nascetur feugiat leo. Etiam
-                  dignissim orci dignissim vitae.
+                  We implement robust security measures to protect your personal information from unauthorized access, alteration, or disclosure. However, no system is entirely secure; we encourage you to use our services responsibly.
                 </p>
-                <div className="safe-data">
-                  <h4>
-                    Your data is safe with us, we will not share any information
-                    with external sources.
-                  </h4>
-                  <p>
-                    Blandit dignissim nulla varius tristique a sed integer ut
-                    tempor. Augue interdum semper bibendum amet sed. Dis in at
-                    ultricies tortor sit tellus. Habitant ornare aenean maecenas
-                    pretium, dui ullamcorper quis. Egestas viverra et id aliquet
-                    faucibus rhoncus a. Sollicitudin nisl nulla tempor pretium
-                    lorem at mauris faucibus pulvinar.
-                  </p>
-                  <ul>
-                    <li>
-                      Eget purus aenean sit risus. Arcu, aliquam eget et viverra
-                      risus purus. Commodo fames tristique dui pharetra elit
-                      aliquet morbi.
-                    </li>
-                    <li>
-                      Eget consectetur risus nunc lorem sit consequat aliquet.
-                      Dolor velit consectetur etiam scelerisque.
-                    </li>
-                    <li>
-                      Integer interdum sodales scelerisque diam massa quam sit
-                      quis. Sed et dui a nam pulvinar. Tristique justo, donec
-                      lectus vitae, cursus ligula ridiculus lacus, tincidunt.
-                    </li>
-                    <li>
-                      Diam dictumst faucibus dui aliquet aenean nascetur feugiat
-                      leo. Etiam dignissim.
-                    </li>
-                    <li>
-                      {" "}
-                      Aliquam eget et viverra risus purus. Commodo fames
-                      tristique dui pharetra elit aliquet morbi.
-                    </li>
-                  </ul>
-                </div>
-                <div className="cookies">
-                  <h4>Cookies and tracking</h4>
-                  <p>
-                    Consequat mauris nunc congue nisi. Cursus metus aliquam
-                    eleifend mi in nulla. Dignissim cras tincidunt lobortis
-                    feugiat vivamus. Blandit aliquam etiam erat velit. Sapien
-                    faucibus et molestie ac. Ornare aenean euismod elementum
-                    nisi quis eleifend quam adipiscing vitae. Id cursus metus
-                    aliquam eleifend mi in nulla posuere sollicitudin.
-                  </p>
-                </div>
+
+                <h5>5. Your Rights</h5>
+                <p>You have the right to:</p>
+                <ul>
+                  <li>Access and review your personal information.</li>
+                  <li>Request corrections to inaccurate or incomplete data.</li>
+                  <li>Withdraw consent or request deletion of your data, subject to legal obligations.</li>
+                </ul>
+
+                <h5>6. Cookies</h5>
+                <p>
+                  Our website uses cookies to enhance user experience. You can modify your browser settings to control cookie usage.
+                </p>
+
+                <h5>7. Changes to This Policy</h5>
+                <p>
+                  We reserve the right to update this Privacy Policy periodically. Any changes will be communicated through our website or other official channels.
+                </p>
+
+                <h5>8. Contact Us</h5>
+                <p>
+                  For questions or concerns about this policy, reach out to our Data Protection Officer at:
+                </p>
+                <p>
+                  <strong>Email:</strong> info@bd.finance <br />
+                  <strong>Phone:</strong> 16727
+                </p>
               </div>
             </div>
           </div>
