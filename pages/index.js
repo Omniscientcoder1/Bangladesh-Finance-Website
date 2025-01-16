@@ -155,14 +155,14 @@ export default function Home() {
         <Testimonials />
       </motion.div> */}
 
-      {/* <motion.div
+      <motion.div
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.25 }}
         variants={fadeInDirection("right")}
       >
         <LatestArticles />
-      </motion.div> */}
+      </motion.div>
 
       {/* <motion.div
         initial="hidden"
