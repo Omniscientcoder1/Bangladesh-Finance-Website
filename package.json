@@ -27,7 +27,8 @@
     "react-slick": "^0.29.0",
     "sass": "^1.57.1",
     "slick-carousel": "^1.8.1",
-    "tailwind": "^4.0.0"
+    "tailwind": "^4.0.0",
+    "uuid": "^11.0.5"
   },
   "devDependencies": {
     "@types/node": "^22.10.5",

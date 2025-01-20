@@ -11,16 +11,13 @@ const Deposits = () => {
             <div className="col-xl-6 col-lg-5">
               <div className="section-text">
                 <h5 className="sub-title">Deposit Products</h5>
-                <h2 className="title">
+                <h2 className=" text-4xl font-bold text-gray-800 mb-4 pl-50" >
                   Your Deposits are Safe with Us
                 </h2>
                 <p>All your Deposit needs</p>
               </div>
               <div>
-                {/* Correct Link usage without <a> */}
-                {/* <Link href="/register" className="cmn-btn">
-                  Apply for a loan
-                </Link> */}
+            
                 <Link href="/contact" className="cmn-btn">
                   Apply for a deposit
                 </Link>

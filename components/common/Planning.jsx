@@ -56,8 +56,8 @@ const Planning = () => {
             <div className="col-xl-6 col-lg-5">
               <div className="section-text">
                 <h5 className="sub-title">Loan Products</h5>
-                <h2 className="title">
-                  Finance Your dreams
+                <h2 className=" text-4xl font-bold text-gray-800 mb-4 pl-50">
+                 Finance Your Dreams
                 </h2>
                 <p>Find the best loan for your needs</p>
               </div>
