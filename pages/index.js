@@ -11,6 +11,30 @@ import Personalized from "../components/home/Personalized";
 import Testimonials from "../components/home/Testimonials";
 import Deposits from "../components/common/PlanningDeposits";
 import AllFaqs from "/components/faqs/AllFaqs.jsx"
+import VisitorCount from "../components/VisitorCount";
+
+
+
+import dbConnect from '../lib/dbConnect';
+import Visit from '../models/Visit';
+
+// 1. Capture and store IP in getServerSideProps
+export async function getServerSideProps({ req }) {
+  await dbConnect();
+
+  // Determine the IP address.
+  // Check x-forwarded-for (common for proxies) or fallback to remoteAddress.
+  const forwarded = req.headers['x-forwarded-for'];
+  const ip = forwarded ? forwarded.split(',')[0] : req.socket.remoteAddress;
+
+  // Store a new visit record
+  await Visit.create({ ip });
+
+  // Optionally, you can pass data to the page; but we’ll just pass an empty props
+  return {
+    props: {},
+  };
+}
 
 // export default function Home() {
 //   return (
@@ -65,6 +89,9 @@ const fadeInDirection = (direction) => {
 export default function Home() {
   return (
     <>
+    
+       
+      
       <motion.div
         initial="hidden"
         whileInView="visible"
@@ -73,6 +100,9 @@ export default function Home() {
       >
         <HomeBanner />
       </motion.div>
+
+
+      <VisitorCount />
 
       {/* <motion.div
         initial="hidden"

@@ -19,6 +19,10 @@ const ContactSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  ipAddress: {
+    type: String,
+    required: false, // or true if you want to force it
+  },
 }, {
   timestamps: true
 });
