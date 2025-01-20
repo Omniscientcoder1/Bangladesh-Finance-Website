@@ -42,7 +42,7 @@ export default function VisitorCount() {
       <div className="visitorCountOverlay">
         {count === null
           ? "Loading visitor count..."
-          : `Unique Visitor Count: ${count}`}
+          : ` ${count} people visited`}
       </div>
       <style jsx>{`
         .visitorCountOverlay {
