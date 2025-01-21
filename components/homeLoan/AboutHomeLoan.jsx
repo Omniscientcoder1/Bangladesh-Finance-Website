@@ -11,7 +11,7 @@ const AboutHomeLoan = () => {
       link="/#home-loan-form"
     >
       <div className="section-text">
-        <h5 className="sub-title">Helping you own your home sooner</h5>
+        {/* <h5 className="sub-title">Helping you own your home sooner</h5> */}
         <h2 className="title">A simple way to buy a home or refinance</h2>
         <p>
         Bangladesh Finance offers suitable Home loan facility to its customers to help them fulfill their dream of making/owning their own home. This facility covers Purchase of Apartment or House, Self-construction, Renovation of existing House or apartment, Purchase of commercial space and chamber for professionals.

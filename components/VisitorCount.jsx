@@ -38,27 +38,10 @@ export default function VisitorCount() {
   }, []);
 
   return (
-    <>
-      <div className="visitorCountOverlay">
-        {count === null
-          ? "Loading visitor count..."
-          : ` ${count} people visited`}
-      </div>
-      <style jsx>{`
-        .visitorCountOverlay {
-          position: absolute;
-          top: 200px;
-          right: 20px;
-          padding: 10px 20px;
-          background-color: #0070f3; /* Blue background */
-          color: #ffffff; /* White text */
-          border-radius: 20px; /* Rounded corners */
-          font-weight: bold;
-          font-size: 0.9rem;
-          z-index: 9999; /* Ensures it appears above other elements */
-          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* Optional drop shadow */
-        }
-      `}</style>
-    </>
+    <div className="visitorCountOverlay">
+      {count === null
+        ? "Loading visitor count..."
+        : ` ${count} people visited`}
+    </div>
   );
 }

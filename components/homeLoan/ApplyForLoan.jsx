@@ -11,7 +11,7 @@ const ApplyForLoan = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="section-header text-center">
-                <h5 className="sub-title">Quick & easy home loan</h5>
+                {/* <h5 className="sub-title">Quick & easy home loan</h5> */}
                 <h2 className="title">Take One Step Closer to Your Dream.</h2>
                 <p>
                   Get Home loans approved within days with transparent lending

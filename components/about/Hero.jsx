@@ -10,30 +10,31 @@ const Hero = () => {
         <div className="container wow fadeInUp">
           <div className="row align-items-center">
             <div className="col-lg-6">
-              <div className="text-area">
-                {/* <h5 className="sub-title">About Us</h5> */}
-                <h2 className="title">
-                  About US
-                </h2>
-                <p>
-                  Bangladesh Finance Limited (Bangladesh Finance), formerly known as BD Finance, is one of the most well-known financial institutions in Bangladesh, having served the people of Bangladesh since 1999.
-                </p>
-                <p>
-                  In the next days, the 25-year-old company expects to see even more incredible changes. The route to becoming the country’s most renowned financial institution began with a higher credit rating, a strong client deposit base, raising bonds and foreign capital, receiving approval to launch an Islamic wing, and consistently maintaining a low NPL rate.
-                </p>
-                <p>
-                  Bangladesh Finance, along with its two subsidiaries Bangladesh Finance Securities Limited (Bangladesh Finance Security) and Bangladesh Finance Capital Limited, is currently on a mission to provide a complete financial solution throughout the country.
-                </p>
-                <p>
-                  Bangladesh Finance is ready to accompany this country as it travels at breakneck speed down the path of economic progress in a never-ending series of successes. We want to be a financial partner of the Bangladeshi people.
-                </p>
-                <p>
-                  As we continue on our journey to a thriving Bangladesh, we believe in the collective picture of the country’s economic development.
-                </p>
-                <p>
-                  With our new logo, we’ve made a big step forward. Our mnemonic “BIJOY” is built on these three pillars of trust, growth, and prosperity. Bangladesh Finance will be the people of Bangladesh’s most trusted financial institution, bringing financial growth to their investments. Investment growth will offer financial prosperity to the people.
-                </p>
-              </div>
+            <div className="text-area" align="justify">
+  <h5 className="sub-title">About Us</h5> 
+  <h2 className="title">
+    About Us
+  </h2>
+  <p>
+    Bangladesh Finance Limited (Bangladesh Finance), formerly known as BD Finance, is one of the most well-known financial institutions in Bangladesh, having served the people of Bangladesh since 1999.
+  </p>
+  <p>
+    In the next days, the 25-year-old company expects to see even more incredible changes. The route to becoming the country’s most renowned financial institution began with a higher credit rating, a strong client deposit base, raising bonds and foreign capital, receiving approval to launch an Islamic wing, and consistently maintaining a low NPL rate.
+  </p>
+  <p>
+    Bangladesh Finance, along with its two subsidiaries Bangladesh Finance Securities Limited (Bangladesh Finance Security) and Bangladesh Finance Capital Limited, is currently on a mission to provide a complete financial solution throughout the country.
+  </p>
+  <p>
+    Bangladesh Finance is ready to accompany this country as it travels at breakneck speed down the path of economic progress in a never-ending series of successes. We want to be a financial partner of the Bangladeshi people.
+  </p>
+  <p>
+    As we continue on our journey to a thriving Bangladesh, we believe in the collective picture of the country’s economic development.
+  </p>
+  <p>
+    With our new logo, we’ve made a big step forward. Our mnemonic “BIJOY” is built on these three pillars of trust, growth, and prosperity. Bangladesh Finance will be the people of Bangladesh’s most trusted financial institution, bringing financial growth to their investments. Investment growth will offer financial prosperity to the people.
+  </p>
+</div>
+
               <div className="row cus-mar">
                 <div className="col-xl-4 col-md-4 mb-4">
                   <div className="count-content text-center d-flex flex-column justify-content-center align-items-center">

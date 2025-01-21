@@ -8,7 +8,7 @@ const OurJourney = () => {
           <div className="row justify-content-center">
             <div className="col-xl-9 col-lg-10">
               <div className="section-header text-center">
-                <h5 className="sub-title">Our journey so far</h5>
+                {/* <h5 className="sub-title">Our journey so far</h5> */}
                 <h2 className="title">
                   Everyone has a story behind. Here’s ours!
                 </h2>

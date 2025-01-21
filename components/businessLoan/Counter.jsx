@@ -15,7 +15,7 @@ const Counter = () => {
                 <div className="col-lg-6">
                   <div className="single-box">
                     <h4>3.5x</h4>
-                    <p>More likely to get approved with Bankio</p>
+                    <p>More likely to get approved with Bangladesh Finance</p>
                   </div>
                   <div className="single-box">
                     <h4>110,000+</h4>
@@ -26,7 +26,7 @@ const Counter = () => {
             </div>
             <div className="col-lg-6">
               <div className="section-header">
-                <h5 className="sub-title">Numbers said more than words</h5>
+                {/* <h5 className="sub-title">Numbers said more than words</h5> */}
                 <h2 className="title">
                   We know how to help businesses like yours
                 </h2>

@@ -43,7 +43,7 @@
    --body-color: #ffffff;          /* White */
    --para-color: #333333;          /* Dark Grey */
    --head-color: #002341;          /* Blue */
-   --head-alt-color: #001bb1;      /* Green */
+   --head-alt-color: #0367AF;      /* Green */
    --hover-color: #001bb1;         /* Hover color (was Red #0071CE) */
    --unified-bg: radial-gradient(circle, #f0f4f8, #dfe7ed, #f0f4f8); /* Light Bluish Grey */
  }
@@ -353,12 +353,12 @@
  .sub-title {
    color: var(--head-alt-color);
    margin-bottom: 30px;
-   text-align: center;
+   text-align: left;
  }
  
  .title {
    font-size: 50px;
-   line-height: 98.8px;
+   line-height: 70px;
    margin-top: -18px;
  }
  
@@ -694,4 +694,59 @@
  .icon-d-right-double-arrow:before {
    content: "\0044";
  }
- 
+ .visitorCountOverlay {
+  position: fixed; /* Fixed position to stay at the bottom right */
+  bottom: 25px;
+  right: 80px;
+  padding: 10px 20px;
+  background-color: #0070f3; /* Blue background */
+  color: #ffffff; /* White text */
+  border-radius: 20px; /* Rounded corners */
+  font-weight: bold;
+  font-size: 0.9rem;
+  z-index: 9999; /* Ensures it appears above other elements */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* Optional drop shadow */
+  max-width: 90%; /* Ensure it fits within smaller screens */
+  word-wrap: break-word; /* Prevent text overflow on smaller devices */
+
+  .closeButton {
+    position: absolute;
+    top: 1px;
+    right: 2px;
+    background: none;
+    border: none;
+    font-size: 1.2rem; /* Adjust button size */
+    cursor: pointer;
+    color: #ffffff; /* Match the text color */
+    font-weight: bold;
+
+    &:hover {
+      color: #ff0000; /* Red color on hover */
+    }
+  }
+
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    font-size: 0.8rem; /* Smaller font size for tablets */
+    padding: 8px 16px; /* Adjust padding */
+    bottom: 10px; /* Slightly higher for smaller screens */
+    right: 10px;
+
+    .closeButton {
+      font-size: 1rem; /* Adjust close button size for tablets */
+      top: 3px;
+      right: 3px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    font-size: 0.7rem; /* Even smaller font size for mobile devices */
+    padding: 6px 12px; /* Compact padding */
+    bottom: 5px; /* Higher for very small screens */
+    right: 5px;
+
+    .closeButton {
+      font-size: 0.9rem; /* Adjust close button size for small devices */
+    }
+  }
+}

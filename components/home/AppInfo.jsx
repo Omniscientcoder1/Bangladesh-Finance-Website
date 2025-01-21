@@ -17,9 +17,11 @@ const AppInfo = () => {
                 <span className="head-icon d-flex justify-content-center align-items-center">
                   <Image src={sheled} alt="icon" />
                 </span>
-                <h5 className="sub-title">Financial Products at Your Fingertips</h5>
-                <h2 className="title">
-                  Your Financial experience anytime, anywhere
+                <h5 className="sub-title text-left">
+                  Financial Products at Your Fingertips
+                </h5>
+                <h2 className=" text-4xl font-bold text-gray-800 mb-4 pl-50">
+                  ACHIEVING YOUR FINANCIAL GOALS IS NOW JUST A TAP AWAY
                 </h2>
                 <p>
                   Get your financial services with our simple to use, accessible

@@ -20,7 +20,7 @@ const planningDataLoans = [
     id: 2,
     icon1: loan_2,
     icon2: loan_22,
-    title: "Car Loans",
+    title: "Car Loan",
     dsc_list: ["Competitive rates", "Quick Easy"],
     link: "/car-loan", // Link for this loan
   },
@@ -28,9 +28,9 @@ const planningDataLoans = [
     id: 3,
     icon1: loan_3,
     icon2: loan_33,
-    title: "Education Loans",
+    title: "Business Loan",
     dsc_list: ["Pay back conveniently", "Fast Loan Processing"],
-    link: "/educations-loan", // Link for this loan
+    link: "/business-loan", // Link for this loan
   },
   {
     id: 4,

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import logo from "/public/images/logo.png";
+import logo from "/public/images/logo_small.png";
 
 const ShortNavbar = () => {
   const [windowHeight, setWindowHeight] = useState(0);
@@ -33,7 +33,7 @@ const ShortNavbar = () => {
               <Link className="navbar-brand" href="/">
                 <Image src={logo} className="logo" alt="logo" />
               </Link>
-              <div className="d-flex align-items-center justify-content-end">
+              {/* <div className="d-flex align-items-center justify-content-end">
                 <ul className="navbar-nav">
                   <li className="nav-item">Don&#39;t have an account</li>
                 </ul>
@@ -42,7 +42,7 @@ const ShortNavbar = () => {
                     Register
                   </Link>
                 </div>
-              </div>
+              </div> */}
             </nav>
           </div>
         </div>
