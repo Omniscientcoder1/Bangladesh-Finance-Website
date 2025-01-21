@@ -149,7 +149,7 @@ const Partners = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true, // Show arrow buttons
-    pauseOnHover: true, // Pause on hover
+    pauseOnHover: false, // Pause on hover
   };
 
   const images = [hero2,hero1, hero3, hero4];

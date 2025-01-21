@@ -17,6 +17,7 @@ import VisitorCount from "../components/VisitorCount";
 
 import dbConnect from '../lib/dbConnect';
 import Visit from '../models/Visit';
+import HeroSection from "@/components/videoHeroSection";
 
 // 1. Capture and store IP in getServerSideProps
 export async function getServerSideProps({ req }) {
@@ -90,7 +91,7 @@ export default function Home() {
   return (
     <>
     
-       
+    <HeroSection />
       
       <motion.div
         initial="hidden"

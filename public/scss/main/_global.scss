@@ -694,6 +694,63 @@
  .icon-d-right-double-arrow:before {
    content: "\0044";
  }
+ .hero-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .video-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none; // Disable interaction with the video
+    }
+  }
+  .hero-text {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: #ffffff; // White text
+    padding: 0 20px;
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      color: #ffffff; // White text
+    }
+
+    p {
+      font-size: 1.25rem;
+      color: #ffffff; // White text
+    }
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); // Adjust opacity as needed
+    z-index: 0;
+  }
+
+  
+}
  .visitorCountOverlay {
   position: fixed; /* Fixed position to stay at the bottom right */
   bottom: 25px;
