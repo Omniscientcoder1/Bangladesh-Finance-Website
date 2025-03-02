@@ -1,0 +1,187 @@
+
+
+/* Global Container */
+.financial-container {
+  background-color: var(--unified-bg);
+  color: #333;
+  padding: 8rem 2rem;
+  font-family: Roboto, sans-serif;
+}
+
+/* Banner */
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: url('/images/financial_literacy.jpg') no-repeat center center;
+  background-size: contain;
+  height: 100vh;
+  text-align: center;
+  color: #fff;
+  margin-top: 50px;
+}
+
+/* Page Title */
+.title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 2rem;
+}
+
+/* Tabs Navigation */
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+
+  .nav-button {
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+
+    &.active {
+      background-color: #0367af;
+      color: #ffffff;
+      transform: scale(1.05);
+    }
+
+    &:hover {
+      background-color: #d6d6d6;
+    }
+  }
+}
+
+/* Cards Grid */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+/* Individual Card */
+.card {
+  flex: 1 1 48%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  overflow: hidden;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+
+    .card-hover {
+      opacity: 1;
+    }
+  }
+
+  .card-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+  }
+}
+
+/* Tab 5: Text & Download Buttons */
+.text-download-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.text-download-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  max-width: 600px;
+  padding: 12px 15px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+  font-size: 1rem;
+  color: #333;
+  margin: 0;
+  flex: 1;
+  font-weight: 500;
+}
+
+/* Download Button */
+.download-button {
+  padding: 8px 15px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  background-color: #0367af;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+
+  &:hover {
+    background-color: #024f87;
+    transform: scale(1.05);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .card {
+    flex: 1 1 calc(33.33% - 2rem);
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex: 1 1 calc(50% - 1rem);
+  }
+
+  .text-download-row {
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .download-button {
+    width: 100%;
+    margin-top: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    flex: 1 1 100%;
+  }
+
+  .text-download-row {
+    width: 90%;
+  }
+}

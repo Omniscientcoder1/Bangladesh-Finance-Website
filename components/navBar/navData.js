@@ -16,11 +16,11 @@ export const navData = [
         dp_itm: "At a glance",
         url: "/at-a-glance",
       },
-      {
-        id: "about@02",
-        dp_itm: "About",
-        url: "/about",
-      },
+      // {
+      //   id: "about@02",
+      //   dp_itm: "About",
+      //   url: "/about",
+      // },
       {
         id: "about@03",
         dp_itm: "board-of-directors",
@@ -73,11 +73,11 @@ export const navData = [
         dp_itm: "deposit Scheme",
         url: "/deposit-scheme",
       },
-      {
-        id: "du@10",
-        dp_itm: "savings Scheme",
-        url: "/savings-scheme",
-      },
+      // {
+      //   id: "du@10",
+      //   dp_itm: "savings Scheme",
+      //   url: "/savings-scheme",
+      // },
       
       {
         id: "sub@003",
@@ -156,7 +156,7 @@ export const navData = [
       {
         id: "du@6",
         dp_itm: "Shareholding Details",
-        url: "shareholding",
+        url: "/shareholding",
       },
      
       {
@@ -360,10 +360,17 @@ export const navData = [
     ],
   },
   {
-    id: "au@2_92",
-    itm: "ISLAMIC",
-    url: "https://www.bdfinance.org/",
+    id: "au@2_93",
+    itm: "FINANCIAL LITERACY",
+    url: "/financial-literacy",
     dropdown: false,
     
   },
+  // {
+  //   id: "au@2_92",
+  //   itm: "ISLAMIC",
+  //   url: "https://www.islamic.bdfinance.org/",
+  //   dropdown: false,
+    
+  // },
 ];

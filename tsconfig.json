@@ -26,7 +26,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx" // Only include TypeScript files for type-checking
-  ],
+, "pages/financial-literacy.js"  ],
   "exclude": [
     "node_modules",
     "**/*.js", // Exclude JavaScript files from type-checking

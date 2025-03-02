@@ -15,26 +15,12 @@
  @import "public/scss/pages/_dividend.scss";
  @import "public/scss/pages/_sustainable-finance.scss";
  @import "public/scss/pages/_sdg.scss";
- @import "/public/scss/pages/_csr.scss";
+ @import "public/scss/pages/_csr.scss";
  @import "public/scss/pages/_board-of-directors.scss";
  @import "public/scss/pages/_leadership.scss";
+ @import "public/scss/pages/_financial-literacy.scss";
  
- /********************************************
-  *  VARIABLES ( :root )
-  ********************************************/
- // Uncomment or customize as needed
- /*
- :root {
-   --body-font: "Jost", sans-serif;
- 
-   --body-color: #ffffff;
-   --para-color: #333333; // Dark Grey
-   --head-color: #002341; // Blue
-   --head-alt-color: #001bb1; // Green
-   --hover-color: #001bb1; // Red #0071CE
-   --unified-bg: radial-gradient(circle, #f8f8f8, #f8f8f8, #f8f8f8);
- }
- */
+
  
  :root {
    // --body-font: "Jost", sans-serif;
@@ -48,23 +34,7 @@
    --unified-bg: radial-gradient(circle, #f0f4f8, #dfe7ed, #f0f4f8); /* Light Bluish Grey */
  }
  
- /*
- // Another variant of :root (commented out)
- :root {
-   --body-font: "Jost", sans-serif;
- 
-   --body-color: #ffffff;      // White
-   --para-color: #333333;      // Dark Grey
-   --head-color: #000000;      // Dark Green
-   --head-alt-color: #0033CC;  // Medium Blue
-   --hover-color: #334999;     // Soft Green
-   --unified-bg: radial-gradient(circle, #0066FF, #f8f8f8, #0066FF);
- }
- */
- 
- /********************************************
-  *  GLOBAL STYLES
-  ********************************************/
+
  
  .collapsing {
    transition: 0.3s;
@@ -75,10 +45,7 @@
    overflow-x: hidden;
  }
  
- /* 
-    Here is where we overlay the image on top of the radial gradient.
-    The first background listed appears on top.
- */
+
  body {
    background:
      url('/images/android-chrome-512x512.png') no-repeat center center / cover,
@@ -737,6 +704,7 @@
     p {
       font-size: 1.25rem;
       color: #ffffff; // White text
+      
     }
   }
   .overlay {

@@ -90,9 +90,7 @@ const fadeInDirection = (direction) => {
 export default function Home() {
   return (
     <>
-    
-    <HeroSection />
-      
+    {/* <HeroSection />  */}
       <motion.div
         initial="hidden"
         whileInView="visible"
@@ -101,8 +99,6 @@ export default function Home() {
       >
         <HomeBanner />
       </motion.div>
-
-
       <VisitorCount />
 
       {/* <motion.div
@@ -122,7 +118,6 @@ export default function Home() {
       >
         <BusinessSolutions />
       </motion.div> */}
-
       <motion.div
         initial="hidden"
         whileInView="visible"
@@ -131,7 +126,6 @@ export default function Home() {
       >
         <Deposits />
       </motion.div>
-
       <motion.div
         initial="hidden"
         whileInView="visible"
@@ -140,7 +134,6 @@ export default function Home() {
       >
         <Planning />
       </motion.div>
-
       <motion.div
         initial="hidden"
         whileInView="visible"

@@ -12,7 +12,7 @@ const Benefits = () => {
                 <h5 className="sub-title">
                   Why Bankio is a great financing option for you.
                 </h5>
-                <h2 className="title">Great benefits from Bankio</h2>
+                <h2 className="title">Great benefits from Bangladesh Finance</h2>
                 <p>
                   Bankio CarLoan offers you the freedom to choose any vehicle on
                   a fixed mark-up rate facility to suit your personal

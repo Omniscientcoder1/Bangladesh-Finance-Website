@@ -11,7 +11,7 @@ const CoreValues = () => {
               <div className="section-header text-center">
                 <h5 className="sub-title"></h5>
                 <h2 className="title">
-                  Our core values
+                  OUR CORE VALUES
                 </h2>
                 <p>
                   Our values define us. They guide us in building and improving

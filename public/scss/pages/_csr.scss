@@ -1,6 +1,69 @@
-.csr-page {
-    font-family: Arial, sans-serif;
+// .csr-page {
+//     font-family: Arial, sans-serif;
   
+
+  
+//       .overlay {
+//         background: rgba(0, 0, 0, 0);
+//         padding: 20px;
+//         width: 100%;
+  
+//         h1 {
+//           font-size: 3rem;
+//           margin: 0;
+//         }
+//       }
+//     }
+  
+//  /* Content Section */
+//  .content-section {
+//     padding: 50px 20px;
+
+//     .container {
+//       max-width: 1200px;
+//       margin: 0 auto;
+//       display: flex; /* Align card and image side by side */
+//       align-items: center;
+
+//       /* Card Content */
+//       .card {
+//         width: 50%; /* Card takes half the screen width */
+//         background: #fff;
+//         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+//         border-radius: 8px;
+//         padding: 20px;
+
+//         h2 {
+//           font-size: 1.75rem;
+//           margin-bottom: 15px;
+//         }
+
+//         p {
+//           font-size: 1rem;
+//           line-height: 1.6;
+//           color: #666;
+//         }
+//       }
+
+//       /* Image */
+//       .image-container {
+//         width: 50%; /* Image takes the other half of the screen */
+//         text-align: center;
+
+//         .csr-image {
+//           max-width: 100%;
+//           height: auto;
+//           border-radius: 8px;
+//           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+//         }
+//       }
+//     }
+//   }
+// }
+.csr-page {
+  font-family: Arial, sans-serif;
+
+  /* Banner Section */
     /* Banner Section */
     .banner-section {
       display: flex;
@@ -13,52 +76,47 @@
       text-align: center;
       color: #fff;
       margin-top: 10px;
-  
-      .overlay {
-        background: rgba(0, 0, 0, 0);
-        padding: 20px;
-        width: 100%;
-  
-        h1 {
-          font-size: 3rem;
-          margin: 0;
-        }
+
+    .overlay {
+      background: rgba(0, 0, 0, 0);
+      padding: 20px;
+      width: 100%;
+
+      h1 {
+        font-size: 3rem;
+        margin: 0;
       }
     }
-  
- /* Content Section */
- .content-section {
+  }
+
+  /* Content Section */
+  .content-section {
     padding: 50px 20px;
 
     .container {
       max-width: 1200px;
       margin: 0 auto;
-      display: flex; /* Align card and image side by side */
-      align-items: center;
+      display: flex;
+      flex-direction: column; // Ensures text appears first, image second
 
-      /* Card Content */
-      .card {
-        width: 50%; /* Card takes half the screen width */
-        background: #fff;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        border-radius: 8px;
-        padding: 20px;
+      /* Text Content */
+      .text-content {
+        text-align: justify; // Justifies text
+        font-size: 1.1rem;
+        line-height: 1.8;
+        color: #333;
+        margin-bottom: 20px;
+        padding: 0 10px; // Adds spacing on small screens
 
         h2 {
           font-size: 1.75rem;
           margin-bottom: 15px;
-        }
-
-        p {
-          font-size: 1rem;
-          line-height: 1.6;
-          color: #666;
+          text-align: center; // Keeps the title centered
         }
       }
 
       /* Image */
       .image-container {
-        width: 50%; /* Image takes the other half of the screen */
         text-align: center;
 
         .csr-image {
@@ -66,6 +124,64 @@
           height: auto;
           border-radius: 8px;
           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+      }
+    }
+  }
+
+  /* Responsive Design */
+  @media screen and (max-width: 1024px) {
+    .banner-section {
+      height: 70vh; // Adjusts height for tablets
+    }
+
+    .content-section {
+      padding: 30px 15px;
+
+      .container {
+        .text-content {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .banner-section {
+      height: 60vh;
+
+      .overlay h1 {
+        font-size: 2.5rem;
+      }
+    }
+
+    .content-section {
+      padding: 20px 10px;
+
+      .container {
+        .text-content {
+          font-size: 1rem;
+          padding: 0 5px;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .banner-section {
+      height: 50vh;
+
+      .overlay h1 {
+        font-size: 2rem;
+      }
+    }
+
+    .content-section {
+      padding: 15px 5px;
+
+      .container {
+        .text-content {
+          font-size: 0.95rem;
         }
       }
     }
