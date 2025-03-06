@@ -281,7 +281,7 @@ const Leadership = () => {
             image: "/images/14. Mohammad Abu Obayed.png",
           },
     ],
-    extendedManagement: [
+    ExtendedManagementCommittee: [
         {
             id: 1,
             name: "Mohammad Masud Rana",

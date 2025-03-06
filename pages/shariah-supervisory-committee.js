@@ -106,20 +106,20 @@ const ShariahCommittee = () => {
       <h2 className="title">Shariah Supervisory Committee</h2>
 
       {/* Cards */}
-      <div className="card-container">
+      <div className="cards-container">
         {committeeMembers.map((member) => (
           <div
             key={member.id}
-            className="card"
+            className="cards"
             onClick={() => setSelectedMember(member)}
           >
             <img
               src={member.image}
               alt={member.name}
-              className="card-image"
+              className="cards-image"
               loading="lazy"
             />
-            <div className="card-hover">
+            <div className="cards-hover">
               <h3>{member.name}</h3>
               <p>{member.title}</p>
             </div>

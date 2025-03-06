@@ -54,15 +54,15 @@ const planningDataDeposits = [
     id: 1,
     icon1: loan_1,
     icon2: loan_11,
-    title: "Term Deposit Scheme (TDS)",
-    dsc_list: ["Highest Interest rates", "Fast processing"],
+    title: "Term Deposit",
+    dsc_list: ["Competitive Interest rates", "Flexible Tenure"],
     link: "/deposit-scheme", // Link to the specific deposit page
   },
   {
     id: 2,
     icon1: loan_3,
     icon2: loan_33,
-    title: "Monthly Deposit Scheme (MDS)",
+    title: "Monthly Deposit",
     dsc_list: ["Pay back conveniently", "Fast Loan Processing"],
     link: "/deposit-scheme", // Link to the specific deposit page
   },

@@ -15,6 +15,7 @@ import VisitorCount from "../components/VisitorCount";
 
 
 
+
 import dbConnect from '../lib/dbConnect';
 import Visit from '../models/Visit';
 import HeroSection from "@/components/videoHeroSection";
@@ -90,6 +91,7 @@ const fadeInDirection = (direction) => {
 export default function Home() {
   return (
     <>
+    
     {/* <HeroSection />  */}
       <motion.div
         initial="hidden"

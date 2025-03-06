@@ -354,13 +354,24 @@
     display: inline-block;
   }
   .header-section .navbar .navbar-brand {
-    margin-top: -5px;
+    // margin-top: -5px;
+    // margin-bottom: 0;
+    // width: 10%;
+    width: auto; // Ensures it does not shrink
+    max-width: 150px; // Set a fixed max width
+    margin-top: 5px;
     margin-bottom: 0;
-    width: 10%;
+    display: flex;
+    align-items: left;
   }
   .header-section .navbar .navbar-brand img {
-    max-width: initial;
-    
+    // max-width: initial;
+    // max-width: 100%; // Prevents overflow
+    // height: auto; // Keeps aspect ratio
+    max-width: 200px; // Bigger logo size
+    width: auto;
+    display: flex;
+    align-items: left;
   }
   .header-section .navbar .navbar-collapse .navbar-nav {
     height: 200px;
@@ -376,7 +387,7 @@
     .dropdown-menu
     .dropend
     .dropdown-menu {
-    left: 60px;
+    left: 30px;
   }
   .header-section .nav-item.main-navbar .main-menu .sub-navbar .sub-menu {
     right: 0;
@@ -388,7 +399,7 @@
     .nav-item
     .dropdown-menu.show {
     display: inline-block;
-    margin-left: 130px;
+    margin-left: 100px;
   }
   .header-section
     .navbar
@@ -406,10 +417,15 @@
     position: initial;
   }
   .header-section .navbar .navbar-collapse .right-area .lang {
-    display: none !important;
+    // display: none !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   .header-section .navbar .navbar-collapse .right-area {
-    margin-left: 0;
+    // margin-left: 0;
+    flex-grow: 1; // Allows nav items to take available space
+    justify-content: flex-end; // Push items to the right
   }
   // End Header
   .features-section .img-area {

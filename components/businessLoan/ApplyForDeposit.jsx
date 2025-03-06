@@ -22,7 +22,7 @@ const ApplyForDeposit = () => {
             <div className="col-lg-10">
               <div className="form-content">
                 <div className="section-header text-center">
-                  <h2 className="title">Apply for a deposit</h2>
+                  <h2 className="title">Apply for a secured future</h2>
                   <p>
                     Please fill the form below. We will get in touch with you
                     within 1-2 business days, to request all necessary details

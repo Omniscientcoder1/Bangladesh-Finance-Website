@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import GetInTouch from 'components/contact/GetInTouch';
+import FeaturesRequirements from "/components/FeatureRequirements.js";
 
 
 
@@ -14,7 +15,24 @@ const DepositScheme = () => {
       <section className="deposit-scheme-banner">
 
       </section>
-      <section className="deposit-scheme-content">
+            <FeaturesRequirements 
+              pdfLink="/public/images/Individual_Deposit_Application_Form_2-v.3.pdf" 
+              imageSrc="/images/SDG.png" 
+              features={[
+                "Minimum Initial Deposit amount BDT 100,000",
+                "Tenure can be minimum 3 months to any",
+                "Auto Renewal facility available",
+                "Instant loan facility up to 80% of principal amount"
+              ]}
+              requirements={[
+                "Recent passport-size photograph of Account Holder and Nominee",
+                "Photograph of Nominee must be duly attested by the account holder",
+                "Photocopy of NID/Passport/Driving License of Account Holder and Nominee",
+                "TIN Certificate of Account Holder (if available)"
+              ]}
+            />
+      <GetInTouch />
+      {/* <section className="deposit-scheme-content">
         <div className="container">
           <div className="card-container">
             <div className="card">
@@ -55,10 +73,11 @@ const DepositScheme = () => {
             </div>
           </div>
           <div className="apply-now">
-          <GetInTouch />
+          
           </div>
         </div>
-      </section>
+      </section> */}
+     
     </>
   );
 };

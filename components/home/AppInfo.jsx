@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 // import app_store from "/public/images/app-store.png";
-import apps from "/public/images/apps.png";
+// import apps from "/public/images/apps.png";
+import appmockup from "/public/images/appmockup.png"
 import google_play from "/public/images/google-play.png";
 import check from "/public/images/icon/check.png";
 import sheled from "/public/images/icon/sheled.png";
@@ -18,7 +19,7 @@ const AppInfo = () => {
                   <Image src={sheled} alt="icon" />
                 </span>
                 <h5 className="sub-title text-left">
-                  Financial Products at Your Fingertips
+                  YOUR FINANCIAL FREEDOM AT YOUR FINGERTIPS
                 </h5>
                 <h2 className=" text-4xl font-bold text-gray-800 mb-4 pl-50">
                   ACHIEVING YOUR FINANCIAL GOALS IS NOW JUST A TAP AWAY
@@ -53,7 +54,7 @@ const AppInfo = () => {
             </div>
             <div className="col-lg-6 text-end">
               <div className="img-area">
-                <Image className="max-un" src={apps} alt="image" />
+                <Image className="max-un" src={appmockup} alt="image" />
               </div>
             </div>
           </div>

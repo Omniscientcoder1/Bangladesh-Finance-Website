@@ -10,7 +10,7 @@ const Faq = ({ cls = "" }) => {
             <div className="col-lg-6">
               <div className="section-header text-center">
                 <h5 className="sub-title">
-                  If you have question,we have answer
+                  
                 </h5>
                 <h2 className="title">Frequently asked questions</h2>
                 <p>

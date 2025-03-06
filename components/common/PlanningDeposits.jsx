@@ -19,7 +19,7 @@ const Deposits = () => {
               <div>
             
                 <Link href="/contact" className="cmn-btn">
-                  Apply for a deposit
+                  Apply for a Secured Future
                 </Link>
               </div>
             </div>

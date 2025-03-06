@@ -11,7 +11,7 @@ const Hero = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
             <div className="text-area" align="justify">
-  <h5 className="sub-title">About Us</h5> 
+  {/* <h5 className="sub-title">About Us</h5>  */}
   <h2 className="title">
     About Us
   </h2>

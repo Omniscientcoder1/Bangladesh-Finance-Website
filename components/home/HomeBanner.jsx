@@ -58,9 +58,9 @@ const HomeBanner = () => {
               <div className="col-lg-7 col-md-10">
                 <div className="main-content">
                   <div className="top-area section-text justify-content-center">
-                  <h2 className="main-title text-center">
-                     The most Trusted Financial Institution of Bangladesh
-                  </h2>
+                  <h3 className="main-title text-center">
+                     THE MOST TRUSTED FINANCIAL INSTITUTION IN BANGLADESH
+                  </h3>
                   </div>
                   <div className="bottom-area text-center">
                     <Link href="/contact" className="cmn-btn">
