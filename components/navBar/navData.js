@@ -50,34 +50,89 @@ export const navData = [
     url: "#",
     dropdown: true,
     dropdown_itms: [
+      // {
+      //   id: "du@01",
+      //   dp_itm: "shurokkha",
+      //   url: "/shurokkha",
+      //   sbu_dropdown: false,
+      //   sub_items: [
+      //     {
+      //       id: "sub@01",
+      //       sub_itm: "Account",
+      //       url: "/account",
+      //     },
+      //     {
+      //       id: "sub@02",
+      //       sub_itm: "Account Details",
+      //       url: "/account-details",
+      //     },
+      //   ],
+      // },
+      // {
+      //   id: "du@02",
+      //   dp_itm: "DEPOSIT SCHEME",
+      //   url: "/deposit-scheme",
+      // },
       {
-        id: "du@01",
-        dp_itm: "shurokkha",
-        url: "/shurokkha",
-        sbu_dropdown: false,
-        sub_items: [
-          {
-            id: "sub@01",
-            sub_itm: "Account",
-            url: "/account",
-          },
-          {
-            id: "sub@02",
-            sub_itm: "Account Details",
-            url: "/account-details",
-          },
-        ],
+        id: "du@1",
+        dp_itm: "TERM DEPOSIT",
+        url: "/termdeposit",
       },
       {
-        id: "du@02",
-        dp_itm: "deposit Scheme",
-        url: "/deposit-scheme",
+        id: "du@9",
+        dp_itm: "BIR",
+        url: "/bir",
       },
       {
-        id: "du@10",
-        dp_itm: "savings Scheme",
-        url: "/savings-scheme",
+        id: "du@2",
+        dp_itm: "CUMULATIVE DEPOSIT SCHEME",
+        url: "/cumulativedeposit",
       },
+      {
+        id: "du@3",
+        dp_itm: "PROFIT EARNERS SCHEME",
+        url: "/profitearners",
+      },
+      {
+        id: "du@4",
+        dp_itm: "PROFIT FIRST SCHEME",
+        url: "/profitfirst",
+      },
+      {
+        id: "du@5",
+        dp_itm: "MONTHLY DEPOSIT SCHEME",
+        url: "/monthlydeposit",
+      },
+      {
+        id: "du@6",
+        dp_itm: "DOUBLE MONEY SCHEME",
+        url: "/doublemoneydeposit",
+      },
+      {
+        id: "du@7",
+        dp_itm: "GUNON",
+        url: "/gunon",
+      },
+      {
+        id: "du@8",
+        dp_itm: "BANGLADESH FINANCE RETIREMENT PLAN",
+        url: "/retirementplan",
+      },
+      // {
+      //   id: "du@10",
+      //   dp_itm: "MILLIONAIRE SCHEME",
+      //   url: "/",
+      // },
+      // {
+      //   id: "du@10",
+      //   dp_itm: "PROVIDENT FUND",
+      //   url: "/",
+      // },
+      // {
+      //   id: "du@10",
+      //   dp_itm: "UPOHAR",
+      //   url: "/",
+      // },
       
 
       {
@@ -328,3 +383,6 @@ export const navData = [
     
   // },
 ];
+
+
+

@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import FeaturesRequirements from "/components/FeatureRequirements.js";
 
 const SavingsScheme = () => {
   return (
@@ -13,11 +14,30 @@ const SavingsScheme = () => {
       </Head>
       <section className="banner">
         <div className="bannerContent">
-          <h1>Savings Scheme</h1>
+          {/* <h1>Savings Scheme</h1> */}
+                
         </div>
       </section>
       <section className="content">
-        <div className="container">
+      <FeaturesRequirements 
+        title="TDR ACCOUNT"
+        pdfLink="/documents/TDR_Application.pdf" 
+        imageSrc="/images/TDR.png" 
+        features={[
+          "Minimum Initial Deposit amount BDT 100,000",
+          "Tenure can be minimum 3 months to any",
+          "Auto Renewal facility available",
+          "Instant loan facility up to 80% of principal amount"
+                ]}
+        requirements={[
+          "Recent passport-size photograph of Account Holder and Nominee",
+          "Photocopy of NID/Passport/Driving License of Account Holder and Nominee"
+                ]}
+        howItWorks={[ 
+
+                  ]} // Pass an empty array if no steps are available
+/> 
+        {/* <div className="container">
           <div className="card-container">
             <div className="card">
               <h2>Steps to Open an Account</h2>
@@ -48,7 +68,7 @@ const SavingsScheme = () => {
               Download Application Form
             </a>
           </div>
-        </div>
+        </div> */}
       </section>
     </>
   );

@@ -1,52 +1,60 @@
 // import React from "react";
 
 
-// const FeaturesRequirements = ({ title, pdfLink, imageSrc }) => {
+// const FeaturesRequirements = ({ title, description, pdfLink, imageSrc, features, requirements, howItWorks }) => {
 //   return (
 //     <div className="features-requirements">
 //       {/* Left Content Section - 60% of viewport width */}
 //       <div className="text-content">
 //         <h2>{title}</h2>
-//         <p>
-//           The term deposit investment solution is designed to provide competitive 
-//           profit rates while maintaining compliance with financial principles. 
-//           Clients benefit from structured investment plans with added flexibility, 
-//           ensuring a secure and growth-oriented approach.
-//         </p>
+//         <p className="product-description">{description}</p>
 
-//         {/* Features and Requirements Section */}
+//         {/* Features, Requirements, and How It Works Section */}
 //         <div className="feature-requirements-container">
+//           {/* Features Section */}
 //           <div className="feature-box">
 //             <div className="feature-header">
 //               <img src="/icons/feature-icon.svg" alt="Key Features" className="icon" />
 //               <h3>KEY FEATURES</h3>
 //             </div>
 //             <ul className="feature-list">
-//               <li><span className="checkmark">✔</span> Minimum Initial Deposit amount BDT 100,000</li>
-//               <li>Tenure can be minimum 3 months to any</li>
-//               <li>Auto Renewal facility available</li>
-//               <li>Instant loan facility up to 80% of principal amount</li>
+//               {features?.map((feature, index) => (
+//                 <li key={index}><span className="checkmark"></span> {feature}</li>
+//               ))}
 //             </ul>
 //           </div>
 
+//           {/* Requirements Section */}
 //           <div className="requirement-box">
 //             <div className="requirement-header">
 //               <img src="/icons/requirement-icon.svg" alt="Requirements" className="icon" />
 //               <h3>REQUIREMENTS</h3>
 //             </div>
 //             <ul className="requirement-list">
-//               <li>Recent passport-size photograph of Account Holder and Nominee</li>
-//               <li>Photograph of Nominee must be duly attested by the account holder</li>
-//               <li>Photocopy of NID/Passport/Driving License of Account Holder and Nominee</li>
-//               <li>TIN Certificate of Account Holder (if available)</li>
+//               {requirements?.map((requirement, index) => (
+//                 <li key={index}>{requirement}</li>
+//               ))}
 //             </ul>
+//           </div>
 
-//             {/* Apply Now Button - Uses Passed PDF Link */}
-//             <a href={pdfLink} target="_blank" rel="noopener noreferrer">
-//               <button className="apply-btn">APPLY NOW</button>
-//             </a>
+//           {/* How Does It Work Section */}
+//           <div className="how-it-works-box">
+//             <div className="how-it-works-header">
+//               <img src="/icons/how-it-works-icon.svg" alt="How Does It Work" className="icon" />
+//               <h3>HOW DOES IT WORK?</h3>
+//             </div>
+//             <ul className="how-it-works-list">
+//               {howItWorks?.map((step, index) => (
+//                 <li key={index}><span className="checkmark"></span> {step}</li>
+//               ))}
+//             </ul>
 //           </div>
 //         </div>
+
+//         {/* Apply Now Button */}
+//         <a href={pdfLink} target="_blank" rel="noopener noreferrer">
+//           <button className="apply-btn">APPLY NOW</button>
+//         </a>
 //       </div>
 
 //       {/* Right Image Section - Uses Passed Image Source */}
@@ -58,50 +66,65 @@
 // };
 
 // export default FeaturesRequirements;
+
+
 import React from "react";
-const FeaturesRequirements = ({ title, pdfLink, imageSrc, features, requirements }) => {
+
+const FeaturesRequirements = ({ title, description, pdfLink, imageSrc, features, requirements, howItWorks }) => {
   return (
     <div className="features-requirements">
       {/* Left Content Section - 60% of viewport width */}
       <div className="text-content">
         <h2>{title}</h2>
-        <p>
-          The term deposit investment solution is designed to provide competitive 
-          profit rates while maintaining compliance with financial principles. 
-          Clients benefit from structured investment plans with added flexibility, 
-          ensuring a secure and growth-oriented approach.
-        </p>
+        <p className="product-description">{description}</p>
 
-        {/* Features and Requirements Section */}
+        {/* Features, Requirements, and How It Works Section */}
         <div className="feature-requirements-container">
+          {/* Features Section */}
           <div className="feature-box">
             <div className="feature-header">
               <img src="/icons/feature-icon.svg" alt="Key Features" className="icon" />
               <h3>KEY FEATURES</h3>
             </div>
             <ul className="feature-list">
-              {features.map((feature, index) => (
-                <li key={index}><span className="checkmark">✔</span> {feature}</li>
+              {features?.map((feature, index) => (
+                <li key={index}><span className="checkmark"></span> {feature}</li>
               ))}
             </ul>
           </div>
 
+          {/* Requirements Section */}
           <div className="requirement-box">
             <div className="requirement-header">
               <img src="/icons/requirement-icon.svg" alt="Requirements" className="icon" />
               <h3>REQUIREMENTS</h3>
             </div>
             <ul className="requirement-list">
-              {requirements.map((requirement, index) => (
+              {requirements?.map((requirement, index) => (
                 <li key={index}>{requirement}</li>
               ))}
             </ul>
-
-            {/* Apply Now Button - Uses Passed PDF Link */}
-            <a href={pdfLink} target="_blank" rel="noopener noreferrer">
-              <button className="apply-btn">APPLY NOW</button>
-            </a>
           </div>
+
+          {/* How Does It Work Section */}
+          <div className="how-it-works-box">
+            <div className="how-it-works-header">
+              <img src="/icons/how-it-works-icon.svg" alt="How Does It Work" className="icon" />
+              <h3>HOW DOES IT WORK?</h3>
+            </div>
+            <ul className="how-it-works-list">
+              {howItWorks?.map((step, index) => (
+                <li key={index}><span className="checkmark"></span> {step}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
+
+        {/* Centered Apply Now Button */}
+        <div className="apply-btn-container">
+          <a href={pdfLink} target="_blank" rel="noopener noreferrer">
+            <button className="apply-btn">APPLY NOW</button>
+          </a>
         </div>
       </div>
 

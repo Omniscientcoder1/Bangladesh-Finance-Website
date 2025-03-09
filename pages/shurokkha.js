@@ -14,11 +14,12 @@ const Shurokkha = () => {
       <section className="shurokkha-banner">
       </section>
       <FeaturesRequirements 
-        title="SHUROKKHA"
-        pdfLink="/public/images/Individual_Deposit_Application_Form_2-v.3.pdf" 
-        imageSrc="/images/SDG.png" 
+        title="TDR ACCOUNT"
+        description="The TDR Account offers high-yield deposit options with flexible tenures and competitive profit-sharing options."
+        pdfLink="/documents/TDR_Application.pdf" 
+        imageSrc="/images/TDR.png" 
         features={[
-          "Minimum Initial Deposit amount BDT 99999999",
+          "Minimum Initial Deposit amount BDT 100,000",
           "Tenure can be minimum 3 months to any",
           "Auto Renewal facility available",
           "Instant loan facility up to 80% of principal amount"
@@ -28,6 +29,12 @@ const Shurokkha = () => {
           "Photograph of Nominee must be duly attested by the account holder",
           "Photocopy of NID/Passport/Driving License of Account Holder and Nominee",
           "TIN Certificate of Account Holder (if available)"
+        ]}
+        howItWorks={[
+          "Open an account with the required documents",
+          "Deposit a minimum of BDT 100,000",
+          "Choose the tenure and profit-sharing options",
+          "Receive profits periodically based on the agreement"
         ]}
       />
      
