@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Head from 'next/head';
 import ApplyForDeposit from "../components/businessLoan/ApplyForDeposit";
 import FeaturesRequirements from "/components/FeatureRequirements.js";
-
+import Banner from "/components/banner";
 const TermDeposit = () => {
   return (
     <>
@@ -11,14 +11,17 @@ const TermDeposit = () => {
         <title>Term Deposit - Bangladesh Finance</title>
         <meta name="description" content="Term Deposit" />
       </Head>
-      <section className="shurokkha-banner">
-      </section>
+      <Banner 
+        imageUrl="/images/termdeposit.png" 
+        title="SAVINGS ACCOUNT" 
+        subtitle="Grow your wealth with our secure savings solutions." 
+      />
       <FeaturesRequirements 
         title="Term Deposit"
         description="The Term Deposit Scheme is a financial product designed for individuals looking to save towards specific future goals, providing a safe and reliable way to grow their funds over a predetermined period. Under this scheme, the profit earned on the deposit is paid at maturity, ensuring a lump-sum return that can be utilized to meet your financial needs. This scheme is particularly suitable for individuals who are planning for medium to long-term financial requirements
 "
         pdfLink="/images/Individual_Deposit_Application_Form_2-v.3.pdf" 
-        imageSrc="/images/TDR.png" 
+        imageSrc="/images/Secondery Banner-Term Deposit.jpg" 
         features={[
           "Profit is paid on maturity",
           "Embedded auto renewal option",

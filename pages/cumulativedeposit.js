@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Head from 'next/head';
 import ApplyForDeposit from "../components/businessLoan/ApplyForDeposit";
 import FeaturesRequirements from "/components/FeatureRequirements.js";
+import Banner from "/components/banner";
 
 const CumulativeDeposit = () => {
   return (
@@ -11,14 +12,17 @@ const CumulativeDeposit = () => {
         <title>Cumulative Deposit - Bangladesh Finance</title>
         <meta name="description" content="Cumulative Deposit" />
       </Head>
-      <section className="shurokkha-banner">
-      </section>
+      <Banner 
+        imageUrl="/images/cumulativedeposit.png" 
+        title="SAVINGS ACCOUNT" 
+        subtitle="Grow your wealth with our secure savings solutions." 
+      />
       <FeaturesRequirements 
         title="Cumulative Deposit"
         description="The Cumulative Deposit Scheme is a strategic savings option designed to help you maximize your returns over time by compounding the interest earned on your deposit. Under this scheme, the interest is added to the principal amount at the end of each year, resulting in a higher principal for the next year. This compounding effect ensures that your savings grow at a faster rate compared to regular savings accounts or fixed deposits.
 "
         pdfLink="/images/Individual_Deposit_Application_Form_2-v.3.pdf" 
-        imageSrc="/images/TDR.png" 
+        imageSrc="/images/Secondery Banner- Cumulative Deposit.jpg" 
         features={[
           "Minimum deposit amount of BDT 25,000.Profit is paid on maturity",
           "Tenure can be minimum 24,36,48, 60 months.",

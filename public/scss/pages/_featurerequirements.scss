@@ -1,166 +1,3 @@
-
-// .features-requirements {
-//   display: flex;
-//   justify-content: space-between;
-//   align-items: center;
-//   width: 100vw; // Full viewport width
-//   max-width: 100%;
-//   padding: 50px 60px;
-//   background: transparent;
-
-//   .text-content {
-//     flex: 0 0 60%; // Takes 60% of the viewport width
-//     padding-right: 30px;
-
-//     h2 {
-//       font-size: 30px;
-//       color: #333;
-//       margin-bottom: 15px;
-//     }
-
-//     p {
-//       font-size: 18px;
-//       color: #555;
-//       line-height: 1.6;
-//       margin-bottom: 20px;
-//       text-align: justify; // Justify the main description text
-//     }
-
-//     .feature-requirements-container {
-//       display: flex;
-//       justify-content: space-between;
-//       align-items: flex-start;
-//       padding: 20px 0;
-//       width: 100%;
-
-//       .feature-box,
-//       .requirement-box,
-//       .how-it-works-box {
-//         flex: 1;
-//         padding: 15px;
-//         text-align: left; // Ensures left alignment
-//       }
-
-//       .feature-box,
-//       .requirement-box {
-//         border-right: 2px solid #ddd;
-//       }
-
-//       .feature-header,
-//       .requirement-header,
-//       .how-it-works-header {
-//         display: flex;
-//         align-items: center;
-//         gap: 10px;
-//         margin-bottom: 10px;
-
-//         .icon {
-//           width: 20px;
-//           height: 20px;
-//         }
-
-//         h3 {
-//           font-size: 20px;
-//           font-weight: bold;
-//         }
-//       }
-
-//       .feature-list,
-//       .requirement-list,
-//       .how-it-works-list {
-//         list-style-type: disc; // Adds default bullet points
-//         padding-left: 20px; // Adds space for bullet points
-//         text-align: justify; // Justifies text
-//         margin: 0;
-
-//         li {
-//           font-size: 18px;
-//           margin-bottom: 8px;
-//         }
-//       }
-//     }
-
-//     .apply-btn {
-//       background: #0057ff;
-//       color: white;
-//       padding: 10px 15px;
-//       border: none;
-//       border-radius: 5px;
-//       font-size: 14px;
-//       cursor: pointer;
-//       margin-top: 10px;
-//       transition: 0.3s;
-//       text-align: center;
-
-//       &:hover {
-//         background: #0041cc;
-//       }
-//     }
-//   }
-
-//   .image-container {
-//     flex: 0 0 40%; // Takes 40% of the viewport width
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-
-//     img {
-//       width: 100%;
-//       max-width: 100%;
-//       border-radius: 10px;
-//     }
-//   }
-// }
-
-// // Responsive Styles
-// @media (max-width: 1024px) {
-//   .features-requirements {
-//     flex-direction: column;
-//     text-align: center;
-//     padding: 30px;
-
-//     .text-content {
-//       flex: 1;
-//       max-width: 100%;
-//       padding-right: 0;
-
-//       .feature-requirements-container {
-//         flex-direction: column;
-
-//         .feature-box,
-//         .requirement-box {
-//           border-right: none;
-//           border-bottom: 2px solid #ddd;
-//           padding-bottom: 20px;
-//           margin-bottom: 20px;
-//         }
-//       }
-//     }
-
-//     .image-container {
-//       width: 100%;
-//       flex: none;
-
-//       img {
-//         max-width: 80%;
-//       }
-//     }
-//   }
-// }
-
-// @media (max-width: 768px) {
-//   .features-requirements {
-//     padding: 20px;
-
-//     .feature-requirements-container {
-//       padding: 15px;
-//     }
-
-//     .apply-btn {
-//       width: 100%;
-//     }
-//   }
-// }
 .features-requirements {
   display: flex;
   justify-content: space-between;
@@ -182,7 +19,7 @@
     }
 
     .product-description {
-      font-size: 18px;
+      font-size: 14px;
       color: #555;
       line-height: 1.6;
       margin-bottom: 20px;
@@ -219,12 +56,12 @@
         margin-bottom: 10px;
 
         .icon {
-          width: 20px;
-          height: 20px;
+          width: 40px;
+          height: 40px;
         }
 
         h3 {
-          font-size: 20px;
+          font-size: 18px;
           font-weight: bold;
         }
       }
@@ -234,11 +71,11 @@
       .how-it-works-list {
         list-style-type: disc;
         padding-left: 20px;
-        text-align: justify; // Ensures justified text alignment
+        // text-align: justify; // Ensures justified text alignment
         margin: 0;
 
         li {
-          font-size: 18px;
+          font-size: 14px;
           margin-bottom: 8px;
         }
       }

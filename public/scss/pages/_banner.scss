@@ -1,0 +1,42 @@
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: no-repeat center center;
+    background-size: cover; // Ensures full background image coverage
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+    width: 100%;
+    padding: 20px;
+
+    h1 {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 18px;
+        max-width: 600px;
+        text-align: center;
+    }
+}
+
+// Responsive Design
+@media (max-width: 768px) {
+    .banner {
+        height: 70vh; // Adjusts for smaller screens
+        padding: 15px;
+
+        h1 {
+            font-size: 28px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    }
+}

@@ -1,3 +1,4 @@
+
 export const navData = [
   {
     id: "au@81",
@@ -9,21 +10,16 @@ export const navData = [
     id: "au@2_91",
     itm: "ABOUT US",
     url: "/about",
-    dropdown: true, // Enable dropdown
+    dropdown: true,
     dropdown_itms: [
       {
         id: "about@01",
         dp_itm: "At a glance",
         url: "/at-a-glance",
       },
-      // {
-      //   id: "about@02",
-      //   dp_itm: "About",
-      //   url: "/about",
-      // },
       {
         id: "about@03",
-        dp_itm: "board-of-directors",
+        dp_itm: "Board of Directors",
         url: "/board-of-directors",
       },
       {
@@ -33,7 +29,7 @@ export const navData = [
       },
       {
         id: "about@05",
-        dp_itm: "SHARI’AH SUPERVISORY COMMITTEE",
+        dp_itm: "Shari’ah Supervisory Committee",
         url: "/shariah-supervisory-committee",
       },
     ],
@@ -42,150 +38,165 @@ export const navData = [
     id: "au@2_92",
     itm: "SME",
     url: "/sme",
-    dropdown: false,
+    dropdown: true,
+    dropdown_itms: [
+      {
+        id: "sme@01",
+        dp_itm: "BIJOY",
+        url: "/",
+      },
+      {
+        id: "sme@02",
+        dp_itm: "SME TERM LOAN",
+        url: "/",
+      },
+      {
+        id: "sme@03",
+        dp_itm: "FACTORING FINANCE",
+        url: "/",
+      },
+      {
+        id: "sme@04",
+        dp_itm: "DISTRIBUTOR FINANCE",
+        url: "/",
+      },
+      {
+        id: "sme@05",
+        dp_itm: "WORK ORDER FINANCE",
+        url: "/",
+      },
+      {
+        id: "sme@06",
+        dp_itm: "AGRICULTURE LOAN",
+        url: "/",
+      },
+      {
+        id: "sme@07",
+        dp_itm: "CULTURE FINANCE",
+        url: "/",
+      },
+    ],
   },
   {
-    id: "au@201",
-    itm: "DEPOSIT PRODUCTS",
+    id: "au@retail",
+    itm: "RETAIL",
     url: "#",
     dropdown: true,
     dropdown_itms: [
-      // {
-      //   id: "du@01",
-      //   dp_itm: "shurokkha",
-      //   url: "/shurokkha",
-      //   sbu_dropdown: false,
-      //   sub_items: [
-      //     {
-      //       id: "sub@01",
-      //       sub_itm: "Account",
-      //       url: "/account",
-      //     },
-      //     {
-      //       id: "sub@02",
-      //       sub_itm: "Account Details",
-      //       url: "/account-details",
-      //     },
-      //   ],
-      // },
-      // {
-      //   id: "du@02",
-      //   dp_itm: "DEPOSIT SCHEME",
-      //   url: "/deposit-scheme",
-      // },
       {
-        id: "du@1",
-        dp_itm: "TERM DEPOSIT",
-        url: "/termdeposit",
+        id: "retail@01",
+        dp_itm: "Deposits",
+        url: "#",
+        sbu_dropdown: true,
+        sub_items: [
+          {
+            id: "du@1",
+            sub_itm: "TERM DEPOSIT",
+            url: "/termdeposit",
+          },
+          {
+            id: "du@9",
+            sub_itm: "BIR",
+            url: "/bir",
+          },
+          {
+            id: "du@2",
+            sub_itm: "CUMULATIVE DEPOSIT SCHEME",
+            url: "/cumulativedeposit",
+          },
+          {
+            id: "du@3",
+            sub_itm: "PROFIT EARNERS SCHEME",
+            url: "/profitearners",
+          },
+          {
+            id: "du@4",
+            sub_itm: "PROFIT FIRST SCHEME",
+            url: "/profitfirst",
+          },
+          {
+            id: "du@5",
+            sub_itm: "MONTHLY DEPOSIT SCHEME",
+            url: "/monthlydeposit",
+          },
+          {
+            id: "du@6",
+            sub_itm: "DOUBLE MONEY SCHEME",
+            url: "/doublemoneydeposit",
+          },
+          {
+            id: "du@7",
+            sub_itm: "GUNON",
+            url: "/gunon",
+          },
+          {
+            id: "du@8",
+            sub_itm: "BANGLADESH FINANCE RETIREMENT PLAN",
+            url: "/retirementplan",
+          },
+        ],
       },
       {
-        id: "du@9",
-        dp_itm: "BIR",
-        url: "/bir",
+        id: "retail@02",
+        dp_itm: "Loans",
+        url: "#",
+        sbu_dropdown: true,
+        sub_items: [
+          {
+            id: "retail-loan-01",
+            sub_itm: "Corporate Loans",
+            url: "/corporate-loan",
+          },
+          {
+            id: "retail-loan-02",
+            sub_itm: "Structured Finance",
+            url: "/structured-finance",
+          },
+          {
+            id: "retail-loan-03",
+            sub_itm: "Home Loans",
+            url: "/home-loan",
+          },
+          {
+            id: "retail-loan-04",
+            sub_itm: "Auto Loan",
+            url: "/car-loan",
+          },
+          {
+            id: "retail-loan-05",
+            sub_itm: "Personal Loan",
+            url: "/personal-loan",
+          },
+        ],
       },
-      {
-        id: "du@2",
-        dp_itm: "CUMULATIVE DEPOSIT SCHEME",
-        url: "/cumulativedeposit",
-      },
-      {
-        id: "du@3",
-        dp_itm: "PROFIT EARNERS SCHEME",
-        url: "/profitearners",
-      },
-      {
-        id: "du@4",
-        dp_itm: "PROFIT FIRST SCHEME",
-        url: "/profitfirst",
-      },
-      {
-        id: "du@5",
-        dp_itm: "MONTHLY DEPOSIT SCHEME",
-        url: "/monthlydeposit",
-      },
-      {
-        id: "du@6",
-        dp_itm: "DOUBLE MONEY SCHEME",
-        url: "/doublemoneydeposit",
-      },
-      {
-        id: "du@7",
-        dp_itm: "GUNON",
-        url: "/gunon",
-      },
-      {
-        id: "du@8",
-        dp_itm: "BANGLADESH FINANCE RETIREMENT PLAN",
-        url: "/retirementplan",
-      },
-      // {
-      //   id: "du@10",
-      //   dp_itm: "MILLIONAIRE SCHEME",
-      //   url: "/",
-      // },
-      // {
-      //   id: "du@10",
-      //   dp_itm: "PROVIDENT FUND",
-      //   url: "/",
-      // },
-      // {
-      //   id: "du@10",
-      //   dp_itm: "UPOHAR",
-      //   url: "/",
-      // },
-      
-
-      {
-        id: "sub@006",
-        dp_itm: "Rate Chart of deposit Products",
-        target:"_blank",
-        url: "/images/rate-chart-for-deposit-products.jpeg",
-        
-      },
-      {
-        id: "sub@007",
-        dp_itm: "Rate Chart of Loan Products",
-        target:"_blank",
-        url: "/images/rate-chart-for-loan-products.jpeg",
-        
-      },
- 
     ],
   },
   {
     id: "au@202",
-    itm: "LOAN PRODUCTS",
+    itm: "CORPORATE",
     url: "#",
     dropdown: true,
     dropdown_itms: [
-     
-    {
+      {
         id: "sub@001",
-        dp_itm: "Corporate Loans",
-        url: "/corporate-loan",
+        dp_itm: "Lease Finance",
+        url: "/",
       },
       {
         id: "sub@002",
-        dp_itm: "Structured Finance",
-        url: "/structured-finance",
+        dp_itm: "Term Loan",
+        url: "/",
       },
       {
         id: "sub@003",
-        dp_itm: "Home Loans",
-        url: "/home-loan",
+        dp_itm: "Working Capital Loan",
+        url: "/",
       },
       {
         id: "sub@004",
-        dp_itm: "Auto Loan",
-        url: "/car-loan",
+        dp_itm: "Syndication Finance",
+        url: "/",
       },
-      {
-        id: "sub@005",
-        dp_itm: "Personal Loan",
-        url: "/personal-loan",
-      }
-      
-     
     ],
   },
   {
@@ -194,7 +205,6 @@ export const navData = [
     url: "#",
     dropdown: true,
     dropdown_itms: [
-     
       {
         id: "du@03",
         dp_itm: "Financial & Annual Reports",
@@ -203,11 +213,11 @@ export const navData = [
       {
         id: "du@4",
         dp_itm: "Reports of Directors",
-        url: "report-of-directors",
+        url: "/report-of-directors",
       },
       {
         id: "du@5",
-        dp_itm: "MI, PSI & NOTICES",
+        dp_itm: "MI, PSI & Notices",
         url: "#",
       },
       {
@@ -215,84 +225,13 @@ export const navData = [
         dp_itm: "Shareholding Details",
         url: "/shareholding",
       },
-     
       {
         id: "du@8",
         dp_itm: "Dividend",
-        url: "dividend",
-      }
-      
+        url: "/dividend",
+      },
     ],
   },
-  // {
-  //   id: "au@203",
-  //   itm: "CAREERS",
-  //   url: "/career",
-  //   dropdown: false,
-  //   dropdown_itms: [
-  //     {
-  //       id: "du@01",
-  //       dp_itm: "Account",
-  //       url: "#",
-  //       sbu_dropdown: true,
-  //       sub_items: [
-  //         {
-  //           id: "sub@01",
-  //           sub_itm: "Account",
-  //           url: "/account",
-  //         },
-  //         {
-  //           id: "sub@02",
-  //           sub_itm: "Account Details",
-  //           url: "/account-details",
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       id: "du@02",
-  //       dp_itm: "Product",
-  //       url: "/product",
-  //     },
-  //     {
-  //       id: "du@03",
-  //       dp_itm: "Loan",
-  //       url: "#",
-  //       sbu_dropdown: true,
-  //       sub_items: [
-  //         {
-  //           id: "sub@001",
-  //           sub_itm: "Business Loans",
-  //           url: "/business-loan",
-  //         },
-  //         {
-  //           id: "sub@002",
-  //           sub_itm: "Educations Loans",
-  //           url: "/educations-loan",
-  //         },
-  //         {
-  //           id: "sub@003",
-  //           sub_itm: "Home Loan",
-  //           url: "/home-loan",
-  //         },
-  //         {
-  //           id: "sub@004",
-  //           sub_itm: "Auto Loan",
-  //           url: "/car-loan",
-  //         },
-  //         {
-  //           id: "sub@005",
-  //           sub_itm: "Personal Loans",
-  //           url: "/personal-loan",
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       id: "du@04",
-  //       dp_itm: "Card",
-  //       url: "/card",
-  //     },
-  //   ],
-  // },
   {
     id: "au@203",
     itm: "SUSTAINABILITY",
@@ -301,71 +240,19 @@ export const navData = [
     dropdown_itms: [
       {
         id: "du@054",
-        dp_itm: "sustainable finance",
+        dp_itm: "Sustainable Finance",
         url: "/sustainable-finance",
-        sbu_dropdown: false,
-        sub_items: [
-          {
-            id: "sub@01",
-            sub_itm: "Account",
-            url: "/account",
-          },
-          {
-            id: "sub@02",
-            sub_itm: "Account Details",
-            url: "/account-details",
-          },
-        ],
       },
       {
         id: "du@02",
-        dp_itm: "Alignment with SDG's",
+        dp_itm: "Alignment with SDGs",
         url: "/sdg",
       },
-      // {
-      //   id: "au@2_92",
-      //   itm: "Islamic",
-      //   url: "https://www.bdfinance.org/",
-      //   dropdown: false,
-      // },
       {
         id: "du@03",
         dp_itm: "CSR",
-        url: "csr",
-        sbu_dropdown: false,
-        sub_items: [
-          {
-            id: "sub@001",
-            sub_itm: "Business Loans",
-            url: "/business-loan",
-          },
-          {
-            id: "sub@002",
-            sub_itm: "Educations Loans",
-            url: "/educations-loan",
-          },
-          {
-            id: "sub@003",
-            sub_itm: "Home Loan",
-            url: "/home-loan",
-          },
-          {
-            id: "sub@004",
-            sub_itm: "Auto Loan",
-            url: "/car-loan",
-          },
-          {
-            id: "sub@005",
-            sub_itm: "Personal Loans",
-            url: "/personal-loan",
-          },
-        ],
+        url: "/csr",
       },
-      // {
-      //   id: "du@04",
-      //   dp_itm: "Card",
-      //   url: "/card",
-      // },
     ],
   },
   {
@@ -373,16 +260,5 @@ export const navData = [
     itm: "FINANCIAL LITERACY",
     url: "/financial-literacy",
     dropdown: false,
-    
   },
-  // {
-  //   id: "au@2_92",
-  //   itm: "ISLAMIC",
-  //   url: "https://www.islamic.bdfinance.org/",
-  //   dropdown: false,
-    
-  // },
 ];
-
-
-

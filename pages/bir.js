@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Head from 'next/head';
 import ApplyForDeposit from "../components/businessLoan/ApplyForDeposit";
 import FeaturesRequirements from "/components/FeatureRequirements.js";
+import Banner from "/components/banner";
 
 const Gunon = () => {
   return (
@@ -11,14 +12,17 @@ const Gunon = () => {
         <title>BIR- Bangladesh Finance</title>
         <meta name="description" content="BIR" />
       </Head>
-      <section className="shurokkha-banner">
-      </section>
+<Banner 
+        imageUrl="/images/birbanner.png" 
+        title="SAVINGS ACCOUNT" 
+        subtitle="Grow your wealth with our secure savings solutions." 
+      />
       <FeaturesRequirements 
         title="BIR"
         description="Bangladesh Finance BIR (বীর) is a specialized NRB deposit product designed to provide secure, high-return savings for Non-Resident Bangladeshis (NRBs). With flexible tenure options, easy fund repatriation, and Shariah-compliant choices, BIR ensures hassle-free financial growth. NRBs can also invest in capital markets, access SME and agricultural loans, or secure Bijoy Loans for family members in Bangladesh. Backed by Bangladesh Finance’s trusted financial expertise, BIR is the perfect wealth-building solution for NRBs seeking financial security and investment opportunities in Bangladesh.
 Start saving today with Bangladesh Finance BIR and enjoy high returns with maximum flexibility!
 "
-        pdfLink="/images/Individual_Deposit_Application_Form_2-v.3.pdf" 
+        pdfLink="/images/Bir Individual_Deposit_Application January 27.pdf" 
         imageSrc="/images/TDR.png" 
         features={[
           "Specially designed for Non-Resident Bangladeshis (NRBs) to ensure safe and profitable savings. ",

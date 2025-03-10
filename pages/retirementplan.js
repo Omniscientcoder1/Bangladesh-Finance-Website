@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Head from 'next/head';
 import ApplyForDeposit from "../components/businessLoan/ApplyForDeposit";
 import FeaturesRequirements from "/components/FeatureRequirements.js";
+import Banner from "/components/banner";
 
 const RetirementPlan = () => {
   return (
@@ -11,14 +12,17 @@ const RetirementPlan = () => {
         <title>Retirement Plan - Bangladesh Finance</title>
         <meta name="description" content="Retirement Plan" />
       </Head>
-      <section className="shurokkha-banner">
-      </section>
+      <Banner 
+                                imageUrl="/images/retirementplanbanner.png" 
+                                title="SAVINGS ACCOUNT" 
+                                subtitle="Grow your wealth with our secure savings solutions." 
+                              />
       <FeaturesRequirements 
         title="BANGLADESH FINANCE RETIREMENT PLAN"
         description="Bangladesh Finance Retirement Plan is a secure pension solution designed for private sector employees in Bangladesh who lack traditional retirement benefits. With this plan, customers can save monthly for 10 years and receive a fixed monthly income for life after maturity. The deposited amount remains intact, allowing withdrawal anytime after maturity. Additionally, the plan includes insurance coverage, ensuring that in case of death or permanent disability, the nominee receives the full benefit without further payments. Plan your future today with Bangladesh Finance and enjoy financial security after retirement.
 "
         pdfLink="/images/Individual_Deposit_Application_Form_2-v.3.pdf" 
-        imageSrc="/images/TDR.png" 
+        imageSrc="/images/Secondery Banner-Retirement Plan.jpg" 
         features={[
           "Save for 10 years and receive the same amount monthly for life.",
           "Withdraw anytime after maturity, closing further installments.",

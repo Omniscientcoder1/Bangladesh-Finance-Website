@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Head from 'next/head';
 import ApplyForDeposit from "../components/businessLoan/ApplyForDeposit";
 import FeaturesRequirements from "/components/FeatureRequirements.js";
+import Banner from "/components/banner";
 
 const DoubleMoney = () => {
   return (
@@ -11,8 +12,11 @@ const DoubleMoney = () => {
         <title>Double Money Deposit Scheme - Bangladesh Finance</title>
         <meta name="description" content="Double Money Deposit Scheme" />
       </Head>
-      <section className="shurokkha-banner">
-      </section>
+      <Banner 
+                    imageUrl="/images/doublemoneybanner.png" 
+                    title="SAVINGS ACCOUNT" 
+                    subtitle="Grow your wealth with our secure savings solutions." 
+                  />
       <FeaturesRequirements 
         title="DOUBLE MONEY DEPOSIT SCHEME"
         description="The Double Money Deposit Scheme offered by Bangladesh Finance is a one-of-a-kind savings plan, designed to help individuals achieve their financial goals through a safe and structured investment option. With this scheme, you can double the amount you deposit over a fixed tenure of 5 years and 6 months, ensuring guaranteed returns and financial growth.

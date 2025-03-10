@@ -83,7 +83,7 @@ const FeaturesRequirements = ({ title, description, pdfLink, imageSrc, features,
           {/* Features Section */}
           <div className="feature-box">
             <div className="feature-header">
-              <img src="/icons/feature-icon.svg" alt="Key Features" className="icon" />
+              <img src="/images/features_icon.png" alt="Key Features" className="icon" />
               <h3>KEY FEATURES</h3>
             </div>
             <ul className="feature-list">
@@ -96,7 +96,7 @@ const FeaturesRequirements = ({ title, description, pdfLink, imageSrc, features,
           {/* Requirements Section */}
           <div className="requirement-box">
             <div className="requirement-header">
-              <img src="/icons/requirement-icon.svg" alt="Requirements" className="icon" />
+              <img src="/images/requirements_cheklist.png" alt="Requirements" className="icon" />
               <h3>REQUIREMENTS</h3>
             </div>
             <ul className="requirement-list">
@@ -109,7 +109,7 @@ const FeaturesRequirements = ({ title, description, pdfLink, imageSrc, features,
           {/* How Does It Work Section */}
           <div className="how-it-works-box">
             <div className="how-it-works-header">
-              <img src="/icons/how-it-works-icon.svg" alt="How Does It Work" className="icon" />
+              <img src="/images/howitworks.png" alt="How Does It Work" className="icon" />
               <h3>HOW DOES IT WORK?</h3>
             </div>
             <ul className="how-it-works-list">

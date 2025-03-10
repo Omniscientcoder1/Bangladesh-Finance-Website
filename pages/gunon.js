@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Head from 'next/head';
 import ApplyForDeposit from "../components/businessLoan/ApplyForDeposit";
 import FeaturesRequirements from "/components/FeatureRequirements.js";
+import Banner from "/components/banner";
 
 const Gunon = () => {
   return (
@@ -11,14 +12,17 @@ const Gunon = () => {
         <title>Gunon - Bangladesh Finance</title>
         <meta name="description" content="Gunon" />
       </Head>
-      <section className="shurokkha-banner">
-      </section>
+      <Banner 
+                          imageUrl="/images/GUNON.png" 
+                          title="SAVINGS ACCOUNT" 
+                          subtitle="Grow your wealth with our secure savings solutions." 
+                        />
       <FeaturesRequirements 
         title="GUNON"
         description="Looking for a smarter way to grow your savings? Bangladesh Finance গুণন combines the benefits of fixed deposits and monthly deposit schemes to maximize your returns. With গুণন, you can multiply your fixed deposit by making monthly payments over 2, 3, or 4 years.
 "
         pdfLink="/images/Individual_Deposit_Application_Form_2-v.3.pdf" 
-        imageSrc="/images/TDR.png" 
+        imageSrc="/images/Secondery Banner-Gunon.jpg" 
         features={[
           "Minimum deposit amount BDT 100,000",
           "Minimum monthly installment starting from BDT 3320",
