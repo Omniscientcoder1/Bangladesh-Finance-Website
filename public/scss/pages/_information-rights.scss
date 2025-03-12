@@ -1,0 +1,81 @@
+.info-rights-container {
+  text-align: center;
+  padding: 40px;
+  background-color: #f8f9fa;
+
+  .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0056b3;
+    margin-bottom: 30px;
+    padding-top: 30px; // Added padding to make it visible
+    display: block; // Ensures visibility
+  }
+
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .info-card {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    width: 320px;
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+    .card-image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    .profile-image {
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .card-title {
+      font-size: 1.3rem;
+      font-weight: bold;
+      color: #000;
+      margin-bottom: 5px;
+    }
+
+    .card-name {
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #0056b3;
+      margin-bottom: 5px;
+    }
+
+    .card-position {
+      font-size: 1rem;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .contact-title {
+      font-size: 1rem;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .contact-info {
+      font-size: 0.95rem;
+      color: #555;
+      margin: 2px 0;
+    }
+  }
+}

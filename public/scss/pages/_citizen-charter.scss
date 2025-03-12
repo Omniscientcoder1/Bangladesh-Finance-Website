@@ -1,0 +1,81 @@
+.citizen-charter-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .citizen-charter-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .citizen-charter-logo {
+    margin: 20px auto;
+  }
+  
+  .citizen-charter-section-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #0056b3;
+    margin-top: 30px;
+  }
+  
+  .citizen-charter-description {
+    font-size: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .citizen-charter-download {
+    margin-top: 10px;
+    font-size: 1rem;
+  
+    a {
+      color: #d9534f;
+      text-decoration: none;
+      font-weight: bold;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  
+  .citizen-charter-focal-points {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  
+  .citizen-charter-focal-point {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+  
+    img {
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+  
+    .citizen-charter-details {
+      h3 {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #0056b3;
+      }
+  
+      p {
+        margin: 5px 0;
+        font-size: 1rem;
+      }
+    }
+  }
+  

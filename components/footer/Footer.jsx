@@ -61,16 +61,19 @@ const Footer = () => {
               <h5>Useful Links</h5>
               <ul className="footer-link">
                 <li>
-                  <Link href="/product">Products</Link>
+                  <Link href="/citizencharter">Citizen Charter</Link>
                 </li>
                 <li>
-                  <Link href="/business-loan">Business Loan</Link>
+                  <Link href="/financial-literacy">Financial Literacy</Link>
                 </li>
-                {/* <li>
-                  <Link href="/affiliate">Affiliate Program</Link>
-                </li> */}
                 <li>
-                  <Link href="/blog-list">Blog</Link>
+                  <Link href="/informationrights">Information Rights</Link>
+                </li>
+                <li>
+                  <Link href="/complaintcell">Complaint Cell</Link>
+                </li>
+                <li>
+                  <Link href="/privacypolicy">Privacy Policy</Link>
                 </li>
               </ul>
             </div>
